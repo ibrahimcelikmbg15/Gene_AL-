@@ -316,16 +316,35 @@ def normalize(m):
 
 
 STORE_FILE = os.path.join(CACHE_DIR, "embedding_store.npz")
+# Depoya konan hazır vektörler: sunucu uykudan uyanınca bile silinmez,
+# böylece ders notları baştan işlenmez. (?admin=1 ile yan menüden indirilebilir.)
+SEED_FILE = "vektor_onbellek.npz"
+
+
+def _read_npz(path):
+    try:
+        d = np.load(path, allow_pickle=False)
+        return dict(zip(d["keys"].tolist(), d["vecs"]))
+    except Exception as e:
+        print(f"[Gene-AL] önbellek okunamadı: {path}: {e}", flush=True)
+        return {}
 
 
 def load_store():
+    store = {}
+    if os.path.exists(SEED_FILE):
+        store.update(_read_npz(SEED_FILE))
     if os.path.exists(STORE_FILE):
-        try:
-            d = np.load(STORE_FILE, allow_pickle=False)
-            return dict(zip(d["keys"].tolist(), d["vecs"]))
-        except Exception:
-            pass
-    return {}
+        store.update(_read_npz(STORE_FILE))
+    return store
+
+
+def export_store_bytes(chunks, matrix):
+    """Şu anki kütüphanenin vektörlerini depoya yüklenecek tek dosya olarak verir."""
+    buf = io.BytesIO()
+    np.savez_compressed(buf, keys=np.asarray([chunk_key(c) for c in chunks]),
+                        vecs=np.asarray(matrix, dtype="float32"))
+    return buf.getvalue()
 
 
 def save_store(store):
@@ -477,6 +496,17 @@ if matrix is None:
     st.stop()
 
 client = genai.Client(api_key=api_key)
+
+# Yönetici: hazır vektörleri indir (adresin sonuna ?admin=1 ekleyince görünür)
+if st.query_params.get("admin") == "1":
+    with st.sidebar:
+        st.divider()
+        st.markdown("**🔧 Yönetici**")
+        st.caption(f"Kütüphane: {len(files)} dosya, {len(chunks)} parça. Bu dosyayı GitHub deposunun "
+                   f"ana klasörüne **{SEED_FILE}** adıyla yükleyin; uygulama uykudan uyanınca "
+                   f"ders notlarını baştan işlemez.")
+        st.download_button("⬇️ Vektörleri indir", data=export_store_bytes(chunks, matrix),
+                           file_name=SEED_FILE, mime="application/octet-stream")
 
 # Sohbet geçmişi ve karşılama mesajı
 if "messages" not in st.session_state:
