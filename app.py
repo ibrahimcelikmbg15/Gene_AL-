@@ -72,9 +72,9 @@ header[data-testid="stHeader"] { background: transparent; }
     font-family: 'Orbitron', sans-serif; font-weight: 900; letter-spacing: 3px;
     font-size: 3.1rem; line-height: 1.1; margin: .7rem 0 .2rem 0;
 }
-.hero .g  { color: #39ff14; text-shadow: 0 0 8px rgba(57,255,20,.8), 0 0 22px rgba(57,255,20,.4); }
-.hero .p  { color: #ff2e88; text-shadow: 0 0 8px rgba(255,46,136,.9), 0 0 22px rgba(255,46,136,.5); }
-.hero .y  { color: #e8ff1a; text-shadow: 0 0 8px rgba(232,255,26,.9), 0 0 22px rgba(232,255,26,.4); }
+.hero .g, .side-title .g { color: #39ff14; text-shadow: 0 0 8px rgba(57,255,20,.8), 0 0 22px rgba(57,255,20,.4); }
+.hero .p, .side-title .p { color: #ff2e88; text-shadow: 0 0 8px rgba(255,46,136,.9), 0 0 22px rgba(255,46,136,.5); }
+.hero .y, .side-title .y { color: #e8ff1a; text-shadow: 0 0 8px rgba(232,255,26,.9), 0 0 22px rgba(232,255,26,.4); }
 .hero .sub {
     font-family: 'Orbitron', sans-serif; font-weight: 700; letter-spacing: 4px; font-size: .95rem;
 }
@@ -96,6 +96,7 @@ header[data-testid="stHeader"] { background: transparent; }
 /* Soru kutusu: koyu zemin, açık yazı */
 [data-testid="stBottom"], [data-testid="stBottom"] > div, [data-testid="stBottomBlockContainer"] { background: #0d1117 !important; }
 [data-testid="stChatInput"] { background: #161b22 !important; border: 1px solid #39ff14 !important; border-radius: 12px !important; }
+[data-testid="stChatInput"] > div, [data-testid="stChatInput"] > div > div { background: #161b22 !important; }
 [data-testid="stChatInput"] textarea {
     color: #e6edf3 !important; -webkit-text-fill-color: #e6edf3 !important;
     background: transparent !important; caret-color: #39ff14 !important;
