@@ -115,6 +115,9 @@ header[data-testid="stHeader"] { background: transparent; }
     border: 1px solid #30363d; background: #0d1117; color: #e6edf3 !important; font-weight: 600;
 }
 .side-links a:hover { border-color: #39ff14; box-shadow: 0 0 10px rgba(57,255,20,.35); }
+[data-testid="stSidebar"] button { background: #0d1117 !important; border: 1px solid #30363d !important; }
+[data-testid="stSidebar"] button * { color: #e6edf3 !important; }
+[data-testid="stSidebar"] button:hover { border-color: #39ff14 !important; box-shadow: 0 0 10px rgba(57,255,20,.35); }
 </style>
 """, unsafe_allow_html=True)
 
