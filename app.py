@@ -38,25 +38,31 @@ st.markdown("""
 
 # --- YAN MENÜ (SIDEBAR) ---
 with st.sidebar:
-    if os.path.exists("logo.png"):
+    if os.path.exists("logo.jpeg"):
+        st.image("logo.jpeg", use_container_width=True)
+    elif os.path.exists("logo.png"):
         st.image("logo.png", use_container_width=True)
+
     st.markdown("### 🧬 Gene-A(L)İ v1.0")
-    st.caption("Genom Okulu: 10. Kromozom Yapay Zekâ Asistanı")
-    st.divider()
+    st.markdown(
+        """
+        **Merhaba! Ben Gene-A(L)İ.** 👋
+
+        **Genom Okulu: 10. Kromozom** platformunun yapay zekâ asistanıyım. 
+        Doç. Dr. İbrahim Çelik'in ders içeriklerinden beslenerek; **biyoinformatik, moleküler markör teknolojileri (SSR, SNP, CAPS), genomik analizler ve dijital tarım** konularında sana yardımcı olmak için buradayım.
+
+        *Siyah ekrandan ve kodlardan korkma; sor, birlikte çözelim!*
+        """
+    )
 
     # Streamlit Cloud'da secrets kullanır, yerelde kutucuktan girilir
     api_key = st.secrets.get("GEMINI_API_KEY", None) if "GEMINI_API_KEY" in st.secrets else None
     if not api_key:
+        st.divider()
         api_key = st.text_input("Gemini API Anahtarı", type="password", placeholder="AIzaSy...")
 
-    st.divider()
-    st.markdown("**📚 Yüklü Ders Transkriptleri:**")
-    txt_files = sorted(glob.glob("transkriptler/*.txt"))
-    if txt_files:
-        for f in txt_files:
-            st.markdown(f"- `{os.path.basename(f)}`")
-    else:
-        st.warning("`transkriptler/` klasöründe henüz .txt dosyası yok.")
+# Transkriptleri arka planda sessizce oku
+txt_files = sorted(glob.glob("transkriptler/*.txt"))
 
 # --- METİN PARÇALAMA VE FAISS İNDEKSLEME ---
 def chunk_text(text, source_name, chunk_size=800, overlap=150):
@@ -70,7 +76,7 @@ def chunk_text(text, source_name, chunk_size=800, overlap=150):
         start += chunk_size - overlap
     return chunks
 
-@st.cache_resource(show_spinner="Gene-A(L)İ ders transkriptlerini hafızasına alıyor...")
+@st.cache_resource(show_spinner="Gene-A(L)İ ders notlarını hazırlıyor...")
 def build_vector_store(_api_key, files):
     client = genai.Client(api_key=_api_key)
     all_chunks = []
@@ -106,23 +112,30 @@ def build_vector_store(_api_key, files):
 
 # --- ANA EKRAN ---
 st.title(">_ Gene-A(L)İ | Genom Okulu")
-st.caption("Biyoinformatik, SSR Markör Tasarımı ve Moleküler Islah sorularını sorabilirsin.")
+st.caption("Biyoinformatik, Moleküler Markör Tasarımı ve Dijital Tarım Asistanı")
 
 if not api_key:
-    st.info("Başlamak için sol menüye ücretsiz Google Gemini API anahtarını gir (aistudio.google.com).")
+    st.info("Sistem şu an bakım/kurulum aşamasında. (Yönetici notu: GEMINI_API_KEY tanımlanmalıdır.)")
     st.stop()
 
 if not txt_files:
-    st.warning("`transkriptler` klasörüne en az bir `.txt` ders metni ekleyip sayfayı yenile.")
+    st.warning("Ders kütüphanesi henüz yüklenmedi. Lütfen daha sonra tekrar deneyin.")
     st.stop()
 
 index, chunks = build_vector_store(api_key, txt_files)
 client = genai.Client(api_key=api_key)
 
-# Sohbet geçmişi
+# Sohbet geçmişi ve karşılama mesajı
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Merhaba! Ben Gene-A(L)İ. 🧬 Genom Okulu derslerinden aklına takılanları sor, siyah ekrandan korkma!"}
+        {
+            "role": "assistant",
+            "content": (
+                "Merhaba! Ben **Gene-A(L)İ**, Genom Okulu'nun yapay zekâ asistanıyım. 🧬\n\n"
+                "Genom Okulu derslerinde işlenen **GMATA ile SSR tasarımı, FASTA dosyaları, moleküler markörler, biyoinformatik analizler ve dijital tarım** "
+                "hakkında aklına takılan her şeyi bana sorabilirsin. Nereden başlayalım?"
+            )
+        }
     ]
 
 for msg in st.session_state.messages:
