@@ -61,8 +61,8 @@ with st.sidebar:
         st.divider()
         api_key = st.text_input("Gemini API Anahtarı", type="password", placeholder="AIzaSy...")
 
-# Transkriptleri arka planda sessizce oku
-txt_files = sorted(glob.glob("transkriptler/*.txt"))
+# Transkriptleri alt klasörler dahil arka planda sessizce oku
+txt_files = sorted(glob.glob("transkriptler/**/*.txt", recursive=True))
 
 # --- METİN PARÇALAMA VE FAISS İNDEKSLEME ---
 def chunk_text(text, source_name, chunk_size=800, overlap=150):
