@@ -17,7 +17,9 @@ st.set_page_config(
 
 # --- AYARLAR ---
 EMBED_MODEL = "gemini-embedding-001"
-CHAT_MODEL = "gemini-2.5-flash"
+# Sırayla denenir; Google bir modeli kapatınca (404) bir sonrakine geçilir.
+# "gemini-flash-latest" her zaman güncel Flash modeline yönlendirilen takma addır.
+CHAT_MODELS = ["gemini-flash-latest", "gemini-3.5-flash", "gemini-2.5-flash"]
 CHUNK_SIZE = 1500          # karakter (büyük parça = daha az embedding isteği)
 CHUNK_OVERLAP = 200
 # Ücretsiz katman: dakikada 100 istek VE dakikada sınırlı token. Toplu istekte HER METİN
@@ -41,6 +43,9 @@ st.markdown("""
         border: 1px solid #30363d;
         border-radius: 10px;
         padding: 10px;
+    }
+    .stChatMessage p, .stChatMessage li, .stChatMessage span {
+        color: #e6edf3 !important;
     }
     .stSidebar {
         background-color: #010409;
@@ -210,6 +215,30 @@ def build_vector_store(_api_key, files):
     return matrix, chunks
 
 
+def generate_answer(client, contents):
+    """Çalışan ilk sohbet modelini bulur ve oturum boyunca onu kullanır."""
+    models = CHAT_MODELS
+    if st.session_state.get("chat_model"):
+        models = [st.session_state["chat_model"]] + [m for m in CHAT_MODELS if m != st.session_state["chat_model"]]
+    last_err = None
+    for model in models:
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=contents,
+                config=types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT),
+            )
+            st.session_state["chat_model"] = model
+            return response.text
+        except errors.ClientError as e:
+            if getattr(e, "code", None) == 404:
+                print(f"[Gene-AL] model bulunamadı (404): {model}", flush=True)
+                last_err = e
+                continue
+            raise
+    raise last_err
+
+
 def search(matrix, chunks, query_vec, k=4):
     scores = matrix @ query_vec
     top = np.argsort(-scores)[:min(k, len(chunks))]
@@ -287,12 +316,10 @@ if prompt := st.chat_input("Örn: GMATA'da mononükleotitleri neden eliyoruz?"):
                 context = "\n\n".join(
                     [f"[Kaynak Ders: {c['source']}]\n{c['text']}" for c in retrieved]
                 )
-                response = client.models.generate_content(
-                    model=CHAT_MODEL,
-                    contents=f"DERS TRANSKRİPTLERİ:\n{context}\n\nÖĞRENCİ SORUSU:\n{prompt}",
-                    config=types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT),
+                text = generate_answer(
+                    client, f"DERS TRANSKRİPTLERİ:\n{context}\n\nÖĞRENCİ SORUSU:\n{prompt}"
                 )
-                answer = response.text or "Bu soruya şu an yanıt üretemedim, lütfen farklı bir şekilde sormayı dene."
+                answer = text or "Bu soruya şu an yanıt üretemedim, lütfen farklı bir şekilde sormayı dene."
         except DailyQuotaError:
             answer = "⏳ Bugünlük ücretsiz kotam doldu. Yarın sabah tekrar sorabilirsin."
         except errors.APIError as e:
