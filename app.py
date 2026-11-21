@@ -97,7 +97,7 @@ def build_vector_store(_api_key, files):
     for i in range(0, len(texts), 50):
         batch = texts[i:i + 50]
         res = client.models.embed_content(
-            model="text-embedding-004",
+            model="gemini-embedding-001",
             contents=batch
         )
         for emb in res.embeddings:
@@ -152,7 +152,7 @@ if prompt := st.chat_input("Örn: GMATA'da mononükleotitleri neden eliyoruz?"):
         with st.spinner("Genom taranıyor..."):
             # Soruyu vektöre çevir ve en alakalı 4 parçayı bul
             q_emb = client.models.embed_content(
-                model="text-embedding-004",
+                model="gemini-embedding-001",
                 contents=prompt
             ).embeddings[0].values
             q_vec = np.array([q_emb], dtype="float32")
