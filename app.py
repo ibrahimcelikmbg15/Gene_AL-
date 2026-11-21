@@ -1,7 +1,10 @@
 import os
+import io
 import re
 import glob
 import time
+import base64
+import random
 import hashlib
 import numpy as np
 import streamlit as st
@@ -12,7 +15,7 @@ from google.genai import types, errors
 st.set_page_config(
     page_title="Gene-A(L)İ | Genom Okulu Asistanı",
     page_icon="🧬",
-    layout="wide"
+    layout="centered"
 )
 
 # --- AYARLAR ---
@@ -25,34 +28,118 @@ CHUNK_OVERLAP = 200
 # Ücretsiz katman: dakikada 100 istek VE dakikada sınırlı token. Toplu istekte HER METİN
 # ayrı sayılıyor; 1500 karakterlik 30 parça ~15 bin token eder, iki sınırın da altında kalır.
 EMBED_PER_MINUTE = 30
+HISTORY_TURNS = 6          # modele gönderilen son mesaj sayısı (takip soruları için)
 CACHE_DIR = ".cache"
+LIBRARY_DIR = "transkriptler"   # .txt ve .pdf dosyaları (alt klasörler dahil)
 
-# --- SİBERPUNK TEMA (CSS) ---
+YOUTUBE_URL = "https://www.youtube.com/@genomokulu"
+WEB_URL = "https://www.pau.edu.tr/icelik/tr"
+
+THINKING_MESSAGES = [
+    "Ders notları karıştırılıyor...",
+    "Kromozomlar taranıyor...",
+    "SSR motifleri sayılıyor...",
+    "Primerler hizalanıyor...",
+    "Restriksiyon enzimleri kesime hazırlanıyor...",
+    "Aleller karşılaştırılıyor...",
+    "Jel yürütülüyor, bantlar bekleniyor...",
+    "SNP'ler ayıklanıyor...",
+    "PCR döngüleri çalışıyor...",
+    "FASTA dosyaları okunuyor...",
+]
+
+# --- TEMA (CSS) ---
 st.markdown("""
 <style>
-    .stApp {
-        background-color: #0d1117;
-        color: #c9d1d9;
-    }
-    h1, h2, h3 {
-        color: #39ff14 !important;
-        font-family: 'Courier New', monospace;
-    }
-    .stChatMessage {
-        background-color: #161b22;
-        border: 1px solid #30363d;
-        border-radius: 10px;
-        padding: 10px;
-    }
-    .stChatMessage p, .stChatMessage li, .stChatMessage span {
-        color: #e6edf3 !important;
-    }
-    .stSidebar {
-        background-color: #010409;
-        border-right: 1px solid #30363d;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@400;600&display=swap');
+
+.stApp { background: radial-gradient(ellipse at top, #10201a 0%, #0d1117 55%) fixed; color: #c9d1d9; }
+.block-container { padding-top: 1.2rem !important; max-width: 860px; }
+header[data-testid="stHeader"] { background: transparent; }
+
+/* --- Giriş (hero) --- */
+.hero { text-align: center; margin: 0 auto 0.6rem auto; }
+.hero img.logo {
+    width: 170px; height: 170px; border-radius: 50%;
+    box-shadow: 0 0 18px rgba(57,255,20,.45), 0 0 46px rgba(0,229,255,.25);
+    animation: pulse 4s ease-in-out infinite;
+}
+@keyframes pulse {
+    0%,100% { box-shadow: 0 0 18px rgba(57,255,20,.45), 0 0 46px rgba(0,229,255,.25); }
+    50%     { box-shadow: 0 0 26px rgba(255,46,136,.45), 0 0 60px rgba(57,255,20,.30); }
+}
+.hero .title {
+    font-family: 'Orbitron', sans-serif; font-weight: 900; letter-spacing: 3px;
+    font-size: 3.1rem; line-height: 1.1; margin: .7rem 0 .2rem 0;
+}
+.hero .g  { color: #39ff14; text-shadow: 0 0 8px rgba(57,255,20,.8), 0 0 22px rgba(57,255,20,.4); }
+.hero .p  { color: #ff2e88; text-shadow: 0 0 8px rgba(255,46,136,.9), 0 0 22px rgba(255,46,136,.5); }
+.hero .y  { color: #e8ff1a; text-shadow: 0 0 8px rgba(232,255,26,.9), 0 0 22px rgba(232,255,26,.4); }
+.hero .sub {
+    font-family: 'Orbitron', sans-serif; font-weight: 700; letter-spacing: 4px; font-size: .95rem;
+}
+.hero .sub .c { color: #00e5ff; text-shadow: 0 0 8px rgba(0,229,255,.7); }
+.hero .tag { color: #8b949e; font-family: 'Inter', sans-serif; font-size: .92rem; margin-top: .35rem; }
+.ai-note {
+    font-family: 'Inter', sans-serif; font-size: .78rem; color: #d29922;
+    border: 1px solid rgba(210,153,34,.35); background: rgba(210,153,34,.07);
+    border-radius: 8px; padding: 6px 12px; margin: .6rem auto 0 auto; display: inline-block;
+}
+
+/* --- Sohbet --- */
+.stChatMessage {
+    background-color: rgba(22,27,34,.85); border: 1px solid #30363d; border-radius: 12px; padding: 10px;
+}
+.stChatMessage p, .stChatMessage li, .stChatMessage span, .stChatMessage td { color: #e6edf3 !important; }
+.stChatMessage code { color: #39ff14 !important; }
+
+/* Soru kutusu: koyu zemin, açık yazı */
+[data-testid="stBottom"], [data-testid="stBottom"] > div, [data-testid="stBottomBlockContainer"] { background: #0d1117 !important; }
+[data-testid="stChatInput"] { background: #161b22 !important; border: 1px solid #39ff14 !important; border-radius: 12px !important; }
+[data-testid="stChatInput"] textarea {
+    color: #e6edf3 !important; -webkit-text-fill-color: #e6edf3 !important;
+    background: transparent !important; caret-color: #39ff14 !important;
+}
+[data-testid="stChatInput"] textarea::placeholder { color: #6e7681 !important; -webkit-text-fill-color: #6e7681 !important; }
+
+/* Yazılara dönen spinner */
+[data-testid="stSpinner"] * { color: #39ff14 !important; }
+
+/* --- Yan menü --- */
+[data-testid="stSidebar"] { background-color: #010409; border-right: 1px solid #30363d; }
+[data-testid="stSidebar"] * { color: #c9d1d9; }
+.side-title { font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 1.35rem; letter-spacing: 2px; }
+.side-links a {
+    display: block; text-decoration: none; margin: 6px 0; padding: 8px 12px; border-radius: 8px;
+    border: 1px solid #30363d; background: #0d1117; color: #e6edf3 !important; font-weight: 600;
+}
+.side-links a:hover { border-color: #39ff14; box-shadow: 0 0 10px rgba(57,255,20,.35); }
 </style>
 """, unsafe_allow_html=True)
+
+
+# --- YARDIMCI: LOGO ---
+@st.cache_data(show_spinner=False)
+def logo_data_uri(path, size=340):
+    """Logoyu küçültüp sayfaya gömülebilir hale getirir."""
+    try:
+        from PIL import Image
+        img = Image.open(path).convert("RGB")
+        img.thumbnail((size, size))
+        buf = io.BytesIO()
+        img.save(buf, format="JPEG", quality=88)
+        data = buf.getvalue()
+    except Exception:
+        with open(path, "rb") as f:
+            data = f.read()
+    return "data:image/jpeg;base64," + base64.b64encode(data).decode()
+
+
+def find_logo():
+    for p in ("logo.jpeg", "logo.jpg", "logo.png"):
+        if os.path.exists(p):
+            return p
+    return None
 
 
 def get_secret_key():
@@ -63,35 +150,88 @@ def get_secret_key():
         return None
 
 
+TITLE_HTML = ('<span class="g">GENE-</span><span class="p">A</span>'
+              '<span class="y">(L)</span><span class="p">İ</span>')
+
 # --- YAN MENÜ (SIDEBAR) ---
 with st.sidebar:
-    if os.path.exists("logo.jpeg"):
-        st.image("logo.jpeg", width="stretch")
-    elif os.path.exists("logo.png"):
-        st.image("logo.png", width="stretch")
-
-    st.markdown("### 🧬 Gene-A(L)İ v1.1")
+    st.markdown(f'<div class="side-title">{TITLE_HTML}</div>', unsafe_allow_html=True)
+    st.caption("Genom Okulu: 10. Kromozom'un yapay zekâ asistanı")
     st.markdown(
         """
-        **Merhaba! Ben Gene-A(L)İ.** 👋
+**Ne yapar?**
+Doç. Dr. İbrahim Çelik'in Genom Okulu derslerini ve yayınlarını okuyarak sorularını yanıtlar;
+yanıtın hangi dersten geldiğini de söyler.
 
-        **Genom Okulu: 10. Kromozom** platformunun yapay zekâ asistanıyım.
-        Doç. Dr. İbrahim Çelik'in ders içeriklerinden beslenerek; **biyoinformatik, moleküler markör teknolojileri (SSR, SNP, CAPS), genomik analizler ve dijital tarım** konularında sana yardımcı olmak için buradayım.
-
-        *Siyah ekrandan ve kodlardan korkma; sor, birlikte çözelim!*
+**Neler sorabilirsin?**
+- SSR, SNP ve CAPS markörü tasarımı
+- Primer tasarımı ve PCR / jel yorumlama
+- GMATA, dbSNP2CAPS gibi araçların kullanımı
+- Genetik çeşitlilik, haritalama, GWAS
+- Biyoinformatik veri tabanları (NCBI, SGN...)
         """
     )
+    st.markdown(
+        f"""
+<div class="side-links">
+  <a href="{YOUTUBE_URL}" target="_blank">▶️ YouTube: Genom Okulu</a>
+  <a href="{WEB_URL}" target="_blank">🌐 Web: Doç. Dr. İbrahim Çelik</a>
+</div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.divider()
+    st.caption("⚠️ Gene-A(L)İ bir yapay zekâdır ve hata yapabilir. Bilgiler YouTube'un otomatik "
+               "altyazılarından derlendiği için terimler yer yer yanlış olabilir; önemli konuları "
+               "ders videolarından ve kaynak yayınlardan doğrulayın.")
 
     api_key = get_secret_key()
     if not api_key:
-        st.divider()
         api_key = st.text_input("Gemini API Anahtarı", type="password", placeholder="AIzaSy...")
+    if st.button("🧹 Sohbeti temizle"):
+        st.session_state.pop("messages", None)
+        st.rerun()
 
-# Transkriptleri alt klasörler dahil oku
-txt_files = sorted(glob.glob("transkriptler/**/*.txt", recursive=True))
+# --- GİRİŞ (HERO) ---
+_logo = find_logo()
+_logo_html = f'<img class="logo" src="{logo_data_uri(_logo)}"/>' if _logo else ""
+st.markdown(
+    f"""
+<div class="hero">
+  {_logo_html}
+  <div class="title">{TITLE_HTML}</div>
+  <div class="sub"><span class="g">GENOM OKULU</span> · <span class="c">10. KROMOZOM</span></div>
+  <div class="tag">Biyoinformatik ve Moleküler Markör Asistanı</div>
+  <div class="ai-note">⚠️ Yapay zekâ yanıtları hatalı olabilir; önemli bilgileri ders videolarından doğrulayın.</div>
+</div>
+    """,
+    unsafe_allow_html=True,
+)
 
 
-# --- METİN PARÇALAMA ---
+# --- KÜTÜPHANE: TXT + PDF ---
+def library_files():
+    files = glob.glob(f"{LIBRARY_DIR}/**/*.txt", recursive=True) + \
+            glob.glob(f"{LIBRARY_DIR}/**/*.pdf", recursive=True)
+    return sorted(files)
+
+
+def read_pdf(path):
+    from pypdf import PdfReader
+    reader = PdfReader(path)
+    pages = []
+    for page in reader.pages:
+        try:
+            pages.append(page.extract_text() or "")
+        except Exception:
+            pages.append("")
+    text = "\n".join(pages)
+    # Satır sonu tirelerini ve fazla boşlukları temizle
+    text = re.sub(r"-\n(\w)", r"\1", text)
+    text = re.sub(r"[ \t]+", " ", text)
+    return text
+
+
 def chunk_text(text, source_name, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
     chunks = []
     start = 0
@@ -107,20 +247,25 @@ def chunk_text(text, source_name, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
 def load_chunks(files):
     all_chunks = []
     for filepath in files:
-        with open(filepath, "r", encoding="utf-8") as f:
-            content = f.read()
-        source = os.path.basename(filepath).replace(".txt", "")
-        all_chunks.extend(chunk_text(content, source))
+        try:
+            if filepath.lower().endswith(".pdf"):
+                content = read_pdf(filepath)
+            else:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    content = f.read()
+        except Exception as e:
+            print(f"[Gene-AL] okunamadı: {filepath}: {e}", flush=True)
+            continue
+        source = os.path.splitext(os.path.basename(filepath))[0]
+        kind = "pdf" if filepath.lower().endswith(".pdf") else "txt"
+        for c in chunk_text(content, source):
+            c["kind"] = kind
+            all_chunks.append(c)
     return all_chunks
 
 
-def corpus_hash(chunks):
-    h = hashlib.sha256()
-    h.update(f"{EMBED_MODEL}|{CHUNK_SIZE}|{CHUNK_OVERLAP}".encode())
-    for c in chunks:
-        h.update(c["source"].encode())
-        h.update(c["text"].encode())
-    return h.hexdigest()[:16]
+def chunk_key(c):
+    return hashlib.sha256(f"{EMBED_MODEL}|{c['source']}|{c['text']}".encode()).hexdigest()[:20]
 
 
 def retry_delay_seconds(err, default=60.0):
@@ -169,50 +314,100 @@ def normalize(m):
     return m / norms
 
 
+STORE_FILE = os.path.join(CACHE_DIR, "embedding_store.npz")
+
+
+def load_store():
+    if os.path.exists(STORE_FILE):
+        try:
+            d = np.load(STORE_FILE, allow_pickle=False)
+            return dict(zip(d["keys"].tolist(), d["vecs"]))
+        except Exception:
+            pass
+    return {}
+
+
+def save_store(store):
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    keys = list(store.keys())
+    vecs = np.asarray([store[k] for k in keys], dtype="float32")
+    tmp = STORE_FILE + ".tmp.npz"
+    np.savez(tmp, keys=np.asarray(keys), vecs=vecs)
+    os.replace(tmp, STORE_FILE)
+
+
+def migrate_old_cache(chunks, keys, store):
+    """v1.1'in tek dosyalık önbelleğini (embeddings_<hash>.npy) yeni parça bazlı yapıya aktarır."""
+    txt = [(c, k) for c, k in zip(chunks, keys) if c.get("kind") == "txt"]
+    h = hashlib.sha256()
+    h.update(f"{EMBED_MODEL}|{CHUNK_SIZE}|{CHUNK_OVERLAP}".encode())
+    for c, _ in txt:
+        h.update(c["source"].encode())
+        h.update(c["text"].encode())
+    old = os.path.join(CACHE_DIR, f"embeddings_{h.hexdigest()[:16]}.npy")
+    if os.path.exists(old) and any(k not in store for _, k in txt):
+        try:
+            m = np.load(old)
+            if len(m) == len(txt):
+                for (_, k), v in zip(txt, m):
+                    store.setdefault(k, v)
+                save_store(store)
+                print(f"[Gene-AL] eski önbellekten {len(txt)} parça aktarıldı", flush=True)
+        except Exception:
+            pass
+
+
 @st.cache_resource(show_spinner=False)
 def build_vector_store(_api_key, files):
+    """Her parçanın vektörü ayrı saklanır: yeni bir PDF eklenince yalnızca yeni parçalar işlenir."""
     chunks = load_chunks(files)
     if not chunks:
         return None, []
 
-    # Disk önbelleği: aynı transkriptler için embedding'leri bir daha hesaplama
-    os.makedirs(CACHE_DIR, exist_ok=True)
-    cache_file = os.path.join(CACHE_DIR, f"embeddings_{corpus_hash(chunks)}.npy")
-    if os.path.exists(cache_file):
-        return np.load(cache_file), chunks
+    store = load_store()
+    keys = [chunk_key(c) for c in chunks]
+    migrate_old_cache(chunks, keys, store)
+    missing = [i for i, k in enumerate(keys) if k not in store]
 
-    client = genai.Client(api_key=_api_key)
-    texts = [c["text"] for c in chunks]
+    if missing:
+        client = genai.Client(api_key=_api_key)
+        done = len(chunks) - len(missing)
+        bar = st.progress(done / len(chunks), text="Gene-A(L)İ yeni ders notlarını hazırlıyor...")
 
-    # Yarım kalan iş varsa kaldığı yerden devam et
-    partial_file = cache_file.replace(".npy", "_partial.npy")
-    embeddings = list(np.load(partial_file)) if os.path.exists(partial_file) else []
+        def status(msg):
+            bar.progress(done / len(chunks), text=msg)
 
-    bar = st.progress(len(embeddings) / len(texts), text="Gene-A(L)İ ders notlarını ilk kez hazırlıyor...")
+        for j in range(0, len(missing), EMBED_PER_MINUTE):
+            t0 = time.time()
+            idx = missing[j:j + EMBED_PER_MINUTE]
+            vecs = embed_with_retry(client, [chunks[i]["text"] for i in idx], "RETRIEVAL_DOCUMENT", status=status)
+            for i, v in zip(idx, vecs):
+                store[keys[i]] = np.asarray(v, dtype="float32")
+            save_store(store)          # yarıda kesilirse kaldığı yerden devam eder
+            done += len(idx)
+            print(f"[Gene-AL] embedding: {done}/{len(chunks)}", flush=True)
+            status(f"Ders notları hazırlanıyor: {done}/{len(chunks)} parça "
+                   f"(ücretsiz kota nedeniyle dakikada {EMBED_PER_MINUTE} parça, yalnızca yeni dosyalar için)")
+            if j + EMBED_PER_MINUTE < len(missing):
+                time.sleep(max(0.0, 61 - (time.time() - t0)))
+        bar.empty()
 
-    def status(msg):
-        bar.progress(len(embeddings) / len(texts), text=msg)
-
-    while len(embeddings) < len(texts):
-        i = len(embeddings)
-        t0 = time.time()
-        embeddings.extend(
-            embed_with_retry(client, texts[i:i + EMBED_PER_MINUTE], "RETRIEVAL_DOCUMENT", status=status)
-        )
-        np.save(partial_file, np.asarray(embeddings, dtype="float32"))
-        print(f"[Gene-AL] embedding: {len(embeddings)}/{len(texts)}", flush=True)
-        status(f"Ders notları hazırlanıyor: {len(embeddings)}/{len(texts)} parça "
-               f"(ücretsiz kota nedeniyle dakikada {EMBED_PER_MINUTE} parça, yalnızca ilk açılışta)")
-        # Dakikalık kotayı aşmamak için bir sonraki pakete kadar bekle
-        if len(embeddings) < len(texts):
-            time.sleep(max(0.0, 61 - (time.time() - t0)))
-    bar.empty()
-
-    matrix = normalize(embeddings)
-    np.save(cache_file, matrix)
-    if os.path.exists(partial_file):
-        os.remove(partial_file)
+    matrix = normalize([store[k] for k in keys])
     return matrix, chunks
+
+
+SYSTEM_PROMPT = """Sen 'Gene-A(L)İ'sin; Doç. Dr. İbrahim Çelik'in kurduğu 'Genom Okulu: 10. Kromozom' platformunun yapay zekâ asistanısın.
+Görevin: Öğrencilerin sorularını sade ama akademik derinlikte, samimi bir dille yanıtlamak.
+
+Kurallar:
+1. Öncelikle verilen KAYNAKLARA (ders transkriptleri ve İbrahim Çelik'in yayınları) bak. Soru burada geçiyorsa bu metinlere dayanarak yanıtla ve yanıtın sonunda hangi kaynaktan yararlandığını belirt.
+2. Transkriptler YouTube otomatik altyazısıdır; terimler yanlış yazılmış olabilir (ör. "Sasar"=SSR, "Civas"=GWAS, "EFP"=AFLP, "snip"=SNP). Yanıtında doğru terimleri kullan. Altyazıda belirsiz kalan sayı ve isimleri kesin bilgi gibi sunma.
+3. Soru kaynaklarda geçmiyorsa ama genetik, biyoinformatik, moleküler ıslah veya tarımsal biyoteknoloji ile ilgiliyse, yanıtına "Bu konu henüz yüklü Genom Okulu derslerinde geçmiyor ama genel bilimsel literatüre göre şöyle açıklayabilirim:" diyerek başla ve kendi bilginle doğru, net bir yanıt ver.
+4. Soru tamamen alan dışıysa (spor, siyaset, yemek tarifi vb.) sadece Genom Okulu konularında yardımcı olabileceğini söyleyip kibarca reddet.
+5. ÖNCEKİ KONUŞMA'yı dikkate al; takip sorularını önceki mesajlarla birlikte anla.
+6. Her yanıta selamlaşmayla başlama ve kalıp ifadeleri ("Halk Ekmek sadeliğinde" gibi) tekrarlama; doğrudan konuya gir.
+7. Gerekirse Perl, GMATA veya Python komutlarını kod bloğu içinde temizce göster.
+"""
 
 
 def generate_answer(client, contents):
@@ -239,26 +434,34 @@ def generate_answer(client, contents):
     raise last_err
 
 
-def search(matrix, chunks, query_vec, k=4):
+def search(matrix, chunks, query_vec, k=5):
     scores = matrix @ query_vec
     top = np.argsort(-scores)[:min(k, len(chunks))]
     return [chunks[i] for i in top]
 
 
-# --- ANA EKRAN ---
-st.title(">_ Gene-A(L)İ | Genom Okulu")
-st.caption("Biyoinformatik, Moleküler Markör Tasarımı ve Dijital Tarım Asistanı")
+def history_text(messages):
+    """Karşılama mesajı hariç son mesajları düz metne çevirir."""
+    recent = [m for m in messages[1:]][-HISTORY_TURNS:]
+    lines = []
+    for m in recent:
+        who = "Öğrenci" if m["role"] == "user" else "Gene-A(L)İ"
+        lines.append(f"{who}: {m['content'][:1200]}")
+    return "\n".join(lines)
 
+
+# --- ANA AKIŞ ---
 if not api_key:
     st.info("Sistem şu an bakım/kurulum aşamasında. (Yönetici notu: GEMINI_API_KEY tanımlanmalıdır.)")
     st.stop()
 
-if not txt_files:
+files = library_files()
+if not files:
     st.warning("Ders kütüphanesi henüz yüklenmedi. Lütfen daha sonra tekrar deneyin.")
     st.stop()
 
 try:
-    matrix, chunks = build_vector_store(api_key, tuple(txt_files))
+    matrix, chunks = build_vector_store(api_key, tuple(files))
 except DailyQuotaError:
     st.error("Gemini API'nin günlük ücretsiz kotası bugünlük doldu. Kota her gün Türkiye saatiyle "
              "yaklaşık 10:00'da sıfırlanır; o zaman sayfayı yenileyin. (Hazırlanan kısım kaydedildi.)")
@@ -281,8 +484,8 @@ if "messages" not in st.session_state:
             "role": "assistant",
             "content": (
                 "Merhaba! Ben **Gene-A(L)İ**, Genom Okulu'nun yapay zekâ asistanıyım. 🧬\n\n"
-                "Genom Okulu derslerinde işlenen **GMATA ile SSR tasarımı, FASTA dosyaları, moleküler markörler, biyoinformatik analizler ve dijital tarım** "
-                "hakkında aklına takılan her şeyi bana sorabilirsin. Nereden başlayalım?"
+                "**SSR, SNP ve CAPS markörleri, primer tasarımı, GMATA, FASTA dosyaları ve biyoinformatik analizler** "
+                "hakkında aklına takılan her şeyi sorabilirsin. Nereden başlayalım?"
             )
         }
     ]
@@ -291,33 +494,30 @@ for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-SYSTEM_PROMPT = """Sen 'Gene-A(L)İ'sin; Doç. Dr. İbrahim Çelik'in kurduğu 'Genom Okulu: 10. Kromozom' platformunun yapay zekâ asistanısın.
-Görevin: Öğrencilerin sorularını "Halk Ekmek" sadeliğinde ama akademik derinlikte, samimi bir dille yanıtlamak.
-
-Kurallar:
-1. Öncelikle verilen DERS TRANSKRİPTLERİNE bak. Soru burada geçiyorsa doğrudan bu metinlere dayanarak yanıtla ve hangi kaynak dersten yararlandığını parantez içinde veya sonda belirt.
-2. Transkriptler YouTube otomatik altyazısıdır; terimler yanlış yazılmış olabilir (ör. "Sasar"=SSR, "Civas"=GWAS, "EFP"=AFLP, "snip"=SNP). Yanıtında doğru terimleri kullan.
-3. Eğer soru transkriptlerde geçmiyorsa ama genetik, biyoinformatik, moleküler ıslah, tarımsal biyoteknoloji veya dijital tarım ile ilgiliyse; yanıtına mutlaka "Bu konu henüz yüklü Genom Okulu derslerinde geçmiyor ama genel bilimsel literatüre göre şöyle açıklayabilirim:" diyerek başla ve kendi bilginle doğru, net bir yanıt ver.
-4. Soru tamamen alan dışıysa (spor, siyaset, yemek tarifi, günlük sohbet vb.) sadece biyoinformatik ve Genom Okulu konularında yardımcı olabileceğini söyleyip kibarca reddet.
-5. Gerekirse Perl, GMATA veya Python komutlarını kod bloğu içinde temizce göster.
-"""
-
 # Kullanıcı sorusu
-if prompt := st.chat_input("Örn: GMATA'da mononükleotitleri neden eliyoruz?"):
+if prompt := st.chat_input("Sorunu yaz... (ör. GMATA'da mononükleotitleri neden eliyoruz?)"):
+    past = history_text(st.session_state.messages)
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
 
     with st.chat_message("assistant"):
         try:
-            with st.spinner("Genom taranıyor..."):
-                q_vec = normalize(embed_with_retry(client, [prompt], "RETRIEVAL_QUERY", max_tries=3))[0]
-                retrieved = search(matrix, chunks, q_vec, k=4)
+            with st.spinner(random.choice(THINKING_MESSAGES)):
+                # Takip sorularında önceki soruyu da aramaya kat
+                prev_q = next((m["content"] for m in reversed(st.session_state.messages[:-1])
+                               if m["role"] == "user"), "")
+                search_text = f"{prev_q}\n{prompt}" if prev_q else prompt
+                q_vec = normalize(embed_with_retry(client, [search_text], "RETRIEVAL_QUERY", max_tries=3))[0]
+                retrieved = search(matrix, chunks, q_vec, k=5)
                 context = "\n\n".join(
-                    [f"[Kaynak Ders: {c['source']}]\n{c['text']}" for c in retrieved]
+                    [f"[Kaynak: {c['source']}]\n{c['text']}" for c in retrieved]
                 )
                 text = generate_answer(
-                    client, f"DERS TRANSKRİPTLERİ:\n{context}\n\nÖĞRENCİ SORUSU:\n{prompt}"
+                    client,
+                    f"KAYNAKLAR:\n{context}\n\n"
+                    f"ÖNCEKİ KONUŞMA:\n{past or '(yok)'}\n\n"
+                    f"ÖĞRENCİ SORUSU:\n{prompt}"
                 )
                 answer = text or "Bu soruya şu an yanıt üretemedim, lütfen farklı bir şekilde sormayı dene."
         except DailyQuotaError:
