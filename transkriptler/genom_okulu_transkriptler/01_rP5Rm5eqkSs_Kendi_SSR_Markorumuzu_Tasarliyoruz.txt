@@ -1,0 +1,399 @@
+Başlık: Kendi SSR Markörümüzü Tasarlıyoruz! (Polimorfizm Avı Başladı) 🧬💻
+Link: https://www.youtube.com/watch?v=rP5Rm5eqkSs
+Süre: 51:30
+Transkript: YouTube otomatik altyazı (Türkçe)
+
+[0:02] Merhaba arkadaşlar. Yeni bir dersimizle karşı karşıyayız. Eee geçen hafta larda ilk e SP markör geliştirmeyi size
+[0:11] anlatmıştım. Daha doğrusu S&P konularına eee GBS ve NGS kısmında çok fazla
+[0:18] değineceğiz ama eee Caps markörleri hani bu tarihi markörleri diriltiyoruz dersinde. Ne vardı eskiden ilk çıkan?
+[0:28] eee, PCR tabanlı, hibritzasyon tabanlı markörlerden e RFLP vardı. RFLP'yi PCR'a nasıl
+[0:35] çevireceğimizi ilk derste 2 hafta önce gösterdim. Sonra da Sinifik Caps markörü
+[0:42] tasalımı da buradan gösterdim. Şimdi tamamen farklı bir markör sistemine geçiyoruz. Bitki moleküller genetiğinde
+[0:50] kullanılan lokus spesifik ve polimorfizm oranı yüksek bir markör sistemi. SSR
+[0:58] markör sistemi. Çünkü bu bitki genomiğinde kullanılan 10 10 numara 5 yıldız bir markördür. Özelliklerini size
+[1:07] buradan anlatacağım. Genel olarak burada uygulama olarak bu işe başlangıç yapacağız. Yani küçük bir diziden SSR
+[1:14] markörürler dizayn edeceğiz. Sonra tam genol bunları eee [boğazını temizler] bakacağız. Tüm tam genom esas markörleri tasarlayacağız.
+[1:26] Çünkü bu güzel bir markör sistemi. Buradan bakalım buradaki şeylerimize.
+[1:35] SSR markörleri e bir temel olarak hızlı bir giriş yaparsak burada çok fazla bilmenize gereken bir şey yok ama sunumlarda
+[1:44] bu markörleri kullanıyorsanız bunların temelini bilmemiz lazım. 1 ve 6 nükleotit baz çiftindeki tekrarlanan
+[1:53] dizilere mikrosatit SSR markörleri deniliyor. Bunun açılımı da basit dizi
+[2:00] tekrarları. Simple sequence repeat demek. Buradandır bu bölgeler. Çünkü bu
+[2:08] genomin bizdeki eee temeli şu markör tasarlayacaksınız. Bu markör de genomda polimorfik noktaları işaret edecek.
+[2:21] Polimorfizm açısından hat sıfatı olacak.
+[2:24] Bunun için de Sasarlar önemli bir yer tutuyor. Nedeni de polimorfizma oranı yüksekmiş. Bir
+[2:32] replikasyon kayması dediğimiz replication slopage DNA polimmeraz tekrarlı bölgelerde replikasyon yaparken
+[2:40] kendi DNA kendini eşlerken sık hata yapmasından kaynaklanan bir polymorfizm yüksekliği var. İkincisi de unocle
+[2:48] crossing over. Buradan da crossingover'ın eşit olmadan yapılmasından, buradaki anormalliklerden
+[2:55] polimorfizm oranı yüksek yerler olduğu belirleniyor. Ki sadece bitkide değil
+[3:02] hayvanlarda özellikle bu konuda yeni başlayanlar için inanamayacaktır.
+[3:09] tüm DNA kriminal laboratuvarlarında da insanda da bu Sasar bölgeleri, markörleri kullanılır.
+[3:19] Burada eee buna geçmeden önce eee esas markörleri neden önemlidir? Genel markör sistemlerini size anlatırken markör
+[3:28] sistemde özellikle fonksiyonel gönikte bu işi çalışacaksanız sizin için gerekli olan şey şu. Lokus spesifik mi? Evet.
+[3:36] SSR markörleri lokus spesifiktir. Bu ı SSRına karıştırmayın. Interspesifik SSRA karıştırmayın. Bunlar eee
+[3:46] lokus spesifiktir. Yani genomda bir bölgeye gerekir. Bunun avantajıdır. İkinci avantajı reproducible'dır.
+[3:53] Yani alelleri eee birbirine yakın olsa da eee farklı laboratuvarlarda aynı sonucu verir burada.
+[4:08] Ve en önemlisi bunun çünkü iki tane markör sistemi kaldı elimizde ki önce de size bunu anlatmıştım. Genel markör sisteminden süper üçlü var.
+[4:18] Srap, transpozon, markörleri. Locos spesifik fonksiyoneller dedi ki bu genel
+[4:25] markörleri fonksiyonte kullanmamaya çalışıyoruz. SSR'lar ve Snip'ler. Peki
+[4:32] SNIP mi SSR mi? Şimdi havalı büyük GBS'ler yapıyoruz. Böyle yüksek e çağı
+[4:40] [boğazını temizler] derinlikli dizilerle binlerce ship elde ediyoruz. Tamam olabilir. Ama esasların yeri shiple
+[4:47] kıyaşlardığımız zaman da şu vardır ki en güzel özelliğini söyleyeceğim esasarın en güzel özelliği multialelik olması.
+[4:57] Multialelik de şu sinipler dialiktir.
+[5:00] Normalde zaten 4 tane alal olabilir. 4 nükrozitten ama doğada dialiktir. İki tane aleli bulunur. Tam
+[5:08] esas bu şimdi anlayacaksınız bu sistemi de eee dizi tekrarlı dizinin sayısına
+[5:16] göre uzunluk ve alel değişir ki 1 lokus 30 şeye kadar alele kadar çıkabilir. Bu
+[5:26] da esas arı özellikle eee şey açısından fonksiyonel ve genetik çeşitlilik açısından çok güzel bir
+[5:35] markör sistemi yapıyor. Özellikle genetik çeşitlilik çalışmalarda ama skorlama konusunda bunu anlatacağım.
+[5:43] Düzgün bir şekilde bunları skorlarsanız.
+[5:46] Şimdi geçenlerde yakın bir hocam eee bir verisine baktık. Oradan yayından önce
+[5:54] özellikle anlatacağım bunu da. az bir esasla o kadar güzel sonuçlar çıkarmış ki bir popülasyonda genetik çeşitçilik
+[6:01] çalışmasında böyle inanamazsınız ama düzgün skor yani kodominant skorlama yaparsanız böyle bir şeyde dominans skorlamaçı da var onun skorlama kısmında
+[6:09] bunu tartışacağız hangisi kullanılır niye bunlar kullanılıyor dedik buradan da ha
+[6:16] skorlama deyince de bu ne demiştik specific reproducible buradan
+[6:24] avantajı Alel sayısı multialelik.
+[6:28] Bu da önemli bir şey. Buradan da bu önemli.
+[6:35] Bir de eee polimorfizm oranı yüksek dedik. Bunlardan esasarlardan da bu. Ha sinipe baktığınız zaman burada snipleri
+[6:44] kıyasla şu var. Peki niye sinip daha çok kullanıyoruz böyle? Buradan SSR'lara göre SSR'lar da kullanılıyor. Ayrı bir
+[6:52] konu ama Sinip'te biraz bunlarda sayı sıkıntısı olabilir. Yani küçük bir bölgede çalışacaksanız seniplerde
+[7:01] esasarda eee sayı olanı biraz daha azdır. Siniflerde de küçük bir bölgede bile binlerce şey çıkartabiliyorsunuz.
+[7:11] E polimorfik hatta esas şey sinipler çıkartabiliyoruz. sayı açısından biraz daha geriye kalmış oluyor. Hatta bu
+[7:19] multialelik olayından dolayı da şöyle bir eee şey vardır. Salok güven vermiyor ama söylediğim şeyler ama bunu da
+[7:27] söylüyorlar. Bunu da simülasyonla test edebilirsiniz. Böyle bir SSR 11 süpe denk gelir. Buradan alelik diğeri 30
+[7:35] alelik olsa da böyle öyle sallayabilirse da 7 ile 11 arasındaki bu okuduğum makalelerde de bir sayı söyleniyor.
+[7:43] Çünkü genetik çalışmalarında da öyle.
+[7:46] Senin fonksiyonel çalışmalarda iyi ama diğer sayı açısından
+[7:53] elinizde eee düzgün aler verebilecek SSR'lar olursa da bir SSR kullandığınızda onun karşılığında 11
+[8:01] tane kullanabilirsek aynı eee bilgi verme derecesine sahip olabilirsiniz.
+[8:07] Bunlar da önemli. Şimdi dezavantajlarına gelen dezavantajı otomasyona açık değildir fazla.
+[8:16] Çünkü mesela diğerlerinde daha otomasyonla dediğim de çanki çok otomasyon kullanıyormuşuz gibi ama
+[8:23] şurada şey var. eee otomasyonu açık değildir.
+[8:29] Eee ve bunların tasarlanabilmesi için de eee
+[8:38] dizi bilgileri gerekir. Dizi bilgileri de şunlar eee genomik eee dizilerden
+[8:48] tasarlanabilir ya da ESC'lerden. Yani bunun dezavantaj olarak da şunu söyleyebiliriz.
+[8:57] Dizi bilgisi gerekli. Bu eskiden böyle söyleniyordu. Artık bu konuda bunlarda eee çok fazla elimizde dizi olduğu için dizi kaynaklarını da size göstereceğim.
+[9:08] Evet. Onları da göstereceğim buradan. E ama şu anda bu da bir dezavantaj değil. Çünkü her yerden bunun
+[9:16] dizilerini bulabiliyorsunuz. olmazsanız kendinizleme yaptırırsınız. Buradan da dizi kaynağı olarak genomik esaslar ve ESC olarak da burada kullanabilirsiniz.
+[9:25] Bunu da transkriptomik esas altılar.
+[9:27] Birbirlerinin avantajları, dezavantajları var. Böyle kodlanmayan bölgeler olduğu için bunlar daha polimorfiktir. Çünkü SSR polimorfik
+[9:36] dediğim gibi öyle SSR'lar seçeceksiniz ki polimorfizm oranı yüksek olacak. Buradan bakalım.
+[9:44] kodlanmayan bölgelerde kıyaslarsak böyle genomigasarlar EST'lere göre polimorfizmi daha yüksektir. Çünkü
+[9:53] seçilime, doğal seçilime maruz kalmazlar. Doğal ya da yapar. Genomikte bunlar nötral mutasyonlar ve polimorfizmler olacağı için burada böyle
+[10:02] bir şey var. Bunun genomin avantajı polmorfizm yüksektir ama işte dizileme gerekiyor burada. Transkriptomikler de
+[10:11] gen bölgeleri türlerarası yüksek uyumlu türler arasında da şimdi buradan SSR'lerle makale eee düşünürken de şunları da anlatacağım.
+[10:23] Bunların transfer edilebilme olayları var. Eee yakın türler arasında bunlar transfer edilebilir mi? Ben doktora
+[10:31] tezimde de bunları yapmıştım. Hşa SSR tasarladık. Bunun yakın türlerine bilmem ne gelincikte de çalışıp çalışmadığına
+[10:38] böyle bak taktık. Ona göre EST'ler daha çok korunmuştur. Genomiklere göre transfer edilebilme olanağı daha
+[10:46] fazladır. Yani şu demek ben HH'ta geliştirdim. Gelincikte de kullanabilirsiniz bunu diyebilirsiniz.
+[10:52] Gelincik popülasyon çalışanlar oradan kullanılabilir. Bu da çok şey değil.
+[10:56] gelincikle dizilirsin kendi markörlerinizi olabilir. Bir de bunlar dediğim gibi dizi bilgisi olacağı için tür
+[11:04] spesifiktir. Genel bir markör sistemi değildir ki o yüzden biz bunları tasarlıyoruz ve tasarlayacağız. Buradan
+[11:11] da EST'lerin avantajı da şu. Bunlar doğrudan ki bir fonksiyonel çalışma yapıyorsa, genetik çeşitlilik çalışması
+[11:19] yapıyorsanız hiç sıkıntı değil. Ama bir fonksiyonel bir çalışma yapacaksanız, haritalama çalışması yapacaksanız,
+[11:25] SSR'ları çok da önermem ama bir GWas çalışmasında kullanacaksanız burada direkt transkriptomin avantajı da şuyor.
+[11:34] Çünkü direkt gen üzerind gen üzerinde olduğu için bunlar fonksiyonel
+[11:41] markörler olmuş oluyor. Bunun da avantajı da o. Biri polimorfik, biri fonksiyonel. daha yakında olabilir.
+[11:48] Çalışmalarda da şöyle başladığınız zaman EST tasarlayabilirsiniz, genomik tasarlayabilirsiniz. İşi, lafı çoğaltmak
+[11:57] istiyorsanız eee mesela makale tasarlarken mesela biz EST'de de dizayn ettim, genomikte de dizayn ettim. Önce
+[12:04] mesela HH'ta EST dizayn edildi. Burada arkadaşım işte yaptı onu. O EST dizayn
+[12:12] edildi. Sonra ben genomin yaptım. Sonra ikisini birleştirdik. bir şey de kurduk.
+[12:18] Normalde hani makale fabrikası olayı da böyle döndürmeye çalışırsak işte en başından şu genomikten EST'ye geçmek zor
+[12:27] olur da bu işin hikayesi şuydu. Önceden de artık öğrendiniz. Neydi? Önce bir markörde genel markör sistemi. Bu
+[12:34] kullanılmışsa genel markör sistemleri lokal spesifik değildir. Fonksiyonel çalışmalar uygun değildir. SSR gerekli.
+[12:41] Sasar dizayn yapacağım. Direkt karışık kuruşuk dizayn etmiyorsunuz. Bir kere ayırın birbirlerinizden. Çünkü şey
+[12:48] çıkmayacak. Önce EST'den dizayn ediyorsun. Sonra bakıyorsunuz polbonfizim oranı düşük. Biraz daha yüksek olabilir. Genomikten dizayn ediyorsunuz. Sonra ikisini
+[12:55] karşılaştırıyorsunuz. Aynı makaleden de karşılaştırabilirsiniz. Bir sürü çalışma var bununla ilgili karşılaştırılacak.
+[13:02] Ama şu var hani bu bu fonksiyonel yönelikte değişmez ama genetik çeşitlilik analizlerini de göstereceğim bunları. Ağaçlar birbirini tutmayacaktır. Bu sefer de bir sürü
+[13:11] diskaşı falan yazacakmışsır böyle ama hiç fark etmez. Ne oldu bak? tek bir şeyden bir bunun geliştirilmesi.
+[13:18] Çünkü orijinal bizde şeydi. Ben bunu anlatıyorum işte kendi markörlerinizi geliştirin. Biz geliştirdik biz gerçekten bunu geliştirdik. Geliştirdin
+[13:26] sen geliştirdin. Orijinal bunlar primerler. Biraz sonra göreceksiniz bunları nasıl geliştirdiğinizi. Bir de bu popülasyon genetiğinin
+[13:34] fonksiyonlarında şey vardır. Şimdi herkes farklı hayvanlarla, bitkilerle, insanla da çalışıyorlar. Çalışıyorsunuz
+[13:43] böyle. Buralarda da bir şey olacağı zaman moleküler markörları kullanacağınızda bir genetik çeşitli çalıştırması yapmanız gerekiyor
+[13:51] ya da fonksiyonel bir çalışma yapmanız gerekiyor.
+[13:54] Dersiniz ki nereye bakarsınız? Ya da bunun hikayesinden anlatmanız lazım.
+[14:00] Önceki makalelere bakacağız. Önceden tasarlanmış markörler var mı? Var mı?
+[14:06] Varsa oradan bakarsınız. Mesela şu anda ben çalışma için yaptım onu. Önceden markörlere baktım.
+[14:13] yayınlanmış ki başka yerlerde. Oradan e şimdi daha bilmiyorsunuz ama bunu polymorphis information contenti, gin
+[14:20] diversity değeri en yüksek markörler yani popülasyondaki en yüksek alelle ayırım gücüne sahip alon mar şeyleri
+[14:28] alırsınız ki bizim markörler geliştirdiğimiz markörlerde kullanıyorlar. kullanırsanız, görürseniz polimorfizmi görürsünüz. Görmezsiniz bu
+[14:37] taktiftir. Ayrı bir konu. Ama bu dersin sonunda artık kendi markörlerinizi geliştirip bunları da
+[14:44] kullanabileceksiniz. Yani artık başkasının markörüden kullanmaya gerek yok. Zaten param sipariş vereceksin değil mi? Vereceksin. O çalışmanı
+[14:52] yapacaksın. Kendin dizayn et, kendin kullan. Hikayen olsun. orijinal bir şey olsun ve
+[15:00] bayağı da arttırır yani bu işin değerini. Hele hele çalışma [boğazını temizler] konusundaki durum da şu. Bir şey yoksa yani hiç dokuz
+[15:09] spesifik esas tasarlanmamış bir bitkiniz varsa ki mesela bizim çörek otunda adlan ocağına yaptık. Bundan sonraki
+[15:17] çalışmalarda göstereceğim size. E çörek [boğazını temizler] otu vardı herhalde onda dedi geliştirmesin diye geliştirdik
+[15:24] yaptık. 3 be tane çerek ootu vardı. Bir sürü markör geliştirdik. 3 be tanesini denedik. Q2'de yayınlandı. Çünkü
+[15:33] editörün yerinde olsam böyle çalışmaları kaçırmam. Niye kaçırmam? Çünkü artık çöında ilk esasları biz dizayn ettik.
+[15:41] Bundan sonra ne olursa olsun bizim üzerimize koyacaklar ki bu işler de oluyor. Aşaşta mesela Sami hocanın
+[15:49] projesinde doktora çalışmasında biz dizayn ettik. Yani ki tasarım ben yapmadım o zaman. Biyofomatik grubu
+[15:55] yaptı bunları. Ben deneysel çalışmalarını falan yaptım. Burada ilk
+[16:02] genomikler Sasarlar HŞ'da bizde bizimizin üzerine kurulacak ve makale taktiği açısından da şunu söylüyorum
+[16:10] size. Orada şu olacak.
+[16:15] Sonra bitti. Sonra Amerikalılar biz de şeyde haş olduğu için artık ben baktım kriminal dergilerinden citation almaya
+[16:23] başladım dedim ne oluyor acaba filan onlar ilgileniyorlar buna onlar da benim işte bir tanesinde yani bizim [boğazını temizler] 19 tane
+[16:31] esasizin denemişler az polimorfik bulmuşlar beğenmemişler sonra kendileri markör dizayn etmişler onu pazarlıyorlar
+[16:39] onu yayınlamışlar böyle baktım yani kendilerini dizayn etti tamam ben o esasarlara çok ultra Ultra polymorfik
+[16:47] harika dedim de derim aslında da onlar da sonra bize gömüp oradan kendi daha polimorfik deyip
+[16:56] çok da bir şey yine çıkaramamışlar. Yine çıkaramamışlar. Olsun. Bu konularda yeni çalışmalar yapmak açısından bunları önem
+[17:04] bunları öğrenmek önemli. Buradan güzel olur. O zaman şu var. Hani yapılmış
+[17:11] mesela gidip de üzümde SSR dizayn edip de bunu fazlama şey yok ya da canın istedi de ne olacak? Ben otoriteleri
+[17:19] burada bilim paradigmasını ya da kullanılan esasları saymıyorum. Kendimi tasarlayacağım ve
+[17:27] iyi de tasarlayacağım derseniz bunu da deneyebilirsiniz. Ayrı bir konu. Ama şu var. bir Sasar
+[17:34] çalış eee geliştirme makalesi olarak yayınlamak isterseniz ki genelde böyle oluyor. Sonra da artık bunu ne için
+[17:43] kullanırsan kullan ayrı bir konu. Ama yayınlayacaksanız da şu olması lazım. Ya bir fonksiyonel hizmeti etmesi gerekiyor
+[17:50] bir gen haritalaması için ki güzel bir çalışma var. Sami hocayla yap Sami Hoca'nın projesinden yapılan güzel bir çalışma var. Onu da göstereceğim makalesini.
+[18:01] Ya da şu var. Hiç yoksa kötü de olsa gider.
+[18:07] Varsa sayıyı arttırdım dersiniz gider.
+[18:12] Sayı arttırıp da polimorfizm oranı bitkiden kaynaklı düşükse yaptım daha polimorfikti derseniz gider. Anlatacağım
+[18:21] bunların uzunlukla ilgili ultra büyük SSRlar dizayn ettim derseniz o da gider.
+[18:28] Yani bir sürü makale yazmanın bir sürü yolu da var böyle. Şöyle uzunluk olayına geleyim. Burada da esasardaki işte şu
+[18:36] var. Ne kadar uzun olurlarsa esaslar o kadar iyi. Ama onun da bir
+[18:42] limiti var. Limit noktasında da şu 60 baz çiftini geçmeyecek. Böyle bir şey
+[18:51] var. Böyle bir algı var. Geçse ne olur, geçmese ne olur? Ayrı bir konu ama böyle bir algı var. Şu var. Çok küçük olursa
+[18:57] 20 baştin 6. Bu ne demek? Dinükleotitse 10 tekrarlı. 10 tekrarının üstü olması
+[19:05] lazım. 4 nükleot ise AT GT ise mesela bu 20'yi geçmek için en azından 4 tekrarın
+[19:13] üstünde olması lazım ki düzgün bir şey en azından görebilme şansınız var. O ne kadar büyük olursa o kadar da iyi ama
+[19:20] 60'ı geçmeyecekmişiz. Buradan da bunu denemedim ama seçerken
+[19:27] eee tüm genel geliştirmeler ya da bir filtrasyon yapabiliriz. Burada da buna Ultra Pro Max Elite SSRlar da
+[19:35] diyebiliriz. Böyle bir şeylerden ki denenmesi lazım. Ama şu varmış. Yani ne kadar 60'a kadar büyütürseniz uzunluğu
+[19:42] yani tekrar uzunluğunu bu sefer de PSR sorunlarıyla karşılaşıyoruz. Çünkü şu anda unutmayın
+[19:51] replications replikasyonda tak poleras daha yapıyordu. Biz normal invivah
+[19:59] polimerazlar bizimkisi tak daha proof reading olmayan daha ilkel
+[20:08] amale bir takaresini kullanıyorsun. Bir de bunun tekrarını çoğalttıracaksın zaten aklı şeyde onda da daha çok hata
+[20:16] yaptığı için de amplifikasyonda sorunlar olabilirmiş ama 60'a kadar normal kullanılabiliyor.
+[20:22] Buradan da bununla ilgili ayrı seçilimile ilgili konuşacağız. Bir olayı öğrenelim böyle bu şeyden.
+[20:30] Ayrım ayrına geldiğimiz zaman esasların da güzel kısmı da bu ama dezavantajlı kısmı da şu. Aleller dedik ya. Şimdi bu
+[20:38] alellerde de şu ATG 3 nükleotit demek. 3 nükleotit niye farklı? Alellerde bir
+[20:45] bitkide 5 tekrar yapar. Yani oradaki üzünlük 3 kere 5 15 nükleotittir. Diğerinde 5 6
+[20:54] tekrar yapar. 18 15 18 arada kaç bir tekrar? 3 nükleotitlik fark var. 3 nükleotitlik farkı nerede
+[21:02] görebilirsiniz? Yüksek lisans sına sormuşlar bana. Dediler ki Agar'nin çözünürlüğü kaçtır diye. Ben 10 20 falan
+[21:10] dedim böyle. Yuh dediler. O kadar değilmiş. 5 kadar ayırıyormuş da teknik olarak ben ayıramıyorum yani bunu de beceriksizliğimden.
+[21:19] Ama yüksek ayrım gerektiriyor demek ki.
+[21:22] Bunun için de agar yelde ha şu vardır illaki şeyde de polimorfizik mesela çok güzel agarla çalışan polimorfik esasları
+[21:30] da var. Göreceğiz bunları. İkisinin arasındaki böyle fark var.
+[21:37] büyük farklılık olan 20 30 baspa böyle e şeyler olan sasar lokusları mevcut. Öyle olursanız
+[21:46] jelde bakarsınız. Ama bu hiyerarşi şu şekilde. Esasları tasarladığınız zaman önce ilk şeyiniz vardır değil mi?
+[21:55] Hayatta bir şey olduğu zaman önce bu ihtiyaçlar hiyerarşisi var ya bunun gibi bitte bu PC çalışıyor. Çalışmay
+[22:04] daabilir. 9dan şuradan buradan araya ne girmiştir? Büyük bir intron girmiştir. Siz EST'den yapmışsınızdır. Çalışmaz.
+[22:12] Genom'da başka bir şeyi vardır.
+[22:15] Sentronik bölgelerde çalışmaz. Neyse önce çalışıyor. Çalışır genelde ben zannettiklerim o hepsi çalışmıştır.
+[22:21] Çalışır. İkinci soracağımız soru polimorfik mi? Polimorf de şu haritalama popülasyonunda anne babasında
+[22:29] polimorfizik mi? Bir ilişkilendirme paneli ya da çeşitlilikte polimorfizm oranı kaçtır? Bu normlardan bir de al
+[22:37] sayısı. Yine skorlama kısmında da bu var.
+[22:41] [kahkaha]
+[22:42] Onu anlatacağız. Bu bunun içinde hş taşı önce jöle bakıyorsunuz. Yüksek çöz düşük çözünürlükten yüksek çözünürlüğe çıktı mı? Çıkmadı. Alıyorsunuz bunu. Ne
+[22:51] yapabilirsiniz? Silver stainingde içe dökebilirsiniz. Dikey böyle yapan ha bu efakta kullanmaktan. Onu
+[22:59] yapabiliyorsanız zaten şu teknolojidei de elinizden öpelim. Ben hayatta o işi de yapamam çünkü o iş çok daha zor yani.
+[23:06] Yapabilirsin. Onu geçtik. Eski teknoloji olduğu için yani. Yoksa beceriksizliğin de alakası yok yani. Ayın. Capillary
+[23:13] elektrof. teknoloji seviyoruz. O yüzden kapilerye sokarsınız. Capillary electroforest burası önemli.
+[23:22] Capilerde de çıkarsa çıkar çıkmazsa sequencer sequencerda da yani sequencer
+[23:29] dediğimde bu backmanın ya da bir şeylerde bunlara m13 kuyruk ekleyip forosans eşitleyip çünkü
+[23:38] kapüer elektrofazer de gerek yok çünkü ettium brom matriksini okuyor zaten bunlar normal psar ürünü verirsiniz
+[23:45] yaparsınız yoksa da murt'den sequenerda illa zorlayıp ben buna polimorfik bula olacağım diyorsanız yapabilirsiniz ki bu
+[23:53] benim eee kariyerimde çok oldu genelde böyle bir şeylerden. Neyse en azından sekvensera gidinceye kadar yani bir
+[24:02] nükleotitlik çözünürlüklü elektrofarası o da kapital elektrofası hiç fark yok. Onunla da istersen ayrı
+[24:09] bir şey anlatırım ayrımda. Capital capital electroferas ben çok kullandım o zamana kadar
+[24:17] şu advance biochemistry vardı. Sami hoca ilk almıştı kurmuştu oraya. Kaksel belki de ilklerden birisi. Onları kullandım.
+[24:25] Bunlardan önemli şeyler. Bunlar sasar varsa bunlardan yapacaksınız koyarsınız.
+[24:30] Burada 3 beklan polimorfik olarak da gösterdiğiniz zaman Q2 yani bir de orijinalsa böyle bir şey yaptığınız zaman ki eskiden köprü gidiyordu bunlar.
+[24:40] ki o iki garanti harika güzel bir çalışmanız olmuş olur. Kapital retroferiniz varsa yoksa
+[24:48] da olan arkadaşınıza iyi davranın iyi geçmeyin. Buradan şunu benim yaptıralım derken ben böyle tabii capital frez
+[24:57] kapiter elektrofaz olan arkadaşlarımı ararım sorarım. Aranızı iyi tutun ihtiyacınız olacak çünkü esas her şekilde şe çıkarırsanız hiç sorun yok.
+[25:09] Burada da bunlar şeydir. Ayrımında ha çözümlükte de bu o kadar sekvensa da çıkmıyorsa artık monoforfiktir. Yapacak
+[25:16] bir şey yok. Yani her yaptığımız şey de burada polorfik olacak diye bir şey yok ki. Çok
+[25:23] büyük bir konuda travmalarım var. Bunu çıkıp çıkmaması noktasında da
+[25:31] buradan şimdi buradan tasarlama noktasına geleceğiz. Tasarlamadan size dizileri falan böyle anlatacağım güzelce. İnşallah vakit vardır bu
+[25:40] noktada. Ya da teorik kısmını biraz daha şey yapalım, anlatalım. Buradan ikiye bölebiliriz belki süremiz de yeterse.
+[25:50] Bu tüm aşkansız burada olmasın.
+[25:56] Buradan bakalım. Hı.
+[26:06] Çıktı zaten.
+[26:17] Burada kullanılanlar SSR nasıl bir SSR di tasarlamak için burada teorik olarak buradan anlattım. Gerekli olan şeyler
+[26:25] bir program gerekiyor buradan. Buradan programda da ben ne kullandım? BCH Primer Tree kullandım. Artık yok. Üç
+[26:32] serverdan çalışıyordu. Şu anda üç server da kapalı kaynak kodlarına ulaşmaya çalıştım. Tekrar bunu çalıştırayım diye.
+[26:40] Yok o da yok yani öyle bir şekilde eskiden kullandığım şeyler de yok ama olsun çok daha iyisi var burada.
+[26:47] asistent olan çalışan bir düzgün bir pipeline sistemi var SSR markörlerinde. Çünkü SSR markörü
+[26:56] spesifik olacak ve bunun için dizi bilgisi gerekiyordu buradan programda bu eskilerde neler var? SSR locatör bunu
+[27:05] bir kullanmaya çalıştım. Web'in şeyi var.
+[27:10] SSR locatör burada bunu kullanmaya çalıştım. bir böyle bir
+[27:17] şeyden çok şey ya bu da web arayüzü olduğu zaman kim zaten size böyle anlatacağım bunlardan bir sıkıntı çıkarıyor illaki.
+[27:25] Biz bunlar da böyle kullanılıyordu bir şeylerden mirem kullanıyorlardı herhalde bizim bioformatik grubu oradaki böyle bir şeylerden kullandım. Bunlar Linux'ta çalışan bilmediğimiz programlar.
+[27:37] Bunlar yavaş ve tüm genom içinde biraz sıkıntı olabiliyormuş böyle bir şeylerden de bu makalelerin yalancısı
+[27:44] böyle bir şeyden. Bunlarda da Ple yazılmış. Eee, eski çok da eski bir
+[27:51] program değil bu. Cimata programı harika bir program. Birçok şeyi otomatik olarak sizin için yapıyor ve geçerli bir şey.
+[27:58] Aynı zamanda kendim de bir program yazmaya kalkacaktım ama boş ona yapılmışken, eee, tekerleği tekrar icat etmeye gerek yok. Bu güzel bir program
+[28:07] ve geçerli bir program. Buradan da burada da şey var. Buradan eee işte teknik olarak da buradan eee ön işleme
+[28:16] yapılıyormuş. Esas arlar tespit ediliyor. Görsel istatistik. Bunu kullanmayacağız. Bunu kendimiz yapacağız. Böyle buradaki çevreleyen
+[28:23] diziler böyle bulunuyor ve aynı zamanda bunları da e eee epis yapan şey var. Bu bir pantline akışı buradan sürüyor. Akış değil. Bunu tek çalıştıracağız burada.
+[28:33] Tek tek bakacağız. Anlayarak gideceğiz.
+[28:35] gayet de güzel olacak. Buradan da görselleştirmesi de varmış filan böyle çok güzel ama artık bunlar o eski
+[28:44] görselleştirmeye çalışmanın da canlama yok. Bunları burada kendimiz görselleştiririz biz de böyle.
+[28:51] Burada onun şey de şunun kısa atılması CMAT'a doğru mu okunuyor bilmiyorum ama Gen White Microsoft Analicationmış
+[29:00] böyledir yani adı da hiç fark etmez bu önceden dediğim gibi sonrade bu da kullanılmış tasarlanmış ve denenmiş bir
+[29:09] program benim açımdan bunun için de program Pearle'e yazılmış.
+[29:16] Ne kadar süremiz var kaldı acaba?
+[29:19] Pele yazılmış bir program. İsterseniz buradan kısa olarak bitirelim. Yine geri dönüp büyük tam gönüm analizlerinde falan kullanacağız. Bunları da gittiği
+[29:28] yere kadar buradan gidelim. Pe yazılmış ve konsoldan çalışıyor. Bunun eee bir
+[29:34] grafik eee arayüzü de var ama ben onu kullanamadım ki ona da gerek yok hiç.
+[29:40] Buradan hem alışın artık. Yani buradan bir konsoldan program nasıl çalıştırılıyor oradan bunları alışacaksınız.
+[29:48] Onun için de bu bilgisayarınıza buradan konsol yani bir program nasıl açılacağını o zaman şu arama tuşuna cmd
+[29:56] yazıyorsunuz. Buradan konsol ben konsol diyorum buna. Terminal diyor. Buradan bu açılıyor. Bu eski DOS işletim sistemi
+[30:04] bizim bilgisayarda kullanılan programcı programı PER'ile yazılmış.
+[30:10] Yani burada bu bir yazılım diri olarak işte nasıl fighton C++ varken bu da peile yazılmış. O yüzden bilgisayarınıza
+[30:19] pe indirmeniz lazım programın çalışabilmesi için. Yoksa komutu bulamıyoruz der. Programda aynı zamanda kaynak kodları burada. Ben size kendi çalışma klasörümü de böyle göstereceğim.
+[30:29] Burada nasıl çalışacağımla ilgili burada onlar buradan indirebilirsiniz.
+[30:37] Benden de indirebilirsiniz normal çalışan şeylerinden.
+[30:41] Per de şu Google'a perdan mod yazarsanız şuradan or'tan ücretsiz bir şekilde
+[30:50] buradan işletim sisteminize göre Windows'u tıklayın. Buradan
+[30:56] binari download per dediğimiz zaman şuradan da en son sürümünü tıkladığınızda buradan gidip bu dosyayı
+[31:05] next next çalıştırdığınız zaman çalışıyor. Tekrar gidebilmek için de de şuradan konsolu açıp kapatacaksınız. Artık
+[31:14] program yüklenmiş olacak bize. Programı çalıştırmak için de şu var. Programın çalışabilmesi için bu gibi şeylerde aynı
+[31:24] directoryde olması lazım. Yani klasörün içinde olması lazım. Artık border burada SSR dersi klasörünün içinde
+[31:33] CMAT yeni bunu değiştirmiştim ben de.
+[31:39] Cimat Cimat ÖSK ismi de neydi? Burada çalışabilen o pro dosyaları indirdikten sonra şuradaki tüm executable
+[31:47] şeyler burada burada çalışıyorlar. Bunun içinde epis modülü var. Bunların hepsi çalıştırılabilir dosyalar. Şimdi bunları
+[31:56] çalıştıracağız. Örnek olarak da burada dizi gerekiyor. Benim eskiden kullandığım ne olduğunu unuttuğum böyle bir şey var. Yani yine az bir esas
+[32:04] içinde olan. Buna da biz burada sequence diyoruz. Sequence fasta. sequence fasta.
+[32:11] Bakalım sequence pasta da bir şey ne olacak.
+[32:15] Edit with notepad dedim.
+[32:22] Evet bu böyle çıkardım. Bu bir fasta dosyası. Fast dosyası. Ha program neyine çalışıyorlar? Fasta dosyasına çalışıyor.
+[32:30] Bunu zaten biliyordunuz. Böyle açmış geri zekalı.
+[32:49] Bu max sequen'tan pasta formatında buradan olacak. Bunun için de biz tekrarları arayacağız. Tekrar tekrar tekrar böyle tekrar da şu furda mesela
+[32:57] bakar yapayım size. Yok çıkar bak. AT A at A at A at A at A at A at A at A at
+[33:05] Kaç tane oldu tekrar? Bu bu bölgeler polimorfik. Esasda şu bölgeyi buldunuz mu? Buldunuz. Bunu program önce bulacak.
+[33:13] Buralardan da primer dizayn edecek ve PCR yapacağız. Uzunlukorfisini bulacağız. Olay bu kadar basit.
+[33:21] Bunun için program çalışırken bu klasöre gitmemiz gerekiyor. Basit e dost komutlarını size söylüyorum. Buradan açtığınız zaman burada user da geliyor.
+[33:31] Bu benim bilgisayarım olmadığı için oğlumun bilgisayarını kullanıyoruz. Oğlumun adı da Gökat. Buradan oluyor.
+[33:39] İştek akademik zam diyoran.
+[33:42] Evet. Geçen ik hafta önce de yok başkanı geldi. Hiç akademik zamla ilgili falan bir şeyler konuşmadım.
+[33:50] Buradan bakalım. CD dediğimiz zaman change directory. Bunu kısa olarak bilirsiniz. Bütün tüm
+[33:58] komutları bilmeye gerek yok. CD desktop dediğinizde şurada tab tuşuna yazığınızda zaten olacak. CD desktop şurayı görüyorsunuz. Bu buradaki eee
+[34:07] çalışma klasörünü gösteriyor. Directory gösteriyor. Desktop'un içindeyiz. Benim SSR dosyam neredeydi? Masaüstündeydi. Yani masaüstündeyiz.
+[34:15] Dir var. Türkçe karakterle kullanmayın.
+[34:19] Dir dediğiniz zaman da buradaki dosyaları burada listeliyor ki benim SSR ders de burada. Şimdi SSR dersinin içine gireceğim. Geri nasıl çıkıyorum? CD nokta noktayla çıkıyorum.
+[34:30] CD klasör ismi olunca da buradan klasörü açıyorum. CD
+[34:36] SSR dersi deyince de böyle olmadı. SSR şurcek.
+[34:43] SSR dersi bak yazacağınız zaman şurada S dediğim zaman tab tuşuna böyle bastığım zaman tab mı? Şu iki oku olan tab
+[34:50] diyoruz herhalde. Evet tab. Ona bastığımızda tamamlıyor otomatikman tamamlamazsa da boşluk olursa tırnak işaretinde yazıyorsunuz. Buradan da bilir.
+[35:00] Buraya bakıyoruz. Buradan da program nerede? Yine programın içine girmem gerekiyor. CD
+[35:08] hatta diyoruz. Evet, bunun içindeyiz artık. Bakalım şimdi dir diyerekten dir dedik. Buradan hoz buradaki çalıştırab
+[35:16] dostların hepsi burada. Komutları sizin için yazdım. Bunları tak ezberlemenize gerek yok. Buradan kopyalayabilirsiniz.
+[35:24] İlk yapacağımız işlem SSR bulma. Bulalım.
+[35:30] şöyle çalışıyor. Per gmat p şuradaki
+[35:38] göstereyim. Komutu da buraya yazdığımız zaman şu per olduğunu şu çalıştırabilir.
+[35:43] Dosya bu programı çalıştır. Şurada tire i var. Trei burada switch'tir. Şu da
+[35:50] parametresidir bunun. Yani programa şunu gösteriyor. Bu diyor ki input dosyası budur diyor. Bundan sonra o fasta
+[35:57] dosyasının adı gelecek. Bu arada yaparken uzantı txt de kullanabilirsiniz. Fasta formatında olur. Uzantısı txt olur. Hiç fark etmez
+[36:05] ama fasta yazmak. TX'te yazarsanız da fasta yazarsanız görmez. Bunu da bunu gösteriyor. Buradaki switch - m. M dediği de şu.
+[36:15] Minimum SSR şu şu demek. SSR'lar şu 1 ile 6'ydı ya. mono D3 tenta penta diye gidiyor. Yani birli tekrar ikili tekrar
+[36:24] bu. Bu minimumla maksimum arasında da şu bu ikili tekrarla 6 tekrar ki 7 tekrar sarar demiyoruz böyle. Şu maksimum zaten
+[36:32] 6 olacak bu. Peki bunu 2 yaparsanız sadece dinikloktitleri bulur. 3 3 yaparsanız sadece 3'ü bulur. Bu şimdi 2
+[36:40] ile 6 arasındaki S hasarları bulacak demek. Bu gayet kolay.
+[36:48] Bu da kaç kez tekrar edersin? Az önce dedim ya 20 bastın üstü çok olsun 60'a kadar gitsin. Burada da böyle küçük böyle şu var. Dinükleotit üç kere tekrar
+[36:58] etmiş. Ben istemiyorum onlarla. O da bir Sasard'dır. Tekrar çünkü SSR'da minimum tekrar etme sıkıntısı yok. Tanımı da
+[37:05] yok. Ama polimorfik olmayacağı için onlarla uğraşmak istemiyorum. Bir de şu var mononükleotit tekrarlar. Bunu niye yapıyorlar? Hala da anlamış deydim.
+[37:14] tekli aa filan diye bunları çalışmanızda yapabilirsiniz.
+[37:20] Hakem olarak istemeyin ama ya istemeyin bu manonükotit niye bulunmamış? Ne yapacağım manükot? Ama kesinlikle şu var. Sağlam gerekçeniz açısından primer
+[37:28] dizayn etmeyin. Çünkü polymorfiserden çıkmaz yani böyle. Ben yapmıyorum bile onları yapmam da. Bu minimum akışta
+[37:35] normal 5 yaparsınız. Bazı programlarda ona göre değişiyordu ama 5 filan iyidir.
+[37:41] Sayıya göre de bunu azaltabilirsiniz, arttırabilirsiniz. Böyle burada şefler burada SSR'ları da büyük harfen yazılsın
+[37:48] mı diye böyle bir şey deniyor. Bu da bu S1 dediğin zaman şimdi buraya bunu kopyalayıp ya da bunu buraya konsola
+[37:55] yazdığınız zaman şuradan olacak. Bakalım bu parametre bu dinükleotit
+[38:02] altılı tekrar kadar neydi o? Dri tenta penta examıydı işte onlardan 6'ya kadar
+[38:10] bulacak. 5 tekrar üzerini alacak. 4 tekrarı da olsa bunu almayacak demek. Ha
+[38:18] yukarıya doğru biraz kaybedeceğiz ama hiç fark etmez. Enter'a basıyorum. Hop burada dosyaları oluşturdu. Hangi dosyaları oluşturdu? Burada önceden bu
+[38:27] dosyalar yoktu. Bu klasörün içinde sequun olanlardan da şu. Bunları çıkartalım buraya. karışacak biraz sonra
+[38:34] çünkü bir sürü dosya oluşturacak. Tam 4 tane dosya oluşturdu bize. SSR'ları buldu. Küçük dosya olduğu için. Bunu tam
+[38:42] genomda da çalıştırabilirsiniz. Biraz uzun sürer ama kesiyorum.
+[38:50] Sasar dosyası diyorum.
+[39:03] Bunlar nelerdir bakalım. Bir burada neler var? Şuradan notepad açacağım.
+[39:09] Excel'i destekliyor. Burada da sekansa burada bunun uzunluğu hepsi aynı. Benim
+[39:17] uzunluğum 58 1 2 3 hayır 584 kobazlık bir şeymiş. uzunluk şu an iyiymiş arkasında bu start pozisyonu. Evet,
+[39:26] esaslar nerede başladı, nerede bitti, kaç kez tekrar etti ve ne esası yani şu burada şu TC TC TC 5 kez tekrar etmiş.
+[39:36] Tabii ki bu SSR'lar bunu gösteriyor.
+[39:39] Daha primer yok. SSR'lar bunu gösteriyor. Güzel bir şey. Bunu kapatalım. Bu neymiş? Çok merak ediyorum ne olduğunu.
+[39:49] Hop burada size bir analiz istatistiği veriyor. Diyor ki bir tane dizi dizinin
+[39:57] bukluğu bu kadar. After formatta burada da bir şey hiç fark etmez. şey uzunluk söylüyor.
+[40:04] Dizinin uzunluğunu bulmak eskiden şey olabilirmiş ama öyle istatisti seviyoruz çünkü o yüzden ne olsun diye.
+[40:12] Of burada da işte bu bu da bir istatistik.
+[40:19] Şu istatistikle de şu bunları görselleştirebilirsiniz. Alırsınız Excel'inize ya da bununla ilgili de bir program yazabilirim size. Ben
+[40:27] düşünüyorum. Yani bununla ilgili de bunu yayınlanacak ama burada da şu şu diyor ki ikili tekrarlı dinükleotit
+[40:36] kaç taneymiş? 46 tane. 21 tane. Bu
+[40:45] da bir şey var. Gerisi yok yani. Bu şeylerden bu 3 dü falan yokmuş yani.
+[40:49] İşte olursa da bu 2 3 4 5 6 4 5 6 çıkmamış. Küçük olduğu için gerçi bana olacak diye bir şey yok. 46 tane şey var.
+[41:00] E ikili dinükleotit var. Trinikleotik.
+[41:03] Bunu istatistik olarak şu tabloyu zaten makalelerinize koyuyorsunuz. Buradan yüzde kaçını bu oluşturup %60'ın 2 çıkarttır. Genelde 2 baskındır. Sonra bunu diğerlerini karşılaştırıyorsunuz.
+[41:14] Onda çıkmış bu çıkmış diye. Motifler buradaki motif oranları en yüksek olandan en düşeğe doğru. Burada da motif. Normalde bunu tüm dosyadan sizin
+[41:22] analiz etmeniz gerekiyordu. Burada yapmış. T 21 tane, AT 15 tane. İşte bunları tabii ki sens antisensinize göre
+[41:29] de böyle burada yapıp bunu da veriyorsunuz. Gayet güzel.
+[41:35] Bunlar 215 aynı. T antisensine de yine aynısını vermiş. Böyle başka percente.
+[41:49] Neymiş? Sequ side. SSR.
+[41:52] Burada da bir frekans var. Ha çözünürlük. Çözünürlüğü kaçtır? Gene de ben kendim hesaplarıyorum. Çözünürlüğü de burada da onların
+[42:01] bazındaki çözünürlük buna gerek yok. Ama şu tabloyu da veriyorsunuz buradan. Buna da bakıyorsunuz. AT burada yüksekmiş şu yenmiş diye. Mesela kural olarak şudur
+[42:09] mesela eee coding sekanslarda trening lot oranı fazla olması lazım. Çünkü diğeri çerçeve kaymasına olur diğerleri
+[42:17] ve bu yüzden negatif seleksiyona maruz kalır. Genomiklerde lünkliotis fazladığı gibi böyle şeyler de var. Bunları
+[42:24] tartışırsınız. O size konuşacak, yazacak şeyler.
+[42:31] Evet. Fazla vaktinizi almadan. Bu ne? Buna bakalım. Burada ne var?
+[42:39] Burada da bu dizi. Buradaki kullanılan diziyi de buraya vermiş. Çaydı. Şimdi buradan sizin burada yapmanız gereken
+[42:47] çok da vaktimiz kalmıyor. Buradan e diğeri olan şu var. Primer geçtim artık primeri geliştireceğiz. Primerde de bu
+[42:55] do primer'ı kullanıyoruz. Sec fastayı kullanıyoruz buradaki şeylerden. Sonra da SSR dosyasını kullanıyoruz. SSR
+[43:04] dosyası neredeydi? Burada şu sonu SSR olan şu dosya şu dosyayı
+[43:14] buraya yazıyoruz. Tamam. Dosya isminize göre bunlar değişir. Bunu kullanıyoruz. Gayet güzel.
+[43:26] Hı. Şurada bunu kullanıyoruz. Bu Windows demek. Çünkü platformu da görmek istiyor. Linux'da çalışan versiyonlar karşılamak için. Bu da bu FL
+[43:35] tasarlanacak primer için esasa sağından solundan ne kadar dizi alsın? Bunu da koyacak çünkü böyle fonksiyonel anotasyonda falan kullanabilirsiniz.
+[43:43] Böyle burada kalıp dizi yer alacak mı almayacak mı? Alsın tabii ki. Buradan da görelim. Bunu çalıştıracağız. Buralardan artık primerları dizayn edeceğiz.
+[44:00] etmedi. Üzür oldum. Se fasta sequence fasta sasar.
+[44:16] Evet bu iyi olmadı. Buradan nota bakalım. Çalışıyordu. Per da iyi sequence fasta.
+[44:24] SR se fasta.
+[44:29] Evet çalışmadı. Niye çalışmadı? Çünkü dosyayı aldık buradan. Evet dosyayı aldık. Hopyala. O yüzden evet evet hızlı
+[44:37] hızlı güç ucu almam gerekiyor. O yüzden bunu da çünkü dosyayı oraya aldık ya göremedi o yüzden. Ah ben ah. Evet.
+[44:45] Şimdi bunu da koyduğumuz için bunda oldu. Çünkü çalışacak dosyada da aynı klasör içinde olması gerekiyordu buradan. Şimdi ne dosyaları oluştu
+[44:52] burada? Marker dosyaları oluştu. Marker dosyaları da burada
+[45:01] marker mkm dosyaları marker dosyaları 1 2 3
+[45:09] dosya buradan bunlar da marker dosyaları buradan kopyalıyorum bu sefer kesmiyoruz. Evet doğru geçmiyor az
+[45:16] önceki gibi. Yine markers. Evet, markers işte burada.
+[45:25] Markers burada. Bu dosyalar nelerdir?
+[45:27] Markers dosyaları artık sizin Excel'de de bunları açıp bakacağız. Daha tam genomlarda da bunlar her şeyinize bakacağız. Markörler nelerdir? Edit, not
+[45:36] bad. Burada bak, sequuns. Buradaki onun başlangıç yeri. Markör 1, forward reverse. Burada parametrelerini eee default olarak burada şey yaptık.
+[45:49] Burada en temperationını falan belirleyebiliyorsunuz.
+[45:52] R primer tasarlamasında onlara da daha detaylı olarak bakabilirsiniz. Default'ta burada
+[45:59] forward, reverse, TM sıcaklığı, right rolution ve flanking. Az önceki dediğim o 100 nükleotitlik buradaki primerın
+[46:07] buradaki bulduğu yeri gösteriyor. Yani her bulmuş olduğu SSR'dan çoğaltacak bunu yaptı. Primer tasarladı. Çok güzel oldu.
+[46:21] Bu da istatistik. 67 tane şey vardı.
+[46:24] Buradan SSR
+[46:31] vardı. Bunlardan 39'undan tur
+[46:40] 23'ünden şey olmuş. Unik 39 tane markör dizayn edildi. Unique olarak diyor.
+[46:46] 44'ünden dizayn edilmiş 23'ünden dizayn edilememiş. Böyle bir şey. Burada da bir istatist çünkü şey var.
+[46:55] Her zaman her esasarda bu kriterlere tasarlanacak diye bir şey yok. O zaman her zaman bunu kaybedeceksiniz. Yani
+[47:01] buradan 1000 tane SSR bulmuşsanız bunun %2030'u SSR primer tasarlanamadığı için sizin kriterlerinize uygun primer
+[47:09] tasarlanmadığı için bunlar olmayacak.
+[47:15] Evet. Başka istatistik buradan STS. Bunu da kullanacağız. Hop. Bu da
+[47:23] STS markörleri. Burada da bu şey için yani sadece markörlerin unik primer ve reverse'ünü veriyor burada. Anlaşıldı.
+[47:33] Artık bunları göndererek şeyde motiflerinden çünkü daha bunu konuşacağız. Esas makareleri nasıl olur,
+[47:40] ne yapılır böyle bir şeyden bunları sipariş vererek burada kullanabilirsiniz.
+[47:45] Buradaki şunlar beklenen primerarıyla ilgili şeyler. Şimdi bu dersi bu kadar alalım. ilerledik. SSR'ın ne olduğunu
+[47:53] gördük ve bunlarla da ilgili daha çok daha uygulama yapacağız. Mesela bir yerden veri alacağız. EST coding sekanslar. Bunları dizayn dizedeceğiz.
+[48:02] Bunlardan markörleri dizayn edeceğiz. Bunları filtreleyeceğiz.
+[48:07] [boğazını temizler] Boyutlarına göre bunları deneyeceğiz. Hangisi polimorfik daha yüksek oranı olabilecek bunları deneyeceğiz. Ama şu anda artık
+[48:15] başkalarının esas arlarını kullanmanıza gerek yok. Bu o yüzden şimdi çalıştığınız bitkilere bakın. Dizi
+[48:22] verilerini indirin. NCB'dan nereden indireceğinizi biliyorsunuz. Artık her şekilde deneseniz de denemeseniz de
+[48:30] buradan kendi markörlerinizi kullanabilirsiniz. Ki şekilde de hava atarsın. Dersiniz ki ben kendi markörlerimi dizayn ediyorum. Buradan
+[48:39] kendi öz kaynaklarımızla bunları tasarladı. Bizimki mesela polmorf falan çıkarsınız böyle. Bir de acemi şansı var. Bir arkadaşıma gösterdim. yıllarca
+[48:48] binlerce esas harf dizayn edilmiş ve etmiş ve ettirilmiş. Yani başkasının ettiğini deneyerek de burada şey vardır.
+[48:56] Şuradaki bir esasların polimorfizik olarak olması bunu öğrenmediniz ama pik değerinin yüksek olması markörle ilgili
+[49:04] bir şey olduğu için olur ama bitkinle de alakalıdır. Yani şu HH'ta ömrümü yedi.
+[49:11] HH polimorfiz oranı düşük. Düşük olan bir şeyde, bitkide monomorfizmi ne kadar arttırmaya çalışırsan çalıştır esasının
+[49:20] bir limiti olacaktır. Buradan da çeşitlilikte öyle. Peki şöyle siz bu big değeri en yüksek esas oradan aldınız
+[49:28] oraya koydunuz. Adam gitmiş dünya koleksiyonunda pikini hesaplamış.
+[49:32] Polorfik çıkmış. Çıkar tabii ki çeşitli bir popülasyonda. Sen şurada tane ilden topladığın düşük genetik çeşitteki yere bakıyorsun. Bu da sıkıntı olacaktır.
+[49:43] Buradan da mi? Buradan şu var.
+[49:46] Başkasında polorfizin yüksek olması sizdekine eee olacak diye bir şey yok. Burada bitkinin
+[49:56] sahip olduğu genetik çeşitlilik genetik darboğazda buradan önemlidir ki bununla ilgili sonunda mesela şöyle mesela HH'ta
+[50:05] dostum şu anda benim çalışmış olduğum bir sürü şehirlerde bu sorun var. onu yani genetik çeşit bir dar boğazır.
+[50:13] Öyle bir şey. Gıcık oldum. Mesela Bağcılar, üzümcüler 9 tane referans esasları var. Dünyayı bununla hallediyorlar ya. 9 tane gıcık oldum.
+[50:24] Gıcık oldum bunlara binlerce dizayn ediyorum. Bizdeki ü tane spor marşı çıkıyor. 9 tanesini dedim bu ben bu oyunu bozarım dedim. En son gittim bunları elektron pistler yaptım.
+[50:35] Ümondomda dedim kesin multilokustur. 30 tane aleli olan bir şey. Nereden çıktı? Hakikaten single copy çıktı hepsi
+[50:43] de. Yani o kadar düzgün bir şekilde olmuşlar. E insan medikalcılara ne demelim? Babalık testinde kriminalde filan 20 tane SSR kullanıyorlar. Onlarda her türlü işini yapmış oluyorlar.
+[50:53] Babalık testlerinde filan. Bize geldiği zaman da şu işte bitkinin en dezavantajlı olayı da şudur. Ya da bitkide de böyle konu da ne bileyim
+[51:01] hayvanlarda. Hayvanlarda da özellikle bu konular biraz daha az çalışılıyor.
+[51:05] Bunları da böyle kullanırsak mesela dizayn edersek buralarda gayet güzel olur. İyi bir giriş yaptık. Bu hafta
+[51:13] buradan eee kapatalım. Daha bu konulara devam edeceğiz. Bunun elektronik bilgisayar kısmı var. Tekrar başka şeylerden böyle biraz da böyle devam
+[51:21] edeceğiz ki siz çalışmalarınızda artık bunu kullanabilirsiniz. Hadi görüşürüz.

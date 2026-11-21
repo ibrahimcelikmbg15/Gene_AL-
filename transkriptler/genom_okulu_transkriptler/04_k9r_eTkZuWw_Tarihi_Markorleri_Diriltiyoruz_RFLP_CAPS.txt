@@ -1,0 +1,217 @@
+Başlık: Tarihi Markörleri Diriltiyoruz! RFLP'den PCR'a (CAPS) Adım Adım Primer Tasarımı
+Link: https://www.youtube.com/watch?v=k9r_eTkZuWw
+Süre: 26:50
+Transkript: YouTube otomatik altyazı (Türkçe)
+
+[0:03] Merhaba arkadaşlar. Eee size daha önce çekecektim ama şu andak eee kayıt
+[0:10] sistemimdeki arızadan dolayı onu şimdi Zoom üzerinden çekeceğim. Şimdi geçen hafta size markör sistemlerini anlattım.
+[0:18] Markör sistemleri de ne aslında 4 tane temel marka 5 tane temel markör sistemi vardı. SNP markörleri, SSR markörleri.
+[0:28] Bunlar lokus spesifikti. Bir de süper üçlü demiş olduğum transpozon markörleri, ISSR'lar ve SRAP
+[0:34] markörleriydi. Bugün size SSR yani moleküler markörleri iki kısımda
+[0:41] ayırmıştık. Bunlar PCR öncesi ve PCR sonrası. Şimdi size bugün uygulamalı
+[0:46] olarak ilk eski markör sistemlerini anlatacağım. Bunlar neler?
+[0:53] Nisar öncesinde söylediğim gibi bunlar sudern blooting'de yapılıyordu. Yani hibrizasyon tabanlı markörler.
+[1:01] Prop radyoaktif işaretli proplar hibrizasyon ediyordu. Yani bir membrana emdiriliyordu. Ondan sonra bunların karanlık odatak ışınmalarına bakılıyordu.
+[1:11] Şimdi bunlara bakacağız. Bunun için [boğazını temizler] en eski markör sistemine buradan gidelim.
+[1:19] Bakalım. Buradan ilk eee bu konuya biraz daha yakın olduğum için buradan başlıyoruz. Sizin de istemiş olduğunuz
+[1:26] eğer eee markör sistemleri, bitki spesifik markörler varsa bunların veri tabanlarına da bakarız. Bunun için sol genic network var. Buradan bakacağız.
+[1:38] Buradan görmüş olduğumuz şey şu. Bu bir [boğazını temizler] solenal spesifik eee
+[1:45] bir markör veri tabanı. Burada genetik haritalar var. Buradan markörlere bakalım.
+[1:53] Markörlerin de burada dizi bilgilerini elde edebilirsiniz.
+[1:57] Farklı markör sistemleri var. Eski bir sistem, eski bir markör. Buradan da göreceksiniz buradan. Şimdi buradan bakalım. Burada araştırmaya dediğimiz
+[2:05] zaman los high oldu. G'ine tıkladığımızda burada markörlerimizi işaretleye araştırabiliriz. Burada yeni
+[2:13] nesil markörler de var. Sinip gibi eski markör hipsasyon tabanlı.
+[2:19] RFLP markörleri diyeceğim buna. RFLP markörleri de var. Buradan yazalım. Mesela dün bakmıştım. TC365.
+[2:33] Evet. Değil miydi? Bakmıştım buralara.
+[2:41] Evet. 365 yanlış yere girdim galiba.
+[2:50] Search pardon yanlış markers markers kısmına gelen farklı 365.
+[2:58] Bakalım buradan hopan farklı parametreler de falan çıkabilirsiniz. Evet bunu da bulduk.
+[3:06] Burada markörün protokondisyonu araf dediğimiz gibi eski bir markör sistemi. Burada haritalam olamış olduğumuz yer 6.
+[3:13] kromozomda haritalanmış pozisyonda 42 santim organda bunlar haritalanmış markörler. Buradan buna bakalım.
+[3:21] Tıkladığınız zaman dizi bilgileri var.
+[3:23] Al. Evet. Buraya baktığımızda forward ve reverse dizileri var. Bir de hangi haritalarla nerede haritalandığını
+[3:31] burada gösteriyor. Burada amacım size bunu göstermek. Hatta gel image bile varmış.
+[3:39] Bakalım. Onu buradan açtı. Bak görüyor musunuz?
+[3:43] Burada tarihe demiştim. Bu eee dijital eğitim platformunun kurulması amaçlarından birisi de tarihten bugünü
+[3:51] bize bir köprü oluşturmak. Buradan da şu TJ bakar mısınız? Buradan tarih tarih de 09.1295 Son 295
+[3:59] yılına ait bir şey. RFLP PCR'sız markör sistemi. Peki şimdi bunları kullanabilir
+[4:07] miyiz? Bunlar sağlam markör sistemlerdir. Aynı zamanda bu veri tabanı da çok güzel sağlam e düzgün
+[4:14] moleküler markör verilerine sahiptir. Buradan şimdi peki bunu şimdi nasıl kullanacaksınız? Bu arafa markörü
+[4:23] oldu da bunu neye çevireceğiz biz burada? Şimdi caps markörüne çevireceğiz. Aynı zamanda bir primer nasıl dizayn ediliyor onu da görmüş olacaksınız.
+[4:34] Bunun için dizi var. Buradaki bu prop dizisi. Burada primer dizisini koymamışlar çünkü RFLP propu ama primer
+[4:42] dizisi de bu. Şimdi ne yapılıyoruz biz buradan? RFLP propunu caps markerıne çeviriyoruz. Caps marker da
+[4:50] clift amplified polymorphic sequences demek. Yani çoğaltılmış markörün
+[4:56] [homurdanır]
+[4:57] restriksiyon enzimleriyle kesilmesiyle ilgili bir kısaltma markör sistemi. Aslında bu probu biz burada yapıyoruz.
+[5:06] Father broing de yapsanız, bilgisayar da yapsanız lokus aynı lokus. Buradan da bunun için yapacağımız şey
+[5:15] primer tree diye basacakacağız. Bu primer tree
+[5:22] web versiyonunu marker primer dizin tasarlama programı. Buradan diziyi buraya
+[5:30] yapıştırdığınız zaman dosyı seçebilirsiniz. Buradan pick primer dediğiniz zaman olacak. Ama primer de derken bunlar genetik primer
+[5:39] şunlara dikkat etmemiz gerekiyor. Burada parametreler. Primer size. Primerın primerin uzunluğu eee 20 nükleotit iyidir. Genelde ben 23 falan yaparım.
+[5:51] Böyle 23 25 olsun diye daha sağlam otursun. Buradan 18'in altına düşerse de
+[5:57] nam specific bağlanmalar artar. Primerın bağlanma sıcaklığı forward ve reverse'ün 57 ile ben 50 ile 55 arasında yapıyorum.
+[6:08] Genelde 55'i tutturur. Buradan bakarız böyle. Bu optimum 55'ten 62te fazlasına gidebilir. Ama şu önemli burada iki
+[6:15] markör arasındaki sıcaklık. Şimdi birisini buldu iyi bir yerden yaptı ama arasındaki 5 derece sıcaklıkça bence fazla geliyor bu da. Bunu da olabildiğince düşük tutmamız lazım.
+[6:26] Çünkü bunlar PCR'da bilirseniz bağlanma sıcaklığı tek bir bağlanma sıcaklığında bağlanacaklar. Biri 50, biri 55 olursa ski sıcaklığı vereceksiniz burada.
+[6:36] Diğeri düşük kalırsa non specifik bağlanır.
+[6:39] Yüksek verirseniz de sıcaklığı bağlanmaz. Şu product diye hiçbir özenli yok. Önemi yok. Ben
+[6:47] bilmiyorum ya da bunun önemin ne olduğunu.
+[6:51] Primer GC oranı. GC oranının yaklaşık 50 olması istenir. Çünkü daha stabil bağlanıyormuş primerlar. Daha düşüğünü
+[6:58] falan böyle biz denemedik ama belki de bir ampüs efsanesidir. Çünkü neden?
+[7:03] Guaninle stitosin 3 tane hidrojen bağ yaptığı için daha çok enerji ve daha iyi bir stabil bağlanma vardır. Sonra da bir
+[7:09] sürü bu primer dier oluşturmasıyla ilgili böyle parametreler var. Hepsini gönül rahatlığıyla default olarak kullanabilirsiniz. Bir şey olmaz.
+[7:19] Buradan baktık. Ha şurada da şu var.
+[7:21] Primerın uzunluğu var. Buradan yapacağımız şeyler ne kadar uzukluğunda olsun? Burada dizinin büyüklüğü önemli.
+[7:29] Şu anda ben bilmiyorum dizinin büyüklüğünü ama mesela 400 nükleotitlik bir propsız bu da 600 dizayn eteniz
+[7:37] edemez. Büyüklüan şey gelir. Buradan bakalım bir en azından kaç dizayn edecek. Tıkladığımız zaman size
+[7:45] forward ve reverse şey olabilir. Primer size'ı da en ufağından en düşüğünden yaptı. Bu çok küçük oldu. Çünkü neden?
+[7:53] probun tamamını siz burada çözmeniz gerekiyor. PCR açısından da maksimum çoğaltılabilecek büyüklük ne kadar çok
+[8:01] bilmiyorum ama bunlar kesildiği zaman büyüklük olunca hem restriksiyon yeri bulunmada sıkıntı olur. Çok büyük olunca da hem amplifikasyonda sorun olacaktır.
+[8:10] O yüzden 1000'i geçmeyin böyle bir şeylerde genelde bu e jelde teknik açısından çoğaltılabilmesi için de 500
+[8:19] 600 700 civarında bunlar dizayn edilecektir. Hem dizirlede kolay olur bunlar hem amplifikasyonda çoğaltmada bilgisayarda kolay olacaktır.
+[8:29] Ama 150de çok küçük oldu. Primer dizaynarken dizayn edeceğimiz şey de 50 dotitlik primer yapmayın. En azından 100'den büyük olsun.
+[8:39] Çünkü primer dierleri oluşturuyor.
+[8:41] Primerler birbirine bağlanarak da yaklaşık 50 nükleotitlik büyüklükte sanki PCR bandı veriyormuş gibi çıkıyor
+[8:49] ve bu da iyi olmuyor yani oradan. Yani karışır buradaki şey de yani en az SSA primerında göreceğiz. 200'le 700800
+[8:59] arasında olursa sağlam düzgün bir çoğaltma elde edersiniz.
+[9:05] Bakalım. 100 200 de çok oldu ya. Yani çok küçük oldu. Buradan şunu çıkıyorum.
+[9:11] 300'den 500 vardır. Bakmadık ona da. Bak keseyim bakalım edecek mi?
+[9:21] Evet yaptı. Buradan 300 verdiğim zaman 328'lik yine burada cimri oluyor ama buralardan buradası forward ve reverse olarak da size primer dizayn etti.
+[9:32] Primerın özellikleri de burada.
+[9:35] Oha GC 30'tı. Biz buna optimum demiştik ama daha yüksekti. Niye böyle? Ama TM'leri 54 55. GC'yi boş verin.
+[9:44] Airpinler işte sıfırmış. Ona göre ayarlamış. Bunu da artık şu alternatif primer oranları da var
+[9:52] ama şundan dolayı bunları artık siz ne yapacaksınız? Bu diziyi firmaya
+[9:59] gönderdiğiniz zaman onlar bunları sentezleyecekler ve tüpler de gelecek.
+[10:03] birisi forward birisi reverse. Bunu çözeceksiniz ve PCRıza koyacaksınız.
+[10:08] PCR'da da ne var? PCR için de gerekli olan şimdi çok güzel master mixler var yani içinde ve PCR için gerekli olan şeyler
+[10:17] tak polimaraz gerekiyor içinde. DNTP gerekiyor. Takpimaraz esas amplifikasyon
+[10:22] işini yapacak. Takpo e DNTP ikinci eee nükleotit için madde sağlayacak.
+[10:30] Nükleotit sağlayacak. Böyle tampon takın çalışmasını sağlayacak. Tamponlayacak.
+[10:35] Böyle magnezyum. Magnezyum koyudur içinde vardır ama ekstra magnezyum da koyabilirsiniz. Ekstra magnezyumda çünkü
+[10:43] bu şeyin kofaktörü olduğu için bunda da çalışmasını hızlandıracaktır. Böyle bir şeyde bunları ayrı ayrı alırsanız da koydunuz. Bitkilerden DNA izole ettiniz.
+[10:53] İki tane bitkiden iki tane bitki arasında polimorfizm bakacaksınız. İki bitki haritalama popülasyonunun anne babası olabilir bunlar. Ya da 30 tane
+[11:02] bitkide çeşitlilik bakacaksınız ki bu yöntemle o iyi artık bakılmaz.
+[11:07] Anne baba olsun. Anne babadan haritalayacaksınız. Buu haritalamanız gerekiyor. Alın bunları yapın. PCR yapın. PCR yapınca şu PCR yaptığım zaman
+[11:16] bunlar zaten bu convert ranglar olduğu için yani bunun tam kökenini bilmiyorum
+[11:23] böyle bir şeyden ama rastgele dizayn edilmiş özellikle korunmuş bölgelerden olduğu için bu gibi markörler
+[11:32] eee polimorfik çıkmaz genelde. Özellikle çeşitler arasında polimorfik genelde çıkmaz. bazen çıkabiliyor. Ya da inter
+[11:40] spesifik bir popülasyon çalışarsanız çıkabilir. Eğer yaptığınız zaman buda birisi beklenen eee primer sıcaklığı kaç? 459.
+[11:54] PCR ürüne 459 çıktı. Diğeri de 500 de çıktı. Aradaki farktan demek ki bu çoğaltılan bu bölgede iki bitki arasında
+[12:03] bir indel polimorfizmi var demektir. İnd polimorfizm var. Bunu doğrudan bulabilirsiniz.
+[12:13] İkisi de alal oluyor ama genelde çıkmaz.
+[12:15] Çıkmayacağı zaman ne yapacaksınız? Bunu çok kolay PCR'ı yapacaksınız. PCR ürünü primerlarla birlikte sang sekanslık
+[12:22] yapacaksın. Sekanslarınız varsa kolay gelsin. Direkt şekilde dizileme yapabilirsiniz.
+[12:28] Ya da dizileme hizmeti alırsınız, gönderirsiniz sanerden. Ama çift okuma yapın. Forward ve reverse bitkilerini
+[12:35] hizaladıktan sonra iki bitkisini birbirine hizalarsınız.
+[12:39] Onu gösteririm. Bunu göstereceğim. Bunu s analizini de göstereceğim böyle. Ondan sonra da oradaki
+[12:47] SNIP'i bulursunuz. Oradan da Snip'ten kendi eee genotipleme platformunuzda genotiplersiniz. Ama o sınıf kısmının,
+[12:57] SNP kısmının konusu. Şimdi buradan yani geçmişteki hibritzasyon
+[13:05] tabanında bu markörün yerini artık tamamen PCR eee tabanlı bir marköre gelmiş oldu. Peki başka bir şey yok. Ne yapardı bunun ucuna? Ben de yetiştim.
+[13:15] İlk yüksek lisansla başladığım zaman da bunu çoğalttınız ya dizilek de yapmak istiyorsunuz. Bir de şimdi şey değil.
+[13:21] Haritalama yapacağınız zaman şurada konuşurken göstereyim size. Roblar burada haritalar var. Mesela Xen 2000'de yapılmış.
+[13:29] 6. kromozoma bakalım. Bu haritada bak bunlar haritada bir şeyde harita baktığınız zaman en azından eskilerde
+[13:38] coverage bunu haritalama kısmında anlatacağım. Bunların coverageı, çözünürlüğü haritanın yani normalde
+[13:43] genom 600900 cm organ olursa 1 cm organ en azından bir şeyi düzgün bir
+[13:50] haritalama yapılmanız için 300 400 tane bir markörü denemeniz lazım. 300 400 markörü de dizil etmek tek
+[13:59] yani şu anda hiç gerek yok da ona ama illa yapacağım diyorsanız buradan da survey yapacaksınız. Restriksiyon enzimleriyle tak tak keserek
+[14:07] PCR ürününde kesilecek. bakacak. Oradaki dizi farklılığına göre restriksiyon enzimlerinde belli spesifik bir enzimi
+[14:15] bölgeyi kestiği için birinde kesilir birinde kesilmez. A demek ki bu noktada polimorfizm vardır dersiniz ve bu grubu bu şekilde kullanabilirsiniz.
+[14:26] kısmına survey deniliyor. Bir sürü şeylerle deneyeceksiniz ki ancak haritalama çalışmalarında bunu böyle kullanmak haritalama kısmında detaylı
+[14:34] olarak deney tasarımında anlatırım ama şu anda çok hem maliyet açısından hem de
+[14:41] çok uzun sürer yani hem de yeni teknolojilerine haritalamada rekabet edemezsiniz ama spesifik targeted bir şey çalışıyorsunuzdur.
+[14:51] Yani belli bir alanda markör çoğaltacaksınız ve bu buraya denk gelmiş. Şu bölgeye neceksiniz? Buradaki T markörüne mesela bakabilirsiniz. Buna
+[14:59] da bakalım. Burada ne çıktı? O T markörleri. Bunlar neydi bilmiyorum ama bakalım.
+[15:06] Cos 9'dur.
+[15:10] Evet bu cost markörmüş. Buradan cost markör da consorolog set. Bunlar işte bu veri tabanı Corner tarafından Steve Tank
+[15:18] tarafından ki aynı zamanda benim hocalarımın da hocası oluyor bu grupta.
+[15:23] Bunlar konsert primer dizayn ediyor. Conert primer da bu. Costları nasıl dizayn ettiler bilmiyorum ama arabidopsis
+[15:31] kökenli kostular var. Kostlar da öyle yapıldı galiba. Domatesle arabidopsisin oradaki sınırlı sayıdaki dizileriyle bak
+[15:40] burada back match meç deniliyor. Back ne duydunuz mu? Çünkü dizilerde kütüphane oluştururken eskiden şöyle yapılıyordu.
+[15:48] Bunlarda genom kütüphaneleri oluşturuluyordu. Buna library de şöyle genomu alıyorsunuz, parçalıyorsunuz.
+[15:56] Sonra bunu plazmite aktarıyorsunuz.
+[15:58] Küçük plazmitlerde de bu bakterial artificial kromozomda bir de yist artifik kromozom demek. Bakteri ya da
+[16:06] maya kökenli burada vektörleri bunu kolonluyorsunuz. Sonra onu diziriyordunuz, çoğaltıyordunuz. Böyle buralarda
+[16:13] oluşturuluyordu. İşte bu kütüphaneleri oluşturmuşlar. Parça parça dizilemişler.
+[16:18] Sonra domatesle arabitopsisti pras yapıtmışlar. Konzort bölgeleri bulmuşlar. Sonra bunu kullanmışlar. Niye konsört mark kullanmışlar bunlarda?
+[16:27] Çünkü karşılaştırmalı haritalamalar açılmıyor.
+[16:31] Yeri gelmişken haritaya bakalım. Bak şuna bakın. Mesela bu burada. Burada bunu anlatırım da mesela buradaki karşılaştırma bu neydi?
+[16:43] Ver plantla karşılaştıralım.
+[16:46] Compare bunun için. Çünkü bu genom bilgisi yok. Genom bilgisi yokken bak şu doates bu da patlıca. Bunların genom
+[16:55] yapısı hakkında sinten bloklarını, konzor bölgelerini kromozom düzeyinde bulmak içindir. Şu harita dediğimiz de
+[17:03] şu. Domatestde bu 6 kromozom. O zaman belki linke bağlantı grubu 6 deniliyordu. Buradaki karşılaştırmak
+[17:12] için iki tarafta da çalışan markör sistemi kullanılması gerekiyordu. Şimdi mesela diziliyorsunuz. izledikten sonra
+[17:20] çok güzel algoritmalarla bunları tam genom düzeyinden de karşılaştırabilirsiniz.
+[17:26] Ama eskiden bu yokken Genom yok. Yani Genom Browserlarda böyle tüm diziyi Genom'a taktıla indirmiyorsunuz. Sizin
+[17:34] Genom Browserınız bunlar. Bunlar da bu diziler. İşlerinizi bu markörlerle yapıyordunuz. Domatestle filan
+[17:41] çalışacağınız zaman mısırcılarla kendi mısır primerlarını dizayn ediyorlardı.
+[17:46] oradan referanstan oluyordu. Başkaları da bir sürü QTL çalışması yapacağı zaman bunları kullanıyorlardı. Kendileri
+[17:54] dizign bile bunlar referans ve ilk çıkış markörleri olduğu için de bunları kullanıyorlardı. Evet, lafı uzattım ama
+[18:03] bunlar önemli. Yani geçmiş bu markayın de bu. Aynı zamanda burada ilk uygulama bu. Yani lokus spesifik generik bir
+[18:11] marker dizayn ettik. Buradan da yöntem açısından da bunu gördük. Peki şimdi markörlerle ilgili bu markör yapmakta
+[18:21] dizilemekle ilgili olarak da ne var? Bir veri tabanına daha bakalım. Özet olaraktan ihtiyacımız olduğu zaman da oralara gideceğiz. Buradan NCBI.
+[18:32] NCBI da çok güzel bir veri tabanı.
+[18:36] Bizim için genelde medical üzerinde kurulmuş. Yine ABD'denk bir veri tabanı.
+[18:41] NCBI İtalya'da bir eğitime EO formatik eğitimine katılmıştım. Orada NCBI'dan bir hoca vardı. Dedi ki, "Ncbayı" dedi,
+[18:50] "Biyon formatin s'üdür" dedi. S var ya parçacık, hızlandırıcı ama dedi şu var dedi. "Snden önce de
+[18:58] fizik vardı dedi ama" dedi NCB'dan önce dedi biyonformatik yoktu dedi. Bu en güzel en şey yaptım.
+[19:10] beğendiğim bilimsel bir rajon kesmeydi.
+[19:13] Oradan da şeydir. Burada farklı veri tabanları var. Geri geldikçe böyle hepsine böyle bir bakacağız. Ama önce buradan bizle ilgili domatesten bakalım.
+[19:21] Domatesten başladık. Başka bilgilerden de bakarız. Şuradan domatesi yazdığınız zaman farklı veri tabanlarından gidecek.
+[19:28] Özellikle size bunları anlatacağız yeri gelmişken. Şimdi buradaki her şeyi anlattığımız zaman kafanız karışacak.
+[19:35] Kafanız karışmadan bu işi okus specific markörden nasıl devam edeceğiz? Buradan bir gen bulalım.
+[19:42] Gen dizisini bulalım. Hop baktık. Gen dizisine baktık.
+[19:48] Buradan gen bak genler var. Biyoproject var. Semb dediğimiz genomla ilgili şeyler. Bak bir sürü genom şeyleri
+[19:55] dizillemeleri var. Sra tüm NGS dizilerin depolandığı alan. Bak bir sürü de şey varmış. Genelde burada çok spesifik marjinal bitkileri bulamazsınız.
+[20:05] Domatesi koymuşlar ama genelde bu şey için. Bak klinik olarak da bak SP'ler e S&P veri tabanı var ama domateste yok
+[20:13] çünkü onunla ilgilenmezler. İnsanla şeyler var. İnsan fare çalışmalarıyla ilgili gene bakalım.
+[20:26] Gen çalışmıyor. D.
+[20:34] Evet. Burada genleri buradan gen veri tabanı burada kaç tane gen olduğu burada. Şuraya bakın buradan farklı şeyler de çıkardı. Bunu yapıyor ama
+[20:42] domates ait olanda 41.522 tane gen varmış. Böyle genler antoy edilmiş genlerdir. Böyle. Bak şuraya
+[20:51] bakalım. Resistance protein al işte anotasyonu burada. Bak şuradaki bak.
+[20:56] Vertisum wild resistance protein diyor böyle. Süper bir vertisum iyidir.
+[21:01] Domateste vertisle ilgili markörler var ama bakacağız. Buraya tıkladığınız zaman bu geni bulunmuş. Buradan haritalmış
+[21:09] kullanılanmış. Bu gibi çalışmalar fonksiyonel gonomikte anlatılacak ama buradan bakalım. Burada bak browser bu.
+[21:16] Browser dediğimde burada browserım da gösteriyor. Şu nükleotit dizisi. Bu vertisyum geni. Şurada üzerine geliyorsunuz. Bu genin buradan
+[21:25] baktığınız zaman bir gen olduğu zaman önce gense proteindir. Proteini vardır.
+[21:29] Bu protein dizisi. Tıkladığınız zaman direkt iniyor. [homurdanır]
+[21:39] Gitmed şurada. Bu bak uzantısı şeydir ya dosya
+[21:47] uzantılarını bilirsiniz. Fast'ın uzantısı böyle bir uzantı vermiş. Bunu açmak için de şu Notpad plus'ı yükleyin.
+[21:54] Plant Tex formatlarında budur. Hasta formatı sadece protein ve nükleotit dizilerini
+[22:02] göstermek için, depolamak için oluşturan bir şey. Format da şu. Engine bracketına başlıyor. Buradaki bu büyüktür işaretiyle başlıyor ve isim alıyor. Buan
+[22:11] isim veriyorsunuz. Buraya istediğinizi yazabilirsiniz ama şurada sadece nükleotit ve protein kodlarını kullanmanız lazım. Buradan bunu
+[22:19] koyduğunuz zaman da bu protein disini gösteriyor. Proteinle şu anda işimiz yok. Degenerate primer falan dizayn edersek olur ki artık ona da gerek
+[22:27] kalmadı. Daha gel onlar onu da göstereim.
+[22:32] Nerede? Buradan ikinci üzerine geliyorsunuz. Tıklamadan bakıyorsunuz.
+[22:37] Bakınca da şu ikincisi de işte bunu istiyorum. Buradan bakalım bakalım.
+[22:46] Bu da bunu da açıyorum. Hop. Bu da nükleotit dizisi genin. Ama ne diyor burada?
+[22:53] Messenger RNA. Messenger RNA dediğimizde bu. Burada intronlar yok. Aynı zamanda üçüncüyü gösterirsem buradan da bölgelerinde sizi ayrı ayrı gösteriyor.
+[23:03] Introndan primer dizayn etmek isterseniz, intronlarını çoğaltmak isterseniz ki intronlar daha fazşıtır eksiyonlara göre. Çünkü bir eee bir seleksiyon baskısına maruz kalmazlar.
+[23:16] Daha hızlı evrimleşir. Yani öyle diyor. Şimdi bu yeni çoğalacağız buradan.
+[23:23] Buradaydık. Hepsini karıştıracağım böyle. Üçüncüye de geldik. Buradan buradaki dizide -10 -10 bölgelerinde vermiş. Nükot dizi şeklinde.
+[23:31] Buraya kaydedeyim.
+[23:45] Oha! Ekon normalde parça parça olması gerekiyordu da nitronu yok muymış acaba bunun? Yokmuştur yani. [kahkaha]
+[23:52] Yoksa yok. Yine de parçalı ekson olarak verir.
+[23:57] Yani ekonomları anlatmıyorum. Bence ekonlar şudur. Intronlar bu alternatif kırpılmaya neden olacak. Bir gende DNA
+[24:07] üzerinden intron dizileri de olur. Ama bunlar eee Messenger RNA'ya aktarıldığı
+[24:13] zaman transkripsiyonda olmazlar ve proteinde görmezler. Bunlar da moleküler
+[24:22] biyoloji derslerinden anlarsınız böyle bir şeyden. Ha şimdi biz burada nereye geldik o kadar şey açtık. Buradan dizisini burada fast nükleotit dizisi.
+[24:29] Bunu hepsini seçip yapalım. Buradan da bir primer edelim. Bu genle çalışacaksınız. Targeted çalışacaksınız.
+[24:35] Bu genin genomdaki yeri filan hepsi burada yazıyor tabii ki.
+[24:41] Şuradaki komple DNA dizisini de buradan izole et bakıyoruz.
+[24:55] Burada sadece dizi bilgisini almak isim.
+[24:56] Bununla ilgili olarak da daha bu bölgelerin yapısal anotasyonundan ya da gen çıkarmalarında size göstereceğim ama
+[25:04] konuyu dağıtmayalım. Sadece sadece şu geni çoğaltacak bir markör dizayn edelim. Normal generik bir markör. Bu da markör.
+[25:14] Bastık.
+[25:15] Big primers. Oo, çok güzel. Burada toplam büyüklüğü 3882'ymiş.
+[25:21] Yani 3 kilobazlık bir ken. Bölgesi tek ekzona sahip. Primer dizayn ettik. 3 ne kadarmış? 343'lük bir noktada. Bu gen
+[25:30] hepsini aynı anda çoğaltamazsınız PC'larda.
+[25:33] O yüzden illaki hepsini şey yapacaksınız. Parça parça yapacaksınız.
+[25:37] Gen üzerinden böyle polmorfizm bakacaksınız. Bunun için de sung seancing yaparsınız.
+[25:43] Sang seancing'da dizileri çıkartırsınız. Aynı az önceki RFLP probunda yaptığınız şey burada da
+[25:51] burada da geçerli. Priver dediğimizde artık bunun şeyleri de bunlar. Güzel açıklayıcı bir ders olmuştur.
+[26:00] Şimdi haftaya şuna başlayacağız. Haftaya SSR markörlerini dizayn edeceğiz. SSR markörlerini dizayn etmek önemli.
+[26:10] Bunlar esas içermeyen rastgele gönümde çoğaltılmış bölgeler ki ilk markör sistemini
+[26:17] tarihsel de artık normal generik bir markör dizayn etmeyi de öğrendiniz.
+[26:25] Bununla ilgili olarak bu spesifik olarak böyle kalsın. Bu ders genel marker sistemler ilgili ayrı bir şey çekeceğim buradan ama
+[26:34] artık ilk markör dizayn etme sistemini öğrendiniz.
+[26:40] Bir sonraki derste görüşürüz.

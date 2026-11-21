@@ -1,0 +1,288 @@
+Başlık: SNP-Spesifik CAPS Tasarımı: Genotiplemenin "Halk Ekmek" Versiyonu:) ve ilk yazılımımız
+Link: https://www.youtube.com/watch?v=2TVRjZdnbKE
+Süre: 38:25
+Transkript: YouTube otomatik altyazı (Türkçe)
+
+[0:02] Merhaba arkadaşlar. Bugün SSR markörlerinden önce Caps markörünün tasarlamayla ilgili anlatacağım. Gelen yoğun istek üzerine hani bu geçen hafta
+[0:12] size eee tarihi markörleri diriltiyoruz dersinde RFP markörlerinden nasıl premer
+[0:19] dizayn edileceğini anlamıştım. Sonra WhatsApp grubundan sorular geldi. E dediler ki
+[0:27] S&P spesifik Caps markörü ile normal arafa pcörün arasındaki fark ne? Hiçbir fark yok. Bugün size uygulamalı olarak
+[0:35] bunu anlatacağım. Bunun için diziler gerekli. Dizileri hazırladım. Buradan işlemimize başlayacağız.
+[0:49] Bunun için kullanacağımız şey
+[0:59] önce biraz teori bununla ilgili olaraktan Caps markörleri bütçe dostu genotipleme
+[1:07] sistemleridir. Jelde bunları görebilirsiniz. Nasıl çalışıyor? Buna bakalım hızlıca.
+[1:15] E RFLP mark geçen derste de anlattığım gibi RFLP markörlerinin prop tabanlı markörlerin PCR versiyonu olmuş oluyor.
+[1:24] Burada açılımada cliffed amplified polymorphic sequences çoğaltılmamış ve kesilmiş polimorfik diziler. Burada bir tane SNP mutasyonu var. Polymorfizm var.
+[1:36] Bunu uygun restriksiyon enzimleriyle al spesifik kesen restriksiyon enzimlerini burada bulacağız. Bakalım.
+[1:44] Restrüksiyon enzimleri nelerdir?
+[1:46] Restrüksiyon enzimleri bakterilerden izole edilmiş enzimler. Bunlar farklı türlerde olur. Biraz sonra göreceğiz
+[1:53] bunları da. Bakterilerin kendilerini virüsten korumak için geliştirdikleri bir immün sistem, mekanizma. Bunu
+[2:02] moleküler biyologlar bulmuşlar ve DNA'nın kesilmesi için kullanıyorlar. Ve genetik mühendisliği de bundan sonra
+[2:09] başladı esas olarak da. Çünkü PCR tabii ki önemli bir şey ama DNA'yı kesemediğiniz sürece bir şey
+[2:18] yapamazsınız ki şu anda bile yeni nesil dizilemelerde olsun, EFP'de olsun DNA
+[2:25] parçalara ayrılması gerekiyor. Bunun için de restrüksiyon enzimleri kullanılıyor. Moleküler biyolojinin
+[2:33] e kilometre taşlarından birisi. Bunlar 4 arasındaki belli spesifik eee diziyi
+[2:40] tanıyarak sadece onu kesiyorlar. Çünkü bu evrimsel süreç içerisinde bakteriler böyle bir mekanizma geliştirmişler. Bu
+[2:48] mekanizmayla virüsteki eee DNA'yı parçalıyorlar. Kendi DNA'larını parçalamayacak şekilde bir sistem
+[2:56] kurmuşlar burada. İşte bu SNP markürünü bu restriksiyon bölgesine denk getirmeye çalışacağız. denk getirdiğimiz zamanda
+[3:05] da bu S&P spesifik CS caps markörü olacak.
+[3:12] Burada hizalama. Hizalamayı da gösteririm size. Bunda sıkıntı yok.
+[3:16] Çünkü bu esas konu. Bunu ben Snip kısmında anlatmak istiyordum ama hazırp'nin yeri gelmişken bunu da anlatayım dedim. hizalama gerekiyor.
+[3:27] Çünkü snip markörünün geliştirilebilmesi için tekrar dizileme gereklidir. Tekrar dizilerseniz bunu hizalarsınız. Snip markörlerini bulursunuz. Buradan çıkar.
+[3:36] Biraz sonra göstereceğim.
+[3:39] Enzim taraması. Sonra da bu bölgeyi kesenzimi bulmamız gerekiyor. Bunun için de farklı eee programlar var. Bunları
+[3:47] göstereceğim. Aynı zamanda okulumuzun ilk çıktısı olarak da kendim bir program geliştirdim. Bunu da size bugün
+[3:55] tanıtacağım. böyle. Sonra da primerı işte geçen haftaki gibi primerını dizayn ederseniz burada jelde bunu ayıraraktan
+[4:04] eee polfizmi görmüş olacaksınız. Gayet kolay bir sistem. Burada iki tane alel olacak.
+[4:13] Alel bir kesilen, alel 2 de kesilmeyen olaraktan heterozikotları da burada göreceksiniz ki bu kodominant lokus
+[4:22] spesifik bir markördür. Yani moleküler markörde aradığımız en e önemli özelliğe sahip bir şeydir.
+[4:36] 9 spesifiktir. İşte burada söylediğim gibi kodominantır. Dezavantajları da enzim maliyeti de olabilir. Şimdi enzim
+[4:43] maliyeti tamam da şimdi burada çok donanımlı olmayan başlangıç seviyesindeki moleküler biyoloji ve mas
+[4:51] laboratuvarları için de hayat kurtarıcıdır. Çünkü ben de kendi çalışmalarımda bunu kullanıyorum. Bir sinip gerekti. Bunu genotiplemem
+[4:58] gerekti. Ne yapacağım? Bunun için sinip genotiplemes de bir teknoloji yarışı var. Söylemiş olduğunu söylemiştim.
+[5:05] Burada nasıl genotiplersiniz? Sinipleri HRM yapmanız lazım. High resolution
+[5:11] melting. Bunun için hmm kalibrasyonlu bir real time PC ihtiyacı var. Ros Biorat Rotorgin bunları kullandım ben.
+[5:21] Bunların olması lazım. Laboratuvarınızda bunlar varsa yapabilirsiniz ama bunların tasarlanması ve işletilmesi de ayrıen bir maliyettir. Öyle tabii ki onlarla
+[5:29] karşılaştığı zaman da bu hiçbir şey oluyor. Hele hele şanslıysanız ucuz bir restriksiyon enzim bulmuşsanız bu da
+[5:36] daha düşük olacaktır. Başka genotipleme buradan takman pro kullanabilirsiniz.
+[5:42] Yine real time PCR'larla çalışır. Areal spesifik afikasyon sağlar. Onlara da geliriz.
+[5:50] Ama yine bu cihazınız olması gerekli bunun için. Başka kasp var. Kasp geni.
+[5:57] Bu herkeste yoktur. Bu da ayrı bir spesifik amikasyon ve okuyan bir cihaz.
+[6:02] Bunu da böyle ayrıyeten yapmanız gerekli. Ama bu da herkeste yok ki şu durumda da alınacak bir durum yok zaten bunda da.
+[6:13] Evet. İşte bazen de eee sinip yani restriksiyon enzimini alel spesifik kesan restriksiyon enzimini bulamıyoruz.
+[6:22] Bulamadığın zaman ne yapacaksınız?
+[6:25] Deckaps diye bir yöntem varmış. Yani primer isme çekliyorsunuz. Oradan aplikasyon yapıyormuşsunuz. Oradan da bir restriksiyon bölgesi
+[6:33] oluşturuyormuşsunuz. Ama ben bunu yapmadım. Bilmiyorum. O yüzden anlatmayacağım. Bir de bu kadar hani
+[6:40] kasmaya gerek yok şeyden yani bilmediğim konular. Çünkü onun primer tasarımı falan böyle sıkıntılıymış. Bilen varsa anlatabilir.
+[6:49] Şimdi o zaman vakit kaybetmeden hemen başlayalım. Burada önce dizileri ve snip olayları nedir? Buraya bakalım. Burada ben bir diziler buldum.
+[7:00] Bu dizileri oluşturdum buradan da. Bunlar tamamen sentetik uydurma diziler.
+[7:07] 300 baz nükleotit, 300 nükleotitli şu şurada görürsünüz. Eee, bak parantez içinde Ag yazıyor.
+[7:17] Bu dizilerde snip göstermenin bir yolu, formatı bu şekilde parantez içinde AC. Bu ne diyor?
+[7:26] Bu bölgede şuradaki sinip ya adadin ya da ganin nükleotistir diyor burada. Bu
+[7:32] şekilde şimdi sisteme başlıyoruz bunun için. Peki alen spesifik restriksiyon enzimlerini nasıl bulacağız? Önce
+[7:41] restriksiyon enzimlerine bakalım. Oradan da bulacağımız şey şu. Hop! Nep cutter'a bakıyoruz.
+[7:52] Buradan bakarlar. Hop! Burada ne var?
+[7:57] Ne? biliyorsunuz restrüksiyon enzimi satan şu firmanın New England Biolops'un sayfası. Burada bir sürü restrüksiyon
+[8:05] enzimi var. Farklı farklı. Bunları satıyor. Burada bir aracı koymuş buraya. Araca bakalım. Burada ne gerekiyor?
+[8:13] Restriksiyon bölgesini bulmak için.
+[8:15] Hangi formatı kabul ediyor bu? Dizi formatını. Fasta kabul edecek mi? Bak bunlarda geçen hafta anlatmıştım. Fasta formatının ne olduğunu alalım.
+[8:23] Kopyalayalım. Bak dikkat ederseniz şu alel 2 bu dizi ile bu dizi arasında sadece şurada bir farklılık var. Gerisi
+[8:31] aynı. Bu alel 1'in dizisi. Bu diğer alel 2'nin dizisi.
+[8:38] Bir tanesini koyacağız. Bu tek dizi alıyor. Bu sadece bu bölgedeki eee şurada circler bakteri şeyler için
+[8:47] ama biz de böyle lineer kromozom kullanıyoruz. Buradan bakalım. Submit diyoruz.
+[8:54] Bak bu bize işte genomun bu dizinin hangi restriksiyon enzimleri tarafından
+[9:01] kesildiğini gösteriyor. Şu bölgede bir kesim var. Buradan apo 1 ekor 1 mo. Bir
+[9:10] de şu enzim burada 1 2 3 4 tane enzim şu bölgede kesim yapabiliyor. Bunu böyle
+[9:16] baktığınız zaman burayı keser. Bir de şu enzim varmış. Başka yokmuş. 3 nati bu.
+[9:23] Bu sadece bunu gösterir. Peki bunu nasıl bulacağız? Al spesifik olarak bulamayacaksınız. Onun için de size başka bir program var.
+[9:32] Buradan bakarsınız kesim noktasına, snipin nerede olduğuna bakarsınız, kesip kesmediğine bakarsınız. Gözle ama gerek
+[9:40] yok. Bununla ilgili bir program daha var.
+[9:44] Alel specific restriksiyon enzimini burada bulacağız. Geliştirilmiş.
+[9:49] Bu da çok eskilerden geliştirilmiş olan Soul Genomics Network'deki Caps Designer
+[9:55] programı. Buraya gelelim. Burada geçen hafta da buradan size markörleri göstermiştim. Burada markör değil. Bunun
+[10:04] bir programını kullanacağız. Burada tools var. Tools da caps designer. Bunu geliştirmişler. Burada dizileri
+[10:10] koyuyorsunuz. Koyduğunuz zaman şuraya bakarım. cluster alignment format diyor. Bir de unan fas. Bu hizalanmış ya
+[10:20] da hizalanmamış denilen bir şey. Hizalama nedir? Kısaca onu da göstereyim.
+[10:27] Cluster W yılların eski tematiği multiple alignment algoritması ve programı hala var mı?
+[10:36] Hadır inşallah.
+[10:38] Evet varmış. Buraya pasta formatlarını destekliyormuş. Buraya koyuyorsunuz.
+[10:45] Buradan onu alignment'ını yapacak. O zaman yapalım ikisini.
+[10:52] Şimdi şu diziyi bulduğunuz zaman makalelerde bunu verdiği zaman bu şekilde verir. Siz de bunu verirsiniz.
+[10:59] Bu sini var. Bu burada en şeklinde de koyabilirsiniz makalelerinize s'i koyduğunuz zaman. Ama böyle varsa bunu buna çevireceksiniz.
+[11:11] Nasıl çevireceğiniz buradaki şeyi de onu da gör. Biri onu sileceksiniz, bir onu sileceksiniz buradan. Onu da ben şöyle yaptım zaten. Bunu uğraştıracak ama iki
+[11:20] tane kopyalıyorsunuz bunu. Birinden G'yi siliyorum.
+[11:27] Parantezleri de silin. Çünkü parantez olduğu sürece bu bir fasta formatı değildir. G'yi sildim. Şimdi buradan da A'yı sileceğim.
+[11:41] B senep markör nasıl geliştirilir? Yani artık şöyle oldu. Böyle oldu. Geçen haftaki arafe propunu anne ve babada iki bitkide dizilediniz.
+[11:52] Bir dizi bunu verecek. Bir dizileme sonucu bunu verecek. Buradaki sinipi nereden bulacağız? Deyince de cluster W imdatımıza yetişiyor.
+[12:03] Buraya koyduğumuz zaman hiçbir şey yapmın execute multiple alignment deyin.
+[12:11] Evet. Bayağıd da kullanmıyorum bunu.
+[12:22] Evet. Ne yaptı biliyor musun? Aynı isimde olduğu için kabul etmedi.
+[12:29] Mantıklı iki farklı dizi olması gerekiyor. Şuna iki koyayım o zaman. Tamam sıkıntı yok.
+[12:36] Her şey kontrol altında.
+[12:40] Hadi artık zor bir şey. Eee, dizilemeyeceksin. Ve burada bak hizaladı. Hizaladı. Buradaki snipimizi göreceğiz inşallah.
+[12:50] H snip yok. A buradaymış. Bak buradanmış. Bu da AG'yi burada hizalamadı. Bak gördüğünüz gibi aynı olanlara bu şeyi koyuyor. Bunu bunu bunu
+[12:59] yıldızı koy. Diğerlerine de bir şey koymuyor. Mismet indel olduğu zaman da indel gözüktür burada. Onu da göstereyim.
+[13:11] Indel yapayım.
+[13:14] Indel öyle mi yapılır acaba? Çok merak ediyorum. Boşluk kabul ediyor muydu? Yok. Mesela şuraya bir a a atayım.
+[13:24] Exec kö diyeyim.
+[13:30] Bu aynı zamanda hani bu indel polimorfizmi de bulabilirsiniz. Bak buraya koyduğum A'yı burada alignment'ta
+[13:37] bir indel olarak gösterdi. Aynı zamanda hani böyle farklı dizilerde proplarınız varsa küçük lokus spesifik tam genom
+[13:44] değil tam genomda çalışmaz bu. Buradan da bulabilirsiniz.
+[13:49] Şimdi burada ilgili olarak da şu. Bunu demiş ki cluster W formatında şunu kopyalayıp bu
+[13:56] cluster W programının çıkış formatı böyle oluyormuş. Caps designnda bunu
+[14:03] kabul ediyormuş. Bunlar eski e yıllanmış programlar olduğu için birbirini kabul ediyorlar. İnşallah buraya da yapıyoruz.
+[14:10] Ama şunu unalignment aşağıdaki dosya gibi cluster alignment dediğimiz zamanda da bunu işaretlememiz lazım. Yani
+[14:17] diyoruz ki hizalanmış oradakisini bir gör ve al spesifik bir şey bul. Bak şurada böyle bir şey var. eee diyor ki
+[14:25] 65 dolardan eski bir program ama herhalde bu enzimlerin değeri de değişmemiştir. Yani ucuz olan enzimler ucuzdur. Mesela One ucuz bir enzimdir.
+[14:34] En çok bildiğim bu ucuz enzimlerden birisi de 5. Ha hif hif 1. HINF 1 mesela o da ucuz bir enzimdir. Bu ucuz
+[14:42] enzimlerden bul bana diyoruz. 20 nükleotit uçlarını tarama diyoruz. Çünkü uçtan keserse her zaman demiştim 20
+[14:51] nükleotit bence sıkıntı yok. Yani jelde ayrılabilir. O tarafa gitsin. O göreceksiniz. Bir de şu var. Dörtten fazla keseni de gösterme diyor. Çünkü
+[15:00] çok fazla dizinizi keserse, parça pinçik ederse jel formatı, jel sıkıntıya girecektir. Buradan da point caps diyelim.
+[15:11] İnşallah çalışacak.
+[15:23] Bu arada ben kaydediyor mu bunu ya?
+[15:33] Vet ediyormuşum da. Bir daha kaydı çalıştırdım fark etmedim. Evet çalıştı.
+[15:38] Burada alel spesifik kesen enzimleri gösteriyor. AP1miş, faymış, tspymiş.
+[15:48] 3 tane enzim. Harika. Nepcutterdaki şuradaki bu enzimler aynı mı? Ekor. Bu bu bu
+[15:56] sadece kesim yerlerini. Bunlar da alel spesifik kesenleri. Yani bir sinipi birden fazla kesenzimler
+[16:05] mevcut oluyor. Rastgele salladık ama tutturduk.
+[16:09] Nasıl? Ha bu arada restrüksiyon yerini rastgele sallamadım ben. Yaptım. koydum çıksın diye. Çıkmazsa çıkmıyor. İşimiz bitiyor burada.
+[16:19] Apo 1 kesiyormuş. Acor 5 kesiyormuş. Bak şurada da restriksiyon şeyleri. Diyor ki 307 birisini hiç kesmiyor. Diğerini de 207 ve 100'den kesiyor.
+[16:29] Yani 100 nükleotit. Arada 100 oraya gidiyor. Altta 2 bant oluyor. Üstte bir bant olarak kalmış oluyor. Bunu göstereceğim biraz sonra nasıl olduğunu.
+[16:40] Kafanızda şekillenmiyor değil mi? Ama şimdi benim geliştirmiş olduğum bir programda bu kafanızda şekillenecek. Bu da aynı şekilde. Bu da
+[16:48] aynı şekilde zaten kesim bölgeleri Utol silip merkezinden aynıydı. E peki bu durumda
+[16:57] bunu buradan şey olacaktı. Ha bak burada fiyatlarını da gösteriyormuş bunların
+[17:05] değiştirmeden. Mesela 63 53. Bak üçü de ucuzmuş böyle. Buradan üçünden birisini
+[17:12] tercih edebilirsiniz. Çünkü bir e bunların aynı komşu enzimler. Bak bu tanıt bu nereyi kestiğini gösteriyor.
+[17:21] Nereyi tanıyor? Nereyi kesiyor? Bu burayıymış, bu burayı. Yani o restriksiyon snipin içindeki okuma çerçevesindeki bu yerleri şey kesiyor.
+[17:30] Biri buradan, biri buradan, biri buradan yaklaşık olarak böyle kesiyorlar. Bunlardır döndü.
+[17:36] Bu şekilde işimiz bitti. Artık buradaki problem primer dizayn edip primer 3'te ki bunu biliyorsunuz nasıl yapacağınızı
+[17:45] PCR'ı yapıp kestikten sonra bunu burada elde etmiş olacaksınız.
+[17:53] İşte enzimlere girince de bak burada bunun restriksiyon enzimlerine bakalım. Ben bunu farklı satan firmalarda vardı.
+[18:02] Biz gende fermantas kullanırdık. Sonra bunlar satmaya başladılar. Reklam değildir bu arada çünkü tek bunlar zaten. Bak burada enzimi var.
+[18:11] Buradaki yani bu kesip kesmediğini göstermiş de tanıma yerleri vardır böyle. Bakalım bir tane enzim
+[18:19] burada. Bunun hangi tamponda kesileceği ne kadar şimdi bunların festleri var orada. Hızlı kesiyorlar. Normalde de 78
+[18:26] saatlik bir kesim gerekiyor ama hızlı kesinler. 1520 dakikaya falan böyle kesiyorlardı. Böyle izosizomers olayı ki söyleyemedim ne olduğunu. Bu da şudur.
+[18:36] Yani farklı isimlerde ya da aynı bölgeyi tanıyan restriksiyon enzimleri var. Öyle bir şey de çıkabilir. Mesela buradan da
+[18:45] hani farklı bir firma onu farklı bir isimde satıyor ama aynı yere buna o deniliyor. Önemli olan kesim yeri. Kesin
+[18:52] ismi ya da markası bizim için önemli değil.
+[18:58] Özelliklerine bakıyorsunuz. Buradan çıktı. Caps'te şunu da göstereyim. Unaligned cluster W'yu da öğrendiniz.
+[19:04] Bak bu kafamda yoktu ama şu formatı da geçelim.
+[19:10] Biz dizel de şu da. Peki, analyed dediğim zaman da şu ikisini alıp
+[19:20] cluster gerek kalmadan hangisi gidiyorsa unal deyip buradan bunu silip
+[19:28] bunu yapıştırdığınız zaman da artık program kendi içinde bir alignment yapacak ve capsi bulacak.
+[19:39] Evet, çalışmadı gördüğünüz gibi. Niye çalışmadı? Yine isim farklılığında aynılığından mı acaba? Caps.
+[19:49] Evet, buldu. Yine aynısını buldu buradan. Bu şekilde de sadece seçim yerine dikkat edin. Burada alelleri filan oluşturuyordu. Gayet kolay. Peki bunu şimdi şu var. Bir dayanıklı.
+[20:02] Buradaki dizilemeye baktığımız zaman burada hedeflerde de şu var. Alel1 var.
+[20:07] Dayanıklı. Alel 2 hassas. Bunun sinipi G. A dayanıklı, G hassas. Bu kesime göre
+[20:18] nasıl karar vereceğiz buradan? A dayanıklıysa A olunca mı kesiyordu, diğerini mi kesiyordu? Buna nereden
+[20:25] karar veririz? Bunu bunun hangi aleli kestiğine bir de oradaki nükleotit değişimine karar
+[20:33] veririz ve bunu Jde göreceğiz. Şimdi bunlardan farklı olarak da okulumuzun ilk çıktısı olarak bir yazılım
+[20:41] geliştirdim. Bunun için de okulumuzda okula bakalım.
+[20:54] Demiştim ki burada da küçük minnak programlar yazacağız, geliştireceğiz.
+[20:58] Hayatımızı kolaylaştıran diye e bunu tanıtım dersinde söylemiştim.
+[21:04] eğitim araçları dijital asistanlar ilk dijital asistanımız burada SIP specific caps tasarlayıcı. Bunu dün gece yazdım.
+[21:18] Burada spesifik olarak da size bu uygulananlardan farklı olarak bir de görsellik oluşturuyor size. Burada da
+[21:27] buraya sayfa burada uygulamayı başlat dediğiniz zaman burada Python'da yazmış olduğum bir kod ve ücretsiz e server
+[21:36] trlit de kullandığım için de burada inaktive alıyor. Bunu gördüğünüz zaman sadece şuna tıklayıp bu programın aktif hale geçirmeniz gerekiyor. serverda çalışacak. Çalıştıracaksınız burada.
+[21:47] Streamlit ücretsiz.
+[21:51] Bulun serverını kullanıyorum çünkü hazırlanacak. Buradan işimizi halledeceğiz.
+[22:05] Hadi işte bu burada program. Bu okulumuzun ilk yazılımı burada çıkıyor.
+[22:10] Hayat kolaylaştırılır. Bunu görüşlerinizde ve testlerinizde de geliştirebiliriz. Böyle bu Caps Designı Sol Genomix'in
+[22:18] yeni bir [boğazını temizler] versiyonu. Burada hazır diziyi de koydum burada format ya da kullanım kılavuzu gerekli olmaz diye
+[22:26] de o oradaki kullandığımız dizi bu da burada duracak. Bu kullanacağınız zaman da bunu seçersiniz, silerseniz dizinizi
+[22:35] yapıştırırsınız. Format bu olacak ve tek SP şu anda bununla çalışıyor. Tek dizi kabul ediyor.
+[22:45] İnşallah tek dizi kabul edmuş. Diz de kabul ediyor. Normal Fast tane dizi var burada.
+[23:06] Evet. Ha o şey iki tane kopyaladığım için korktum bir ara bir hata oldu diye.
+[23:13] Sıkıntı yok. Şu şunu alacağız. Yani parantezli olan. Bak hiçbir program bu parantezli formatında çalışmaz. Benimki çalışıyor.
+[23:22] Koyuyorsunuz. Yapacağınız hiçbir şey yok. Buradan enzimi tara dediğiniz zaman simülasyon başlatıyor. Buradan hem
+[23:29] denemek için. Şurada baktığınız zaman burada alel bir alel 2'yi adanin guanin
+[23:37] buradaki onu buldu çünkü o oradaki parantezi okudu program. Şurada da alternatif şeyler ts 1 inf 1 bir de inf 1 çıkardı. INF1 orada yoktu. Orada var.
+[23:49] Daha mı iyi acaba? Belki o zaman enzim datı veri tabanında yoktu ama bizimkinde var.
+[23:54] bir ucuz bir enzimdi. Kontrol etmemiz lazım ama güzel. Çünkü burada Fight'ın eee NEP restriksiyon enzim kütüphanesini
+[24:02] kullandım. Onu yazarken oradan daha güncel bir program. Yani bu ikisi de ikisi de değil Nept'te güncel de eee
+[24:11] diğerinin veri tabanı enzim veri tabanı eskidir. Belki yeni enzimler falan çıkmıştır. Bilmiyorum. Acor one bakalım.
+[24:18] Buradan da buna tıklıyorsunuz. Burada alternatif enzim zinizi çekebilirsiniz.
+[24:21] üzerlerinden farklı olarak da buradan size parça boyutlarını gösteriyor. Doğru mu? Doğru. 98'den ve 233'ten kesiyordu.
+[24:29] O da öyleydi değil mi? Öyle. Bu da 330'dan kalmış. Buralardan kesiyordu.
+[24:34] Size cap dizign farklı. Çünkü oradan 20 20 kıstı. Kısmıştı. Bunda öyle kısma falan yok. Çünkü onu kendiniz karar vereceksiniz artık oradan. Ve
+[24:42] diğerlerinden farklı olarak da burada jel görüntüsü var. hem görsel olarak size anlatmak için hem de kafanızda mental olarak bunu canlandır. Çünkü mental bir yoğunluk getiriyor kafanıza.
+[24:52] Jelde nasıl gözükecek bunların diye. Kim kimi kesiyordu diye.
+[24:58] Bir mental yoğunluğu kafanızdan atmak için ve evrene pozitif bir enerji göndermemiz için kesilsin, PCR çalışsın
+[25:06] ve burada çıksın diye de burada bir görselleştirme oluştum. Kuyular burada.
+[25:11] Bu bir jel görüntüsü. diyor ki celiniz böyle kesildiği zaman alel 2 mz heterozikos da göstermemiz için şu
+[25:19] gitmiyor gidiyormuş göstermek için olan şu şu leather marker
+[25:28] bu alel bir alel 1 demek ki neymiş kesiliyormuş kesildiği zaman neydi hava bantları 233 98 233 burada 98 burada
+[25:39] yani şu bölgelerde iki tane bant göreceksiniz hangi halal için, alel 1 için yani homozigot aa için. Buna
+[25:47] genotip dilinde de büyük A büyük A diyoruz. Başka dillerde haritalamada çeşitlilikte bunların ifadeleri değişecek.
+[25:57] Bu diğerinde kesilmeyen, kesilmeyen de alel 2 yani büyük gü bu da
+[26:04] küçük a küçük a anlamında böyle. Diğeri de en güzel tarafı da bu. 3 tane bant gördüğünüz zaman artık bu nedir?
+[26:12] heterozigot genotipiniz olacaktır. Alın size çok havalı, orijinal bir genotiplemeyi
+[26:21] gerçekleştirmiş oldunuz buradan.
+[26:25] Bunu bu şekilde kullanabilirsiniz. Bir biraz değişiklik yapalım. Şu kesim bölgesini biraz uca koyalım. Şuradan bunu keseceğim. Kestim. Şunu uca koydum.
+[26:37] Tekrar algılatmaya çalıştır ve enzimi. Buldum bak. kesildi.
+[26:43] Bu sefer bu restriksiyon enzimini yani aleli bu tarafa aldığım için yani bu tarafta da bulabilirsiniz. O tara bir tane çıksın da bir tane çıksın da önemli
+[26:52] olan çünkü bak büyük GBS datalarında bunu nasıl çıkartıp çevireceğinizi yapıyorum da elinde tek tek böyle
+[26:59] buluyorsunuz. Burada bulduğunuz senipi blokusu takip edecekseniz burada buldunuz. Mecburen onu kullanırsınız.
+[27:06] Ama şurada baktığınız zaman bu da en güzeli oluyor. Çünkü bak şu kesiliyor ya ikisi. O kesildiği zaman bu kesilmiyor.
+[27:13] Bu arada bu da kesilebilir. Bir şekilde şu p polymorphis görecek bandı göreceksiniz. Burada şu 50 olduğu için
+[27:21] aşağıda kalır. Bunu boş verip bu ikisinde de aynı zaten. Diğerinde olmayacak. Burada da primer dierinin arasında kalır. Buradan görmezseniz şunu
+[27:29] görürsünüz. Bak burada hop küçük bant.
+[27:37] Aa adenin birinci alal açısından homozigot.
+[27:42] Diğeri 2 GGde homozigot diğeri de heterozigot yani loksu bitkiyi tespit
+[27:50] etmiş olursunuz. Gayet de güzel bir genotipleme sistemi geliştirdim. Bu programı da hani görüş öneri doğrultusunda geliştirebiliriz.
+[28:01] Şimdi ne yapacaksınız? Buradaki sonda da buradan primer dizayn edeceksiniz.
+[28:05] Primer dizayn etmeyi önceki dersimizde Prime 3'te anlatmıştım. O standartlara göre primer'ını dizayn edersiniz.
+[28:14] Buradan da bu rapor açısından da resmi kopyala. Biraz çerçeveye sığdıramadım.
+[28:19] Şöyle bakıyoruz ama bunun için de bakalım.
+[28:24] Hop yeni rapor capsoru.
+[28:34] H dediler ki şunu capse çevirin ya da çevireceksiniz koyarsanız.
+[28:41] Çok büyük oldu ama bak şurada en azından burada bu diziyi koyarsanız buradan
+[28:50] raporlama da diyorum. Çünkü öğrenciler için diyorum da yani hocanız bir şey istediği zaman derli toplu düzgün raporlu bir şey verin. Kafası karışmasın
+[28:59] insanlarım. Yani sürdürü bu dedik ya bu kanalın amacı sürdürülebilir bir sistem oluşturmak. Sürdürülebilirlik en azından insan kendinin içinde başlaması lazım.
+[29:08] Bir öğrenciler için söylüyorum. bir lap defteri olacak. Yaptığınız şeyleri yazacaksın [boğazını temizler] oradan da. Çünkü emin olun datalar burunla
+[29:17] birlikte şimdi bu olacak ama bir sürü bui dizayn edeceksiniz ve bunları sonra birbirine karıştıracaksınız. Diziyi buradan bulursunuz.
+[29:26] Restriksiyon enzim raporunu buradan alırsınız. Grace R şey kesim yerlerine zaten buradan belli A'nın filan ne
+[29:34] olduğunu. ALL1 AL2 buradaki bundu da yazıyor. Bu komple işinizi görecektir.
+[29:40] Hop yerde benim profili. Buraya da yazın.
+[29:50] Neyi unuttunuz burada? Enzimi. Ha enzim de varmış. Restriksiyon profili bu. tek değiştirip diğerlerini de kullanacağınız
+[29:58] zaman ya da laboratuvarınızdaki şeye göre de bunu yaparsınız. Böyle buradan da primer siparişini de buradan vereceksiniz. Primer de böyle forward
+[30:07] reverse bulduğunuz zaman onu da yapalım mı? Bakalım dizayn edecek mi?
+[30:26] Bu fle formatı alır. Bu da bu fasta formatı değil. Şunu da renklendirin ki gözüksün şurada.
+[30:35] Hı. Sarı [boğazını temizler] dizi. Dizi bu
+[30:45] parantezli ama çalışmaz. Çünkü parantezde artık bir fasta formatı değil dedim. Ha good primers etti mi? Etmedi.
+[31:01] Bulba. Bulba. Buradan parametreler ayarlıyorsunuz. Şimdi 300 100 300 arasında da olabilir.
+[31:09] Bill bir cıtlık yapıyor bana. Şey yapıyor da. Hop.
+[31:17] Evet. Primer de aynı demedik. Neden? Çok mu uzun istedik? Optimumda da vardı.
+[31:26] Priya 55. Sorun bu mu acaba? Sorun ne?
+[31:34] Evet. Olamaz. Mantıklı.
+[31:39] 45 yapacağım ya bak. Evet. Razer olmaktan kurtuldum size buradan. Bulduk.
+[31:49] Sequ product size 225. Şunu gösterdim.
+[31:54] Buradan da 225 olduğu için şuradan tam oturtu. Buradan oturtamadı. Şuradan bir nükleotit kaybınız var. Buna dikkat edin. E restriksiyon yeriniz buradaysa
+[32:03] burası çoğalmayacak primer'dan dolayı. O yüzden dışarıda kalır, rezil olursunuz.
+[32:09] Buradan içinde bir yerde olacak ve beklenen o size da PCR ürününe göre kısalacaktı. 300'dü ya buradan. Buradan
+[32:18] ne kadar azalmış? 275'lik buradan bir azalmış. İçinde olursa 75'lik noktasında
+[32:24] 200'dü zaten 250'lik bir şey. Hem yani restriksiyon ve ayrım açısından hiçbir sorun olmaz. Şunu da alın koyun.
+[32:34] bizim caps markörünüz buradan hayırlı olsun buradan kullanacaksınız. Ha buradan gelelim. Buradan ne gibi çalışmalar
+[32:43] yapılabilir? Güzel çalışmalar açısından bir mesela bu programı benim vaktim yok, beklentim de yok. Böyle geliştirip yayınlamak isteyen arkadaşlar olursa da
+[32:52] makalesini açık kaynak zaten kullanabilirler. Benimle iletişime geçsinler. Faydalı olacağını düşünüyorsanız.
+[33:01] Başka bulacaksınız makalelere bakacaksınız. Sniplerin o makaleler buradaki süpller nerededir? Bunlar güzel
+[33:07] çalışma olur. Güzel tanıtım videosunda ve kuruluş amacında demiştim ya size proje fikirleri sunacağım, makale fikirleri sunacağım diye. Makale fikri de şu mesela gidip bakacaksınız.
+[33:18] Snipleri, veri tabanlarına bakacaksınız.
+[33:20] Makalelere bakacaksınız. Oradan snip markörlerini bulacaksınız. Özellikle mesela sistem şu şekilde işliyor. Burada
+[33:29] sistem şöyle işliyor. Makaleyi yazıyorlar. Yani çalışmayı yapıyorlar.
+[33:35] Sonra bunu masa çeviriyorlar.
+[33:38] MAS yapılması için. Ya da öyle makaleler var ki bunlar sizin için güzel bir şey haritalamışlar. Snip bulmuşlar. Güzel
+[33:46] bir snip. Adam snip'i buluyor. Şu şekilde bırakıyor makaleye. Evet. bırakıyor bunu.
+[33:53] Çünkü laboratuvar mes laboratuvarı değil. Islah hedefli değil. Gen hedefli temel bilim hedefli. Biz temel
+[34:02] bilimciler o şekilde millet bunu makaleye yazıyoruz da güzelce kullansın, fakiri kullansın, zengini kullansın
+[34:09] gibisinden bir şey yapıp uğraşmazlar böyle bir şeyle. Şunu buluyor, buradan diziliyor, bu sini buluyor. Hemen siz ne yapacaksınız buradan? Uyanık olacaksınız. Oraya gideceksiniz.
+[34:18] ilgileniyorsanız buradan da bunu alacaksınız. Buradan Caps marker tasarlayacaksınız. Buradan şeyi bulduğunuz zaman da bir iki tane bunun
+[34:27] uydurup PCR'ını göstermesini yaptığınız zaman da ne olacaksınız? İşte caps marker development
+[34:34] for specific associated or linked to bilmem ne disease gibi bir makale
+[34:42] formatı çıkacak. Böyle hani bu da faydalı olacak. Hem de bunlar faydalı ve citation alır. Çünkü makaleyi
+[34:49] kullanırsınız. Biri geliştirir, biri breeding, [boğazını temizler] breeder friendly ıslahçı dostu barköre çevirir. Budur.
+[34:57] Sonra ikinci uyanacak noktanızda bir de şu var. Geliştiriyorlar. Genotiplemede ki özellikle bunlar GBS datalarında,
+[35:05] GVAS datalarında bakın bunlara. Çünkü adamların zaten bir sürü işi var. Hivas'ı yapmışlar, ilişkiyi bulmuşlar.
+[35:11] Yönik seleksiyonda oradan Snip'i bulmuşlar, koymuşlar duruyor. Orada alacaksınız onu. Caps seçebilirsiniz ya
+[35:19] da yapıyorlar. Bunlar eee zengin gruplar yani yurt dışındaki şeyden bunları takman prob yapıyorlar. Takman burada çalıştırıyorlar. Siz ne yapacaksınız?
+[35:30] Takman'dan düşük. Bu işin halk ekmek versiyonu. Bu işte pratik açısından buna çevireceksiniz. Bunda da böyle
+[35:38] diyecek makalenin şeyinde de şu olur. Tamam geliştirilmiş.
+[35:44] İlk baştaki hiçbir eee lokus spesifik markörü yoksa tamam bulunmuş böyle bir şey. Biz bunu
+[35:52] Caps markörüne çeviren bir makale çevireceğiz. Güzel, orijinal, üzgün ve faydalı bir şey olmuş olur. Takman prop
+[35:59] yani yüksek teknoloji propları varsa bf ve sürün veriyorlarsa bunu bu sefer
+[36:07] düşük teknoloji ama etkili teknoloji düşük demiyoruz.
+[36:11] Böyle fakirler için olan eee halk ekmek versiyonuna bu işi çevirdik. Buradan artık herkes kullanabilir diyeceksiniz
+[36:20] de bunu yayınlayacaksanız Q2'ye kadar gider bu yayın. al olarak da ki bunu yapanlar var. Durmayın bu işlerde de bu
+[36:29] makalelere bakacaksınız. Makalelerinde suplementer de bunu verir. Vermek zorunda. Bazen vermiyorlar ama vermeleri lazım. Oradan bulursunuz.
+[36:41] Yazardan isterseniz, veri tabanlarından bakarsanız böyle yaptım ben ya. Çok yaptım onunla ilgili de geliştirmiş seni de bırakmış. Ne yapacaksın?
+[36:49] Oradan güzel çalışmalar yapabilirsiniz.
+[36:52] kendi sinipleriniz varsa onları da burada eee kullanabilirsiniz. Çünkü direkt yönetimleme sağlıyor. Tamam
+[37:00] yüksek teknoloji cihazlar falan var ama orada olan cihazın bize faydası ne?
+[37:08] ki bu cihazlar olmaz olsa bile bu özellikle bazı platformlardaki onların master mixleri filan böyle işletilmesi
+[37:16] de çok pahalı olmuş oluyor. Ama bu teknik için bir PCR cihazınız, bir jelekiniz
+[37:23] olan bir şey olduğu zaman zaten PCRı yapıyorsunuz, DNA yapıyorsunuz. Ekstrada bir restriksiyon enzimi bulmanız gerekli. Caps markörü bu kadar.
+[37:35] Bu slip kısmındaki bunları da böyle geliştirme noktasında özellikle GPS datalarından buradaki GPS datası da olsa
+[37:42] bunu çıkartacak size bu diziyi verecek ama genom boyutundan bunlar nasıl ekstra edilecek onu da daha ileriden böyle
+[37:49] göstereceğim. Yani dinlediğiniz için teşekkürler.
+[37:58] Bir sonraki derse artık esas bir hafta sarktı ama olsun. Orada da çok güzel işler yapacağız. Bu da gerekli ve hayat
+[38:06] kurtarıcı bir markör sistemi.

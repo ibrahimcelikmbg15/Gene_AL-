@@ -1,0 +1,774 @@
+Başlık: Genom Okulu: Uygulamalı Genom Analizleri Eğitim Platformu Tanıtımı
+Link: https://www.youtube.com/watch?v=zIZJn_XMXnk
+Süre: 1:35:20
+Transkript: YouTube otomatik altyazı (Türkçe)
+
+[0:01] Merhaba, ben Doçent Doktor İbrahim Çelik. Bitki moleküler genetiği üzerine araştırmalar yapıyorum ve size kendi
+[0:08] geliştirmiş olduğum bitki moleküler genetik analizlerde kullanılan yöntemlerin anlatılacağı bir dijital eğitim platformunu tanıtmak istiyorum.
+[0:17] Ben eee kendimi kısaca bahsedersek eee lisans eğitimi moleküler biyoloji ve genetik üzerine İstanbul Üniversitesi'nde tamamladım.
+[0:28] Sonra eee İzmir [boğazını temizler] Yüksek Teknoloji Enstitüsü'nde yüksek lisans ve doktora çalışmalarımı bitkimer geneti
+[0:36] üzerinde araştırmalar yaparak geçirdim. Daha detaylı olarak özgeçmişimi ve okulumuzu
+[0:42] da yani dijital eğitim platformu da tanırsak tanıtırsam buradan önce benimle ilgili [boğazını temizler] sayfalar ve
+[0:51] kaynaklar var. Buradan eee kendi özgeçmişimi direkt yüklemedim. Yoksa bağlantı verdim. Buradan ayrıntılı olarak da bakarsınız.
+[1:00] Aldığım eğitimler, çalıştığım kurumlar
+[1:03] [boğazını temizler]
+[1:04] burada mevcut. Dediğim gibi İstanbul Üniversitesi'nde lisansımı tamamladım.
+[1:08] Yüksek lisans ve doktoramı da İzmir Yüksek Teknoloji Enstitüsünde Sami Doğanlar ve Enferiy hocalarla çalışarak
+[1:16] tamamladım. 2019 17 yılında da 9 yıl eğitimden sonra ki biraz uzatmalı oldu.
+[1:23] E tamamlayarak 2018 yılında Pamukkara Üniversitesi Çağ Meslek Yüksekokulu Bitkisel ve Hayvansal
+[1:30] Üretim bölümünde çalışmalarımıza başladım.
+[1:35] Aynı zamanda eee Pamukkale Üniversitesi Bitki Biyoteknolojisi, Bitki Genetiği ve Tarımsal Biyoteknoloji Uygulama ve
+[1:43] Araştırma Merkezinde de çalışmalar yapıyorum. Oranın teknolojik altyapısını kullanıyorum. Daha trol olarak
+[1:50] çalışmalarımdan ve CV'mde [boğazını temizler] yazılmayan şeyler hakkında da size bilgiler
+[1:57] [boğazını temizler]
+[1:58] vereceğim.
+[2:00] Başlayalım. Eee, nereden çıktı bu platform derseniz bu platformun çıkış noktası 101 Yüksek Teknoloji Enstitüsünde
+[2:10] SAM Hoca'nın vermiş olduğu bitki Gön Analizleri dersi. Burada bize farklı programlar öğretti. Çalışma konularımızla ilgili, bitki genomi ile
+[2:18] ilgili burada öğrendiğim programlar vardı. Sonra farklı kişilerden de bu eğitimleri aldım ki bununla da ilgili
+[2:26] çalışmalarım mevcut. Benim amacım burada size tamamen bu yöntemlerin bitkilerde
+[2:34] genom haritalama dediğimiz çalışmalarının eee nasıl yapıldığı, hangi programların
+[2:41] kullanıldığını anlatacağım. Bunları kullanırken bitkinin anlatmış olduğu genomundaki eee bilgileri okumaya çalışırken araçlar kullanıyoruz.
+[2:53] Bunlardan en önemliler de moleküler markörler.
+[2:58] Bunları ileriki derslerde size daha detaylı olarak anlatacağım. Moleküler markörler [homurdanır] nedir, neler kullanılır?
+[3:06] Ondan önce bu eğitimin de geçmişine bakalım. Bu eğitim ilk değil aslında
+[3:12] 3üncü nesil bir genom analiz eğitimi programı. Önceki eğitimler burada eee
+[3:20] okulumuzun web sitesine de burada koydum. İlk önce 2019'da yaptık.
+[3:26] 2018'de Çal Meslek Yüksekokulunda çalışmaya
+[3:36] başladığımda ki ben bu morik bitki genom analizleri konusunda eğitim altında çalışmalarım var ve bunları insanlara
+[3:43] aktarmak gerekiyordu. Çünkü bu alan genelde hani fazla uzmanlaşmış kişinin olmadığı istatistikselamik denilen bir
+[3:52] alan. Bununla ilgili çalışmaları baştan sona kadar anlatacağım. Bir eğitim düzenledim 2019 yılında. Burada da
+[4:00] eğitimi gördüğümüzde bir araştırma merkezi üzerinden yerdim ki şu anda bu araştırma merkezi yok.
+[4:09] Burada gördüğümüz gibi önce ilana çıktık. Okullara yazıları gönderdik. 30 kişiyi de sınırlandırmıştık ki buradaki
+[4:16] çok güzel eee bilgisayar laboratuvarında 30 kişilik yer vardı. 30 kişi başvurdu ama daha fazla da başvuranlar vardı.
+[4:24] Bunların arasında kimler yoktu?
+[4:26] Öğrenciler vardı. Yüksek [boğazını temizler] lisans öğrencileri bu konuda çalışma yapan doktora öğrencileri bu konuda çalışma yapan araştırmacılar.
+[4:35] Bitki ıslahçıları kamu argesinde görevli araştırmacılar. Bunlar geldiler. Burada çok güzel bir eğitim düzenledik. Burada
+[4:43] da görüntüleri görürsünüz. Ondan sonra dedik bununla ilgili bir talep var ki insanlara bu eğitimi vermemiz lazım.
+[4:50] Sonra ikinci olarak da 2020 yılında tekrar bu eğitimi yapalım dedim. Çünkü bu eğitimin bir sürekliliği
+[4:57] olması lazım. 2020'de tem yaptık, yapacaktık. İlana çıktık ama
+[5:05] korona pandemisinden dolayı bu eğitimler yasaklandı ki zaten hepimiz evlerimize kapandık. Bu da iptal olmuş oldu.
+[5:14] Yapılamadı.
+[5:17] Olabilir. Yere durmadık. Koronadan sonra işlerimizi yaptıktan sonra tam gazın 2002 yılında ancak kendimizi
+[5:24] toparlamıştık zaten ki ilk eğitimi dolar serbayı üzerinden ücretli yapmıştım ki oradan da tek bir
+[5:32] kuruş almadım. Tamamı okula kaldı ki okulumuza gelir olsun diye. Sonra da SEM üzerinden yaptık. Pamukkale Üniversitesi'nin
+[5:40] çok değerli bir kurumu olan sürekli eğitim merkezinde bunu söyledim. Onlar da dediler ki çok güzel olur. Posterimi
+[5:47] falan da hazırladılar. Böyle tüm ödeme işleriyle de onlar ilgilendi. Buradan bu eğitimleri vermiş oldum. Yine yoğun
+[5:55] başvuru oldu ama eğitim ücretini çok bulanlar oldu. Eee bu işi ücretsiz yapmam gereken diyenler diyenler oldu.
+[6:04] Bu olabilir. Hatta şunu da göstereyim.
+[6:06] Burada bu online bir eğitimdi. Çevrim içi bir eğitimdi. Burada da bak gördüğünüz gibi tüm bu rafta yaptık.
+[6:15] Çünkü önceki eğitimde iki gündü. İki gün boyunca sabahtan akşama kadar ben bunları anlattım. Bunu çok da faydalı oldu ama süre yetmedi.
+[6:27] Çünkü bütün bu karmaşık analizleri ve baştan sona kadar kimizi biraz sonra göreceksiniz anlatmak biraz sıkıntılı
+[6:34] olacaktı. 12 haftalık bir program ki 13 hafta son kapanışıyla birlikte 13 haftalık bir program düzenledik. Hepsini de burada tek tek kayıtları var.
+[6:46] 23 saat bunları anlatıyordum ben.
+[6:48] Kayıtları istediler. Burada güzel bir dijital arşivi oluşturdu. Bu kon oluştu ama bunları kişisel verileri koruma kanunundan
+[6:56] dolayına da açık edemiyoruz ki zaten burada da özelimiz olduğu için de bunları yapamıyoruz. Görüldüğü gibi ne
+[7:03] kadar eğitim versem de bunları kayıt altına alınması istendi ve aynı zamanda hani isteyenlere de gidip bu eğitimleri
+[7:10] birkaç yerde verdim. Ama süre sınırlaması bu konuda sıkıntılı. Çünkü belli bir konuyu buradan kavrayıp
+[7:18] anlamak ve bağlantı kurmak süreç istiyor. Bu süreci ortadan kaldırmak için bu ikinci nesilde karşınızda
+[7:27] tamamen 3üncü nesil bir dijital platform olarak karşınıza geldim. Çünkü burada eee bu eğitimleri ben tekrardan vereceğim.
+[7:39] Genişletilmiş bir müfredat var. Şimdi bunlardan bahsedeceğim. Neler anlatılacak burada? Ve bu eğitimin temel amacı nedir? Buradan başlayalım. Burada
+[7:48] da eğitimin temel amacı bu. Akademik bir çalışma bitki genom analizlerini içeriyor. Bu analizler nedir? Nasıl yapılır? Sadece bitkide de değil. Bu
+[7:57] arada konsept çok daha fazla büyük. Yani canlılıkla ilgili her alanda marro teknolojileri üzücü bir şekilde kullanılır.
+[8:07] Makaleler yayınlanıyor. Ülkemizde bu konuda çalışmaları çok fazla iyi. Büyük gruplar iyi çalışmalar yapıyorlar.
+[8:13] küçük gruplarda kendine göre çalışmalar yapıyorlar. Makaleler yayınlanıyor ama iş sürdürülebilirlik konusuna geldiği zaman eee yeterli uygulamayı bulamıyor.
+[8:27] Özellikle yeni çağda çok fazla duyuyoruz bu kelimeyi. Sürdürülebilir bir sistemin sürdürülebilir olması lazım.
+[8:35] işte kısıtlı bu şeyi kişiye, kişilere bu eğitimi verdiğiniz zaman orada kalıyor ve bu sürdürülebilir bir şekilde eee
+[8:42] devam edemiyor. Aynı zamanda kişi sayısı da burada sınırlı. Bu platformu kurarak tamamen ücretsiz olan bir eğitim olacak.
+[8:52] Burada baştan sona kadar bu analizleri uygulamalı olarak öğreneceksiniz.
+[9:00] Bu platform amacı da sürdürülebilir olması. Şu var. makaleler yayınlanıyor çok güzel çalışmalarda ama bundan sonra
+[9:08] sadece bu oluşturulan moleküler araçların makalede kalmasın. Ondan sonra
+[9:15] da başka araştırmacılar için sürdürülebilir bir kaynak olmasını sağlayacak. Bu buradaki eğitimler çok
+[9:23] güzel yayınlar yapılıyor ama
+[9:27] [boğazını temizler]
+[9:28] ülkemize baktığımız zaman da mesela biz burada NCB veri tabanlarını kullanıyoruz. Başka üniversitelerin veri tabanları filan var
+[9:36] ama ülkemize ait bir tane düzgün dijital bir platform yok.
+[9:43] E işte bunun oluşturulması lazım burada.
+[9:48] Yani şurada var. Yapılan çalışmalar moleküler ıslah konusunda, markör noktasında sadece makalelerde kalmasın.
+[9:56] Makaleden sonraki çıktıları da bitki ıslahçıları ya da bu farklı alanlardaki eee inek,
+[10:05] veteriner hekimler işte hayvan ıslahında da bunlar kullanılabilsin. Bunun için bir platform oluşturmaktı benim
+[10:13] [boğazını temizler] amacım. Eğitim müfredatına bakalım. Önceki eğitimlerde de bitki gönüm analizleri dediğimiz zaman aklımıza ne çıkıyor, ne geliyor?
+[10:22] Bunlardan bahsedeceğiz. Böyle bu aslında şu marker teknolojilerinin geliştirilmesini ve genomikte kullanım
+[10:30] alanlarını burada anlatacağım. O yüzden en başta markör nedir? Moleküler markör nedir? Bu teknolojilerin temennleri
+[10:38] nedir? Farklı çeşit markör sistemleri var. Bunları günümüzde hangileri popüler, hangilerini kullanmamız kullanmamız ya da kullanmamamız gerekir?
+[10:48] Bunların avantajları, dezavantajları nedir? Bunları anlatacağım ki buradan öğrenmiş olacaksınız. Çünkü makalelerde
+[10:55] her şeyi öğrenemezsiniz. Makaleler en son filtre edilmiş, derlenmiş en rafine bilgiyi size sunarlar. Burada işin her şeyine bakacağız. Temeline bakacağız.
+[11:06] Kullanılan paradigmalara bakacağız.
+[11:09] Tarihine bakacağız. En başından buradaki dönüşüm süreci nasıl gerçekleştiriyor?
+[11:15] Buna bakacağız. İlk başta markör teknolojili anlattıktan sonra kickyu da fazla uzatmayayım. Genelde çok fazla böyle yayınlar yaptığım zaman insanlar
+[11:24] dinlemiyorlar. Genetik çeşitlilik analizler. Burada marker teknolojisi yine çok değerli bitki gen kaynaklarımız
+[11:30] var. Bu gen kaynaklarını Darwin'de yani Darwin dedim hiyerarşik kümeleme analizi dendogramlar nasıl oluşturulur?
+[11:40] Sonra bu daha nispeten ona göre sonradan çıkan structure popülasyon yapılan analizleri. Bunlar nasıl yapılır? Model tabanlı analiz yöntemleridir. Bunlar da
+[11:49] bir popülasyonunuzun sah yansıtan en iyi model nasıl belirlenir? Structure harvester. Burada uygulamalı birebire
+[11:57] bir ve farklı veri setleriyle öğreneceksiniz ve artık kendi analizlerinizi kendiniz yapacaksınız.
+[12:03] Çünkü herkes bu konuyla ilgili bir çalışmalar yapıyorlar ve analizi konusunda da eksiklerimiz var. Burada da
+[12:11] genetik çeşitlilik analizi öğrendikten sonraki buradaki tüm programları yazmadım. Bunu mesela fictoryde var.
+[12:17] Yani harcın daha güzelleştirmesiyle ilgili ama sadece popülasyon düzeyinde olan şeyler. Moleküler evrim konularına
+[12:25] girmiyoruz ve bilirim megayı da kullandık. Bununla ilgili çalışmalarımız da var ama bu konuda benden çok daha iyi
+[12:33] bu yani botanikçiler özellikle zoologlar evrim konularında algoritmalarını çok daha iyi biliyorlar burada
+[12:41] ki zaten bu markör teknolojilerini evrim çalışmalarını kullanmak da çok doğru değil. Onlar daha dizi veri analizi konularına giriyorlar. Çekirdek koleksiyon çok fazla bitkiniz var.
+[12:51] Bunları nasıl minimize edebiliriz? tüm popülasyonun genetik çeşitlilerini yansıtan bir analizi nasıl yapabiliriz?
+[12:59] Böyle buradan buraya kadar şu tanımlayıcı yani bitki gen kaynaklarının moleküler karakterizasyonunu kapsayan
+[13:06] çalışmalar. Bunu da bitirdik mi? Genetik bağlı analizleri artık fonksiyonel
+[13:13] genetiğe geliyoruz. Fonksiyonel genetik nedir? Bunlar forward reverse diye ayrılıyor ama bunları da anlatacağım
+[13:20] size. Bir genetik bağlantı analizi nasıl yapılır? Genetik harita nasıl oluşturur?
+[13:24] Kaç tane harita vardır? Fiziksel harita, genetik harita. Bunların arasındaki fark nedir? İkincisi
+[13:31] tek yani bir tek gende kontrol edilen bir genomda nasıl haritalır? Nerede olduğu
+[13:39] nasıl bulunur? Reverse forward genetic farklı programlar var. Join Map var.
+[13:46] Sonra Amerikalıların geçtirmiş olduğu bir program daha var. Çok daha retro eskiye gidersek map makerlar onları da kullandık. Bunları da bunları
+[13:54] anlatacağız. Çünkü genetik bağlantı haritaları önemli. Günümüzde önemini yitirmiş gibi gözüküyor. Çünkü tam dizileme platformları ve dizileme
+[14:02] yöntemleri çok fazla gelişti. Ama genetik bağlantı analizlerinin hala önemi var. Sadece rolü değişti. Eskiden
+[14:10] referansın öncesi ki buna NGS öncesi diyoruz. Bunların fonksiyonu, rolü genom hakkında, yapısı hakkında bilgi sahibi
+[14:19] olmaktı. Mesela comparative mappingler, haritalar filan. geliştiriliyordu. Ama şimdi sadece bu tek haritalamada bir
+[14:28] genomun eee açılım açısından stabilitesini ve doğruluğunu gösteren bir eee haritalama şekli düzeyinde olur.
+[14:39] Yani gidip de domatesle genetik harita oluşturduğunuz zaman kimse altın madalya takmaz size ama bir tekken haritalayacaksanız bunu oluşturmanız
+[14:47] gerekli. Çünkü tamamen fiziksel haritalar üzerinde olur.
+[14:50] Haritalamayacağınız zamanlarda da onu da anlatacağım ne olduğunu ki bu tek haritama ve genetik bağlantı analizlerini ayrılattım. E tabii ki
+[14:58] keşke hayat böyle olsa da herkes tekken, tüm karakterler tekken olsa da onları haritalasak biraz daha kolay böyle bir şey. Ama sonra da kötü yereller geliyor.
+[15:09] Kantitatif karakter logosu haritalamaları. Çünkü bilgilendiğiniz tüm çoğu karakter
+[15:17] kuantitatif kalıtım gösteriyor. Bunlar nasıl yapılır? QTL haritalamaları. Bunun içinde iki yöntem var. Bir burada
+[15:25] yapacağımız bir parantel gültü qal mapping. Bu ikisinin isi bulmakta zorlanıyorum ama buna bir parantal QL
+[15:33] mapping diyoruz. Böyle qüel haritalama. yarı İngilizce yarı Türkçe oluyor ama ben bu terimlerin çoğunu inaten İngilizce öğrendiğim için
+[15:41] buradan da karıştırabiliyoruz ama yani bir anası bir babası olan açılım popülasyonlarında yapılan QT haritalama.
+[15:50] Öylelikle bu analizlerde artık çok fazla bilen yok, çok fazla kullanan da yok. Çünkü yerini civas yani ilişkilendirme haritalaması almış
+[15:58] durumda ki ikinci yöntem burada bir QT ya bir parantel denel popülasyonla bulursunuz ya da Cbas yaparak
+[16:07] bulursunuz. Bundan sonra genelde 2001 yılında Mısır'da sonra da hemen bir ik yıl aynı eş zaman içinde insanda
+[16:14] geliştirilmiş şeyler yöntemler ki esas insanda eee medikalcilerin geliştirmiş
+[16:21] olduğu civaslar çok çok daha kapsamlı analizler. Civas demiyorum ben buna. Bu civas da genom white association
+[16:28] analizin kısaltılmış olan şeyde ilişkilendirme haritalaması. konsept olarak çok daha önce oturmuş ama
+[16:37] bu özellikle şeyle yüksek hacimli trop dizilemeyle birlikte artık
+[16:45] hayatımıza giren şeyler burada oturmuş bir harita yıl itibariyle daha şey olduğu için ve bir parantez Q3 haritalama paradigmaları çok daha
+[16:54] oturmuş düzgün eee analizler ama ilişkilendirmeye gelince bu artık sıkla kullanılan bir şey. Çünkü bir paradigma
+[17:01] diğerinin yerini alırken bir şey iyi olması lazım. Modern birimde de böyledir. Bir paradigma işe yaramamaya
+[17:10] başladığı zaman onu kurtarmak için yeni bir paradigma geliştirilir. Çünkü batı paradigması bunu gerektiriyor. Kuantum
+[17:19] fiziğinde olduğu gibi normal fizikle açıklayamadığın şeyler için hemen yeni bir paradigma kuantum fiziği geliştirdi bu.
+[17:27] QTE QTL çalışmaları ıslahta kendini yeteri kadar göstermediği için qterler
+[17:35] buluyorsunuz. Qterler var. Bu teorilerden bahsedeceğiz ama çok fazla da bunu ıslahta yansımalarını
+[17:42] göremiyoruz tekken kadar. Ondan sonra da bu çıkmış. Böyle bir ilişkilendirme analizi var. Bu veri madenciliğindeki
+[17:49] olan şeydir. Veri madenciliğinin bir analiz alanıdır. Bunu da biz ilişkilendirme haritalamasında
+[17:56] kullanalım. Yani panellerde kullanalım bunları da. Yani çeşitleri bulalım, çeşitlerde yapalım. Burada da baktığım zaman her yıla farklı modeller,
+[18:05] yöntemler çıkıyor. Çok daha oturmamış bir şey ama herkes artık bunu da yapıyorlar. Çünkü neden kolay? Çünkü bunun için popülasyon geliştirmeniz
+[18:13] lazım ki herkesin öyle bir ıslahçısı yok. var ama bunun için de [boğazını temizler] gerek yok. Her türlü
+[18:20] bitkiniz varsa bunu genotipleyip ölçüp ilişkilerini bulabilirsiniz. Ama yöntemsel açıdan ki ilk çıkışı da bunun böyledir.
+[18:29] Akrabalık ilişkileriyle bu ilişkilendirm yani istatistiksi bir yöntemi doğal popülasyonları, bitkilere uyguladığımız
+[18:36] zaman sorunlar çıkıyor. Bunları göreceğiz. Fazla uzatmayın burada da.
+[18:41] Sonra da ilişkilendir. 2001 yılında çünkü bitki ıslahında olsun, genomikte olsun, genetikte olsun herkes bir kurtarıcı peşinde. Qtar haritalamaları
+[18:51] burada kullandık. Yine QT'lar çok fazla işe alamadı. İlişkilendirmeyi kurtarılacak diye yaptı ki ben
+[18:57] lisedeydim onlar çıktığı zamanda ki siz ne kadar heyecanlanmışsınızdır daha deneyimli araştırmacılar.
+[19:04] Şimdi de aynı heyecanı genomik seleksiyonda yaşıyoruz. Genomik seleksiyonda şu var. QCL'ler patladı.
+[19:10] Demek ki biz bu külteler çalışmalarını [iç çeker] mas laboratuvarlarında, sahada ıslahta kullanamıyoruz.
+[19:19] Geramsel eksiyon kullanalım dediler.
+[19:21] Yani tekgenten bir şey olmuyor. Çok tüm genomun eee fenotipe olan etkisini hesaplayan
+[19:30] bir genom white breeding val hesaplayalım. Model oluşturalım oradan yapalım dediler. Çok daha mantıklı.
+[19:36] Konsepti çok daha önceye yarıyor ama işte artrop sekans gerekiyordu. Artık o da var. Bunu da yapacağız. Ama bunu
+[19:44] laboratuvardan çıkartıp da ki az önce dediğim gibi platformun amacı sürdürülebilir. Bitki ıslahçısının işine
+[19:50] yarayan ya da hayvan islahçısının yarayan bir sisteme. Bunu laboratuvardan çıkartıp da sahada uygulamak için de çok fazla bu dönüşümde sorunlarımız var.
+[20:02] Bunları da konuşacağız. O sorunları aşmak için neler yapılabilir? Onu da yapacağız. Y teori olarak çok gelecek vaat ediyor ama pratikte sıkıntıları
+[20:11] var. İlk eğitimde bunlar yoktu. Genomik seleksiyon yoktu. Genomik seleksiyonla ilgili benim yayınımda yok. Ama artık
+[20:17] genomik seleksiyon yapmak için ayrı bir iş yapman gerekiyordu. Ama artık ilişkilendirme haritama yani normal panellerin arkasından da bu genomlik
+[20:25] seleksiyon analizlerini ortaya koyuyorlar. Bunu da koydum. anlatacağım size. Çünkü konsept olarak bunu da
+[20:34] bilmemiz lazım. Biyoeninformatik ve veri tabanları bu Jack eğitimlerde de olmayan bir şeydi. Şimdi vizyon değişiyor.
+[20:42] Her bitkinin referans genomu var. Çoğu bitkinin.
+[20:46] Diğerde ya da draft genomu var burada. Bu draft genomlardaki buradaki genleri ve gen
+[20:54] bölgeleri bulunmuş bir QTL buldunuz. Ama bu QTL'in ıslahta eee kullanılabilmesi için Qtel'i doğrudan kullanamazsınız.
+[21:02] Bunun için bir buna bağlantılı bir markör geliştirmeniz lazım. Aslında QTEL olarak bir bölgedir ama bunun için de
+[21:09] esas bu karakteri kontrol eden geni bulmak. Bunun için de bir basit düzeyde.
+[21:15] Bu kesinlikle biyoformatik eğitimi değil. Biyoenformatikçi de değilim ben.
+[21:19] Ama kendi alanımdaki bölgelerdeki mesela bir veri tabanından diziler nasıl çekilir? bir veri tabanından zaten
+[21:26] yapılmışı varken o bölgedeki genler nasıl bulunur? Hiçbir şey yoksa denova bir sekansınız varsa buradaki genler
+[21:35] nasıl tahmin edilir? Ya da buna yapısal ya da structural ya da fonksiyonel anotasyon diyoruz. Bunlar nasıl bulunur?
+[21:43] Küçük programlarla bunları göstereceğim.
+[21:45] Burada tüm programları yazmadım. Bu sefer dizi analizi işi içine girecek.
+[21:49] Bunun içinde farklı büyük analiz platformları diyeyim onlar var. UGM var mesela. Rusların geliştirmiş olduğu bir sürü programı entegre içinde buluyor.
+[21:59] Galaxy serverı var. O da çok iyidir. Bir sürü programla ilgili entegre eee biyofomatik araçların toplantı online bir server o işimizi kolaylaştırır.
+[22:09] Ya da bioedit gibi diziyi görebileceğimiz dizinin içindeki aleli görebileceğimiz bir şey bu da.
+[22:16] Mesela fotoan fazla yapmayayım uzatmayayım. Burada bakalım burada önce buna devam edelim. özgeçmişimde ayrıntı
+[22:24] olarak konuşuruz böyle. Buradan sosyal medya çünkü bu videoları çekeceğim.
+[22:28] Çektikten sonra tanıtımları da burada sosyal medya var. Burada benim Instagram sayfam. Çünkü bir daha bunun içinde bir Instagram sayfası alıp onu yönetemem.
+[22:40] Artık benim özel hayatıma da katlamış olacaksınız. Buradan takip edersiniz böyle bir şeyden. İletişim bilgilerim burada. Bakayım ben çala çalışıyorum.
+[22:51] Burada bitkisel ve hayvansal üretim bölümü var. Burada telefon numaram merkezde vardır zaten.
+[22:58] Burada benimle benim ekosistemimde olan dijital kaynaklara baktığımız zaman en başta da Çalmayon'un web sitesi.
+[23:06] Burada da bitkisel hayvansı çok değerli ziraat mühendisi araştırmacılarımız var burada. Aynı zamanda bunun yanında gıda
+[23:13] teknolojisi bölümü ve muhasebe bölümü de var. Burada da çok değerli gıda mühendisleri, finansçılar ve bilgisayar mühendisleri
+[23:23] var. Çünkü burada bunları da çünkü biraz sonra da anlatacağım. Böyle kendi ekosistemini terk etmeyen veriler yeteri
+[23:30] kadar sorgulanamaz. Çünkü biz belli bir paradigma üzerinde çalışıyoruz yöntemde ama farklı alanlardan farklı kişileri
+[23:38] gördüğünüz zaman ve onlara da bir şey gösterdiğin zamanki en büyük istatistik böyledir. Mesela bizim oradaki
+[23:45] finansçıların kullandığı istatistikse biz diyoruz hani böyle bunlar nasıl yapılabilir filan diyor ki bunlar çok basit düzeyde olan şeyler çok daha
+[23:54] farklı bu kişiler de var. Bu koşer de konuşmak isterse bunları da yapabiliriz.
+[23:59] Çok değerli araştırmacılar var. Çünkü enstitüde çalışırken ben orada enstitü adı üzerinde bir üniversite değil
+[24:07] enstitü kendisi teknik olarak üniversite ama hani farklı alanlardan bile bir insanı görmüyorsun. Herkes genetikçi, herkes aynı paradigmadan, herkes bu
+[24:16] şekilde tek bir yönden bakıyorlar. Böyle bu da dijital tarım bölümümüz. Burada dijitalleşme aynı
+[24:24] zamanda bu moleküler biyolojidin bu platform dijitalleşmesi. Biz de burada geçen sene açıldı yeni bir bölüm.
+[24:30] dijital tarım teknolojileri konusunda eğitimler veriyoruz. Buradan da bizi takip edebilirsiniz. Burada geliştirmiş olduğumuz simülasyonlar, karar destek
+[24:39] sistemleri ya da yapmış olduğumuz çalışmalarınızı aynı zamanda okulun istekler sayfasından da takip edebilirsiniz.
+[24:47] Bu da Çalmayın Instagram. Okulumun Instagram'ı. Beni takip etmezseniz de olur ama burayı takip edin. Çünkü desteğe ihtiyacımız var. Buradan da kapatayım. Çünkü ben orada çalışıyorum.
+[24:59] maaşım oldu. Oradan alıyorum. Bu tamamen ücretsiz, size eğitim vermek için olan bir şey.
+[25:05] Dolayısıyla çalma yolu varsa ben de varım. O yüzden buraya da desteklerinizi rica ediyorum.
+[25:15] Okulumuza bakalım. Burada bizi tanıdıktan sonra önceki eğitimlere baktık. Eğitim araçları ve sistemler nasıl devam edecek? Buradan eğitim araçlarımız var. Eğitim modülleri.
+[25:24] Bakalım burada tane şey var. Bir burada kullandığımız eğitim modüllerini buraya kullanacağım.
+[25:31] Eğitim modüller burada olacak. Burada bunları gruplandıracağım. Mesela genetik çeşitlilik analizleri burada altına
+[25:39] geçmiş ama moleküler markör sistemleri buradan şimdi bununla da ilgili şeyler anlatacağım da sistemleriyle ilgili
+[25:47] videoları çekeceğim. Burada yayınlayacağım. Bunu yayınlarken de tabii ki YouTube veri tabanını kullanacağım. Yani bu işinde de bir YouTube kanalı da var.
+[25:56] Şu andaki bu tartışmalar filan konusunda da hani online YouTube kanallarıla ilgili şeylerde de bu hani
+[26:05] [boğazını temizler] YÖK'ün bir burada bildirisi oldu. Bununla da ilgili de bu yeni bir şey değil zaten. Bir bununla ilgili olarak da genel konsepte
+[26:14] baktığımız zaman memurlar herhangi bir şekilde dışarıdan ekstra para kazanamaz, şirket kurulamaz bir şey. Akademik personel için de bu farklı. Akademik
+[26:22] personelda eğitim ve ARGE amaçlı olarak da işlerini yapar. Az önce anlattığım gibi SEM üzerinden yapar, ter sermaye üzerinden yapar. Ama bunun haricinde ya
+[26:31] da kendi şirket kurar, şirketim yok düşünüyorum ama bunun üzerinden yapar.
+[26:37] Ama bunun dışında da yine memurlar, memur ve devletten maaşımızı aldığımız için de bunlarıan
+[26:44] para kazanamaz. Ve burada da YouTube'u bir veri tabanı olarak kullanıyorum.
+[26:48] Çünkü aynı zamanda başka teknoloji devleriyle de burada kullanıyoruz. Yani Microsoft'ın OneDrive var kurumsal
+[26:55] lisansı olarak da ama onun da kotası 100 GB yani yetmez. Aynı zamanda müthiş bir senkronasyon problemi var. Yani oradaki
+[27:04] videoları açsam bile olacak. YouTube kullanma amacımız da şu bir YouTuber olmak değil ki. Buradan da kesinlikle para kazanılamayacak ki bunun standartları da bellidir zaten.
+[27:15] Bir sınırsız bir ost veri server sağlaması videolarımız iki ekosistem de yani akşam eve gidince televizyondan da
+[27:23] açıp da izleyebilirsiniz bunu. Aynı zamanda buradan da takip edebilirsiniz.
+[27:28] üye olursunuz olmazsanız orası da çok şey değil ama böyle spesifik ve sıkıcı bir kanalı da çok fazla izlenip de para kazanamayacağım olayına girmesin.
+[27:40] Buradaki bir şey. Neyse bu konulara böyle bakalım. Geçelim şimdilik
+[27:45] [boğazını temizler]
+[27:47] işte buradan bu tüm sitelerdeki o video YouTube'daki şeylerde de burada yerini alacak zaten. Onun tabanı üzerinden bunu kullanacaksınız.
+[27:54] Buradan da eğitimleri [boğazını temizler] buraya koyacağım. sayfalarından dijital asistanlar.
+[27:58] Dijital asistanlar şu anda boş ama koyacağım bunlara da. Çünkü artık eee yapay zekanın da vermiş olduğu böyle eee
+[28:08] yeteneklerle birlikte burada eee eğitimi kolaylaştıran mesela bir jelde skorlama nasıl yapılır? Bununla ilgili olan bir
+[28:17] modüller geliştirdim. Yani bir morfa kampüs olacak. Moleküler biyolojinin bir moleküler biyolojinin bir ebası olacak.
+[28:24] Buradaki şeylerde böyle uygulamalı eğitimler, küçük kodlar, programlar, HTML sayfaları olacak. Konsept bana ait
+[28:33] ama tabii ben kodlama bilmem. Kodlamayı da yapay zekaya yaptırıyorum.
+[28:40] Buradan hakalım.
+[28:44] Veri setleri. Bu tamamen burada anlatılıp geçilecek bir şey değil de veri setleri olacak. Hangi veri setleri olacak? Çünkü bir sistemi yaptığımız zaman nasıl veri setleri kullanıyoruz?
+[28:54] Gerçekten sentetik veri seti kullanıyorum burada. Hani bende verisi olanlar da bu konuda rahat olsun.
+[29:01] Herhangi bir kişinin verisini ve veri gizliliğine çok önem veririm. Buradan da burada gözükmeyecekler. Sentetik veriler kullanıyorum. Sentetik verilerde de
+[29:09] neler olacaktır? Böyle dominant markör datası. Bu bir. İkincisi kodominant markör datası. 3. GBS datası yani Sip
+[29:19] yüksek şabanda sinip dataları ve burada da morfolojik datalar. 4 sette de ki araştırmacının bunlara bulduk.
+[29:28] Böyle çeşit setleri olacak. Programları buna göre analiz edeceğiz. Hani en düşünür düşük çözünürlüklü
+[29:37] markörden en yüksek çözünürlüğü kadar farklı setlerde bu analizler nasıl yapılacak burada [homurdanır] göstereceğim veri setlerinden. Çünkü küçük konular sıkıntılı.
+[29:48] [öksürme]
+[29:49] Şu anda GBS ve yani şu anda GBAS GB değil GBS yani yüksek multiplexing teknolojisini kullanan
+[29:57] dizileme platformlarında müthiş bir şekilde veri çıkıyor. 30.000, 40.000, 60.000 tane sini bir popülasyonda
+[30:05] gençle. Bu müthiş bir şey. Bu güzel bir şey ama herkes de bunu kullanmıyor.
+[30:10] İkincisi, peki düşük çözünürlüklü normal bir strap ya da SSR'larla yapılan çalışmalar ne olacak? Onlara da
+[30:18] bakacağız böyle. Çünkü mesela bir Korn'den bir hocaya sormuştum ben bu şekilde de bende SSR datası ya da Srap
+[30:25] datası var. Bununla ilgili bir civ asociation mapping yapabilir miyiz? Olmaz ki dedi. Onunla dedi. Olmaz ki.
+[30:32] Olmaz ki diye de bir şey yok yani aslında. Olmaz dediği konsepte olmaz.
+[30:37] Çünkü yüksek çözünürlüklü bir datanız var. Yüksek çözünürlük iş yapmanız için.
+[30:41] Ama bunları da o küçük veri setlerinde nasıl yapacağınızı size göstereceğim ki sadece bunları da ben biliyorum burada.
+[30:48] Çünkü civas dediğiniz zaman ilişkilendirme analizinde de bir sıraf görürüyle ki isteyenler de oluyordu.
+[30:55] Bunu nasıl yaptın diyenler de başka eğitim platformlarında bu analizleri bulamazsınız. Mesela bir
+[31:03] civas ya da dominant markörde [boğazını temizler] bir nasıl haritalama yapılır bunları da yapacağız anlatacağız. Yani olur olmaz diye bir
+[31:11] şey yok. Bu şekilde
+[31:15] [iç çeker]
+[31:17] veri setleri de bunlar. İkincisi ekosisteminde okulumuzun koridorlarında böyle dolaşırken şurada da farklı şeyler
+[31:25] koydum. Bir makale kulübü. Makale kulübünde de bu literatür etopsisi.
+[31:30] Makaleler nasıl yazılmış? Son bir qel makalesine baktığınız zaman siz en azından 2 dakikaya onu yapay zekaya da
+[31:38] gerek yok. Neyi nasıl yapılmış burada bileceksiniz. Biraz daha açacağım bu konuları ileride.
+[31:45] Nasıl hakemi ikna etmiş? Hakem hangi analizi istemiş de sonradan ne olmuş?
+[31:50] Ortada herkes bir şeyler isteyip de bir analiz karmaşası oluyor. Ona bakacağız. Buradan makale kulübü düzenleyeceğiz.
+[31:58] Makaleyi açacağım. Random eleştireceğiz.
+[32:00] Bakacağız. Oradan da yeni şeyler öğreneceğiz. O analizleri bu yapmış. Bu şekilde de ona filtresiz akademi dedim.
+[32:06] Çünkü bilim ya da konferans konularında çok resmi kasıntılı bir eğitim modülü düzenleniyor. Ama
+[32:14] burada tamamen sohbet şeklinde size anlatacağım ve biraz da genelde böyle sıkıcı değilimdir. Şu anda ilk tanıtım
+[32:21] videosunun heyecanıyla böyle bu makaleleri eğlenceli bir şekilde analiz edeceğiz. Sanayi bilim kafe. Bilim kafe bu bizim okulda da kuruldu.
+[32:32] [öksürme]
+[32:33] [boğazını temizler] Burada her zaman gelebilirsiniz. Beni çalda bulabilirsiniz. Kampüste birodada görevliyim. Gelirsiniz. Güzel kafelerimiz var. Konuk evlerimiz var.
+[32:41] Burada konuşuruz. Pandemi zamanında da e eski rektörümüz şey demişti. Mesela biz video yüklüyorduk derslere. Önce 10
+[32:48] dakikalık özet video yüklüyorduk. Sonra öğrenci geliyordu. Bununla ilgili tartışma yapıyorduk burada. Burada da
+[32:54] biz bu sanal bilim kafede toplantılar yapacağız. TS üzerinden anlatacağım. Dertlerinizi söyleyeceksiniz.
+[33:02] Anlamadığınız yerleri söyleyeceksiniz.
+[33:03] Bunları da burada yayınlayacağız ki esas öğrenme o noktada başlıyor.
+[33:08] Konuklarımız işte bu konuda kendi genlerini bize aktarmak isteyen özel misafirlerimiz, ıslahçılar, deneyimli
+[33:18] hocalarımız bu konuda yeni başlayanlar bunları da yapacağız. Bu işin tarihini ve hafızasını da öğrenmemiz lazım. Şimdi PCR makinelerinin yüzüne bakmıyor da bu
+[33:26] PCR makinesinin Türkiye'ye ilk geldiğinde yapıldığında nasıl çalıştı, neler kullanıldı ya da PCR tabanlı
+[33:33] markörler kullanılıyor da. Hadi bir siz şey yapın bir bizim hocalarımıza sorun.
+[33:39] So blooding yöntemi yine Araf B radioactiflarına çalışanlar vardır?
+[33:44] Çünkü hafıza önemli. Şimdi her şey çok kolay. Bir şey yaparak DNA izole ederek de platformlarda yeni nesil dizilemede
+[33:51] birlikte 3060.000 tane markör elde edebiliyorsunuz. O zamanlar bu işler nasıl yapılıyordu ki? Hafıza önemli.
+[33:59] Geçmişi bileceğiz ki geçmişten bugüne kadar ne olmuş ki geleceğimize yön verebilelim. [homurdanır] Burada da bu şeyler önemli olacak. Konuklarımızı
+[34:08] davet ederiz. Aynı zamanda veri bilimciler ekosistemin dışında olan
+[34:12] [homurdanır]
+[34:14] istatistiği tam dip noktasına kadar öğrenen istatistikçiler. Bunlar da gelip burada bize deneyimlerini anlatacaklar.
+[34:21] Çünkü ben ıslahçı değilim. Islah da bilmem. Başarısızlık hikayeleri. Bu biraz fazla oldu gibi ama olsun. Yine de
+[34:29] bunu da konuşmamız lazım. Bu bilimin kasıntasından uzak makale grubu koşasında şu aslında her bir makale bizim alanında bir başarısızlık
+[34:37] hikayesidir. Öyle olmasa zaten özellikle lafı dolandıra dolandıra dolandıra anlatan makalelerden nefret ediyor.
+[34:45] Eskiden öyle değildi. Eskiden de yaşım ortaya çıkacak ama yani yaşım değil. Ben 3 senedir 39 yaşındayım. Çok da yaşlı değil ama eski makalelerin belirlerini
+[34:54] kullanıyoruz. Markörü geliştirmiş, bağlantı noktasını vermiş. Aha bunu kullanın demiş. Yeni makalelerde onu geliştirmiş oradan. Sinip'i bulmuş.
+[35:03] Orada şeyi de bulmuş böyle. Ya lafı niye dolandırıyorsun? Bu kadar geliştirdi mi?
+[35:07] Geliştirmedin mi? Sonuçta ne? Sonuç bir şey yok. Lafı dolandır git. Bir başarısızlık hikayesi der ki QT
+[35:13] konseptin ıslahta zaten çalışmalarının %98'i ıslahta kullanılamıyor. Bu bilimin [homurdanır] sürdürülebilirlik
+[35:22] açısından yöntemsel olarak sürdürülebilirlik burada bir sorundur.
+[35:26] Ama aynı zamanda biz işte moleküler biyologlar sadece bizim alanda da değil burada anlatacağım. Genelde ben bitkiciyim bunu anlatıyorum ama geçen bir ilaçta bir açıklama yaptı.
+[35:35] Makalelerin yarısı dedik ki yüz yüze bakıyoruz ihtiyacımız olur diye. Bunu an söylemiş böyle tekrar edilebilir değil.
+[35:43] Reprodus değil dedi. Değil olur tabii ki. Niye olur? Çünkü biz bilim insanları sonuna kadar gideriz. Şöyle çünkü bir de
+[35:51] deterministik bir paradigmayı benimseriz. Yani şu var. Mutasyon varsa sonuçta kendini gösterecek.
+[35:59] ki bu bizim alanda da var ama daha da böyle protamusçiler filan. Yıllarca çalışılan deneyler var. Olmuyor,
+[36:07] çıkmıyor. 99 tane yapmış bir tanesinde çıkıyor. Onu yayınlıyor. 99'da niye çıkmadı? Yöntemsel olarak mıydı? Değil.
+[36:14] belki hücrenin doğasında propolistik modeller [kahkaha] söz konusu. Ama biz bunları bir daha
+[36:21] stmatize edemediğimiz için yani o yaşamın katmanını da iletli derslerde anlatacağım. Bu yaşam bu formu
+[36:30] dör tane nükleotit çalışıyoruz da biz d tane nükleotit böyle kompleks mükemmel canlıları nasıl açıklar? çok fazla bu
+[36:37] moleküler biyolojide ki moleküler biyoloji hücredeki veri akışının dinamik statik analizlerini yapar. Yani
+[36:45] nükleisteki bilgi nasıl kalıtılıyor genetik hücre içinde nasıl işe yarıyor? Bu da moleküler biyolojidir.
+[36:53] İşte bu ki her sene de bir sürü şeyler çıkıyor. Böyle de ne vardı? Dörtlü yine anlatacağım bunları da fazla şey olmasın.
+[37:02] Bir dört nükleotitli bir kot var zaten.
+[37:04] Bu da yaşamın alfabesi. Epigenetik çıktı, metisitosotin çıktı. Bir sürü şey çıktı böyle. Buradan da mikro RNA'lar
+[37:13] vardı. Nonkanik DNA'lar vardı. Buradan bunlar hep bilginin akışını kontrol eden
+[37:20] şeyler ve farklı katmanlar oluşturuluyor. Biz daha bunun 4 gün 400 kesimindeki anlayışı böyle
+[37:28] kullanmaya başladık. Diğerlerini de anlıyoruz böyle. İşte bu. Ha bu nereden kalmıştır? Qüel
+[37:36] haritalın başarısızlığından. Başarısız böyle makaleleri zaten orada anlatacağız. Başarısızlık hikayelerini.
+[37:43] Nasıl lafı çevirdin de hiçbir şey bulamadın ki? Çoğu makalede şudur.
+[37:47] Denedik ama yapamadık olayıdır. Bu kötü bir şey değil. Genelde de böyle bir şeydir. Yani bu yöntemsel olarak değil.
+[37:55] Hani bulduğunuz şeylerde ki mesela çok yıl denemeleri olması lazım. kullanılan yöntem olması lazım.
+[38:02] Öyle bir sürü şeyler olacak. Ona da bakalım.
+[38:07] Eee, sonra burada ama esas konu şu, eee, gerçek yayınlanmamış başarı hikayeniz
+[38:15] var mı? Bununla ilgili olarak da -80'de kaybolan markörler yapamadığınız. Çünkü başarısızlık hikayesi çok daha fazla şey
+[38:23] öğretir. Ben size makalelerdeki başarısızlık noktalarını göstereceğim ki bundan ders alabilelim. alabiliyorsak da böyle ona da bakalım. Geri bildirim.
+[38:33] Filesiz geri bildirim. Burada bir form oluşturdum. Bana mesajlarınızı buradan kayıt altına almak için orada kullanabilirsiniz bunu da. Ya da
+[38:41] doğrudan iletişim bilgilerim de var zaten buraya da olursunuz. Böyle aynı zamanda tur eğitim araçları
+[38:52] dikkatimi konuklarım. Aynı zamanda WhatsApp grubu da olacak. Buradan size bildirimleri verebilmem için orayı da açacağım böyle. Bunları burada da üye
+[39:00] olabilirsiniz. Buradan da şimdi konsept yerinde yaptıysak biraz daha hedef kitle üzerinden bakalım.
+[39:12] Edep kitlemiz ve vizyonumuz nedir?
+[39:17] Burada moleküler biyoloji multidisipliner bir alandır. Bir moleküler biyoloji departmanına
+[39:23] gittiğiniz zaman bir sürü [öksürme] eğitim geçmişine sahip, background sahip
+[39:31] araştırmacı görürsünüz bunlardan. Sonra bunlar yani şu var canlılığın olduğu her alanda genetik orküder biyoloji
+[39:38] kullanılıyor. Burada da farklı standartlarda bunu göreceksiniz. Bu da tamamen hani sınıflandırmak ya da veri
+[39:46] kitlesini oluşturmak tabii bana göre oluşmuş bir şey. Ev sahipleri demişiz moleküler biyologlar genelde birisinin
+[39:54] bu sorumluluğu alması gerekiyor. Çünkü moleküler biyoloji artık ne kadar ilerlese de bunun ıslahta ve pratikteki uygulamaları aynı şekilde ilerlemiyor.
+[40:04] Bu QTEL olayındaki anlattığım gibi sorumluluğu biz alacağız. O yüzden ev sahibi dedik bunlara.
+[40:09] Öğrenciler, yeni mezunlar, araştırmacılar. Çünkü moleküler biyologlar bu işin mutfağını en iyi bilen, deneyleri bilen kişiler ki bizde
+[40:18] de öyledir. Moleküler biyolojiyle ilgili bir kariyer videosu çekerim. Ayrı da moleküler biyoloji mezunu olur. Alanı seçerler. Yani %98 bizim medikalist
+[40:26] seçiyor. Tıp fakültelerini kanser çalışması yapıyor. %2'lik kısmında bir kısmı diğerlerini %1'lik kısımda bitkiyi
+[40:33] tercih eder. Ben de eskiden beri hep bitki genetiği üzerine çalışmak istiyordum. Orada da bunu tercih ettim.
+[40:39] Çünkü bitkide kalıtımını anlayabileceğimiz ve tüm zaten bir bayağı bir
+[40:45] moleküler veri taşlarını hep bitkiciler ortaya çıkarmıştır.
+[40:50] Neden? En basitinde Mendel yani benin babası bezelyada çalışmışlar. Böyle teorilerin ötesinde bu uygulamada nasıl
+[40:59] bunlara yardımcı olacaksınız? Bunlar var. Burada biyomadikal biyomühendisler.
+[41:04] Biyomühendisler şimdi anda yeni bu geçen sene de açılmış. Yine bir böyle farklı uygulamaları var. Biyoteknoloji programları var, biyomühendislik var.
+[41:12] Biyomhendislik daha proses tasarımı üzerine bir şey ama moleküler biyolojide bunlar da gelip de esas biyomatik accelere ihtiyacımız var. Burada bizim
+[41:19] genotipleme sıkıntımız var. Ülke olarak da teknoloji sıkıntımız var. Yani NGS işini bizim Türkiye'mizde yapmamız lazım. ya da
+[41:28] biyomedikal, yeni biyomedikal teknolojileri biyomedikal bizde genotipleme benimle ilgili genotipleme platformlarını
+[41:35] getirin, geliştirin, uygulayalım ki İngilizler çıkardı işte bir dizileme platformu küçük ben alacaktım ondan Minion var ya Oxfordun.
+[41:45] Onun gibi şeyler olursa bu ışı daha haır dökecek. Biyomatik bunu geliştirecek kişilere ihtiyacımız var. Kask kasp gibi
+[41:53] işte yeni şeyler var. dij eee genotipleme platformları, teknolojileri çıkıyor. Mesela bunları takip etmemiz lazım. İkincisi mesela şu anda Çin
+[42:02] teknolojileri revacchta. Yani ben dijital tarımdan biliyorum. Mesela burada biz dijital tarım teknolojilerini anlatırken eee ve bununla ilgili
+[42:11] araştırma yaparken yani Avrupa ve Batı teknolojilerinin yerini almış durumda ve
+[42:18] çok daha iddialı geliyorlar da genel çiplemede ya da yeni dizlemede kendi teknolojileri var bunların. Bunları bizim getirip bunun maliyetini sadece
+[42:26] geliştirilen yeni bir sistem bulun demiyorum ama ucuzlatın ya ucuz kullanalım yani böyle bir şekilde
+[42:32] [öksürme]
+[42:33] bu hedef kitlemiz kodun efendileri bunlar yazılımcılar bilgisayar mühendisi ki şu anda herkes
+[42:40] bir dönüşümün içinde ki bu dijital serim teknolojileri yeni olduğu için ben de bölüm başkanı olduğu için sürekli arayanlar oluyor.
+[42:47] Diyorlar ki ben şu bölümdeydim ama yapay zekaya kaldım. verzatına kartım. Burası önemli ama gerçek bir yazılımcıya da
+[42:57] ihtiyacımız var. Bu yazılımcılar hep biyofatikçiler yazılım üzerine çalışıyor ama bu alan istatistiksel genomik yani
+[43:06] alalik datanın analizinde bu konuda yazılı biyoformatikçi çalışan yok. Niye? Çünkü işin içinde istatistik var.
+[43:13] Bunlarda da bize yeni programlar geliştirilebilir. Geliştirilmiş programları yine hep burada bir sürü eski program kullanıyoruz. eskisini
+[43:23] millileştirebiliriz en azından bu programları bu konuda yardımcı olabilirler bize. Bu konuları öğrenince
+[43:29] de yani bir bioformatikçi demeyeyim de genomikçi yetiştirebiliriz.
+[43:36] İşin asıl sahipleri esas bu. Buna böyle dedim. Çünkü ziraat mühendisleri budur.
+[43:41] Biz moleküler biyolog olarak ne yapıyoruz? Ziraat mühendisleri için, bitki ıslahçıları için moleküler araçlar geliştiriyoruz. Bu araçları veriyoruz.
+[43:52] Onlar ıslahta kullanıyor. İşin esas sahipleri onlar. Çünkü onunların ihtiyacı var bu konuda.
+[44:01] Biz sadece geliştiririz. Bizi de çok şey beklemek yani bu konuda. Ama dedim ya işte bu sistemin eee vizyonerliği şu
+[44:11] uygulanabilir olması ve Türkiye zirahat konusunda çok iyi. Sadece bize özgü ve Türkiye'nin söz sü sahibi olduğu
+[44:19] bitkiler var. Bu bitkilerin ıslahçıları, çalışanlar bize diyecekler ki bununla
+[44:26] ilgili bir sürdürülebilir bir veri tabanı olsun ki yok. Yani böyle bizim esas üreteceğimiz şeylerde çok güzel yayınlar çıkıyor. Ama bir şey olduğumuz
+[44:35] zaman başkası bizim ürünlerimizi başkası çalışıyor, başkası onunla ilgili moleküler araçlar üretiyor zat o iş
+[44:42] olmaz. Yani biz onlara sahip çıkacağız, siz sahip çıkacaksınız. Buraya da ıslahta sizin işinizi kolaylaştıracağız.
+[44:48] Ki bir de şu var. Artık ıslahçılar bu molekülercilerden bir şeyler bekliyor da biz kendi içimizde bir şey de çözmemiz
+[44:57] lazım. Bu konuda bu işi molekülerciler işin doğası gereği anlattığından neden olarak da geri planda kaldılar. Çünkü
+[45:06] ziraat mühendislerinden aldığım şeyde birisi demişti ki ya siz de aynı şeyi bir sürü yöntemle yapıyorsunuz dedi. Bıkmış adam bıkmış. Ben de bakarım yani.
+[45:14] Hazır data verin şunlara. Verebiliyor mu? Yok. Bir şeyin karakterizasyonu.
+[45:19] Efp ne yapıyorsun? Ayrı SSR ne yapıyorsun? Farklı şeyler farklı şeyler çıkıyor. Kafası karışıyor adamın da karışmak düşünmek istemez ki onu adam
+[45:26] bakacak. Hetotik grupları belirleyecek misin? Belirleyeceksin. En iyi yöntemi kendi içimizde bulacağız ki hazır veriyi sunacaksınız burada. O da kullanacak.
+[45:35] Aynı zamanda ziraat mühendislerin yapacağı şeyler bunu uygulamalı olan MES laboratuvarları yani marköre dayalı
+[45:42] seçilim yapan laboratuvarlar. Kamuda birkaç yeri gördüm mesela araştırma enstitüsün çok güzel laboratuvarlarınız var ve mas işleri yapıyorlar. [öksürme]
+[45:50] Yani seçilim ya markörleri rutin iş test ıslah programlarında kullanıyorlar. Artık bunları kendiniz yapacaksınız.
+[45:57] Eğitimin birisinde de öyle demişti.
+[46:00] Birisi çünkü aynı zamanda bu işi yapan moleküler bir yola istihdam edebiliyor musunuz? edemiyorsunuz. Bununla ilgili de ki şu anda çok daha zor böyle istihdam olaylar.
+[46:09] Şu dedi durduk yerde bir tematik söylemeyim. Tematik bir enstitü de demişler ki moleküler sorumlusunu sensin. Hiçbir fikri yok. Bu MS
+[46:18] laboratuvarını çalıştıracaksın. Nasıl çalıştırsın? Bize geliyor soruyor. Eğitim alacak böyle çalıştıracaksın.
+[46:24] Bunu öğrendikten sonra ya çalıştıracaksınız. Çünkü ziraat mühendisleri, ıslahçılar bu işi yapmaları için başkasına güvenemezsiniz.
+[46:34] Yani burada gidip bana da diyorlar. Rutin mesajlerimizi yap filan yapamaz.
+[46:38] Ya argeciler o işi yapamaz. Kendiniz bu işi yapacaksınız ve bu programı öğrendikten sonra da tamamladıktan sonra da bu kendi işinizi kendiniz
+[46:47] yapacaksınız. Çünkü çok fazla bunu bu hareketler bir olarak bu işi yapacak yok. İşi sahiplenen de yok. Yani böyle
+[46:54] ziraat mühendisleri işin sahiplenmesi konusunda burada önemli. Çünkü Uzakdoğu felsefesine göre gerçekte de vardır.
+[47:01] Şunu derler. Bir işin başarılı olması için o işi yapan değil o iş olman lazım. O bitkiyi de en iyi tanıyan sizsiniz.
+[47:08] Zaten böyle burada bu konuda buna [kahkaha] dışarıya bağlı kalmadan yani bir mas laboratuvarını düzgün bir
+[47:14] şekilde çalıştırıp kendinizde de bu şeyleri yapabilirsiniz. Böyle aynı zamanda öğrenciler öğrenin. Marcor teknolojilerini öğrenin. Kendinize bir
+[47:22] kariyer olsun bu konuda ziraat mühendisleri burada tüm alanlar bu ziraat mühendislerinin. Ben hep öğreniyorum farklı bir alan çıkıyor ziraat mühendislerindeki aradaki
+[47:30] farkları da bilmiyorum ama tarımsal biyoteknoloji siz de bizdensiniz. Yani özellikle moleküler biyoloji kısmına çok daha yakın. Size de bu konuda büyük
+[47:39] görevler düşüyor. Az önce demiş olduğum kamunun gizli ARGE kahramanları. Bunlar da kamu laboratuvarlarını. kamun yani
+[47:47] burada bir ARG çalışması yapması gibi bir lüksü artık yok. Bir de şunu ayırmamız lazım. Bir laboratuvar şuna ARGE
+[47:57] laboratuvar diye ayırıyoruz. Bir de marköre dayalı seçilim yani MAS laboratuvarı. Biri teknolojiyi markörü
+[48:04] geliştirir ona verir. Diğeri de seleksiyonda ona yapılır. Bunları ayıracağız. Buradaki bakanlıktaki şeyler
+[48:11] genelde bu master laboratuvarını çalıştırıp yapacaklar. Çünkü bir markörü geliştirmek de az [boğazını temizler] önceki saat sonra göstereceğim
+[48:19] süreci olan ve sonuçta ne çıkabileceğini belli olmayan şeylerden bunlar da bunu
+[48:27] öğrenecekler, yapacaklar. Veteriner hekimler bir de şu hani şunu da söyleyeyim. odadan ziraat mühendisleri
+[48:34] ve çernek yani organizmaya yani bitkiyle doğrudan muhatap olan kişiler ya da organizmayla daha başarılılar ki mesela ziraat mühis ve moleküler ıslahta bu
+[48:42] alanda en iyi olan kişilerin hepsi de ziraat mühendisi. Yok bir tane moleküler biyolog çıkıp da bu konuda yapam çünkü
+[48:51] bizden beklemeyip materyal yok ki en azından materyal ne yapacakın? Domatesle biberi ayıramayan insan yapabilir mi bunu? Yapamaz. Çünkü ıslah tarla da
+[49:00] olur, sera da olur. Biz yöntemleri geliştirir. Bunları sunarız. İşlerini kolaylaştırabiliyorsak da ne mutlu.
+[49:09] Veteriner hekimler burada da iki tane arkadaşım var benim bununla da ilgili olarak. Bununla da ilgili proje şey geldi. İsteği geldi bana. Kısırlık
+[49:16] varmış. Kısırlığın işte sıkıntılıymış çünkü bunlarda. İlham kaynağımız dedim. Çünkü civası onlardan
+[49:23] öğrendik biz. Civas diyorum. Genomik seleksiyonu onlardan öğrendik. Genomik seleksiyon.
+[49:30] Zaten da yazdığınız zaman hep sığır inek Avustralyalılar falan yapmış böyle burada bunlar yapılmış. Sonra da biz de bundan öğrenip a bunu bitkide de
+[49:38] uygulayalım diyoruz. Uygulayacağız inşallah böyle.
+[49:43] Ondan ilham kaynağımız dedim ama mesela hayvan genetik kaynaklarıyla ilgili olarak da bir sürü şeyler çalışabilir.
+[49:49] Siz de gelin yani öğrenciler gelin kariyer edin bu konularda ki bir arkadaşım mesela bir kongreye gidecekti veteriner [öksürme] dedi ki ben kongre bir şey
+[49:57] sunmam lazım. dedim. Benden izin mi alıyorsun? Yok dedi. Ne yapalım dedi.
+[50:02] Dedi markör geliştir dedim. Nasıl geliştireceğim dedi. Anlattım markör geliştirdi. Sundu o çok beğenmişler ve özgün yapılmamış yani o hayvan grubunda.
+[50:10] Şimdi söylemeyelim buradandı.
+[50:13] Sonra da yapılmış da sonra da şey geliyor. Bana mail atıyorlar. Mail atmay da de şu diyoruz şimdi bu çalışmanızı
+[50:20] gördük. Kongredeki bir kongrede yapılan bir bildireki gördük. O hayvandan var mı diye. Genetik sor. Genetik şey sorsana
+[50:30] bana. Genetik kısmını yaptık. Yani oradan katkıda bulunduk. Hayvan niye istiyorsun benden? Öyle bir şey mi var?
+[50:37] Yok. Ama burada neyi anlıyoruz? Buradan bakınca da materyal olmadan da burada bilim olmuyor ve materyallerde de bu
+[50:43] veserler hekimlerde. Bu sığırlık şey kısırlıkla ilgili bir çalışma istemişlerdi. Baktım %20 kalım gösteriyor zaten.
+[50:52] [boğazını temizler] Yapı bir sürü çalışma da var ama işte bu ıslah programları varsa bunlar yapacak. Mesela kamuda arge yapılmaz dedi. Mesela sadece
+[50:59] bu şeyde değil bakanlıkta kalkan, tarım bakanlığının enstitülerinde kaldık ama mesela TUSEP var. TUSEP'te mesela GWAS'ta geçen sene tamamlandı. Baktım
+[51:08] bir ulusal bir GPAS projesi yürüttüler ve sonuçlarını merakla bekliyoruz.
+[51:15] Balıkçılar, balıkçılar değil de su ürünlerinde böyle balıkçılarda da olur. Burada da ilgili hanım da mezun oldum.
+[51:22] Hani özel hayatta da değil ama multidisiplinerlik açısından özel mezun olduğum zaman iş arıyoruz. Böyle yüksek lisans yapacağım. On da burada bir
+[51:31] Türkiye'nin büyük bir holdinginden, balıkçılık holdinginden ilan vardı. dedi ki geni moleküler genetikçi istiyoruz
+[51:38] gittim görüştüm filan sonra arkadaşıma teklif etmişler onu da almadılar hiç bendi ama burada da bu seleksiyonla
+[51:45] ilgili çalışmalar filan yapılıyor belki genomik seleksiyonla ilgili şeyler olsun öğrenin bunları uygulanın kendi şeylerinizde de balık işimizde hiç yok
+[51:54] zaten ama uygulama alanı var tıbbi genetikçiler bize bir civas yapcılar o da var yani şimdi civas esasda değerini kazanmış
+[52:03] öyle böyle değil yazın Google'a size de göstereceğim. Jas bitki yazın normal dergiler. Givas human yazın. Öyle
+[52:13] böyle hep science nature science nature kapsamında çalışıyorlar büyük çalışıyorlar. Onlar da bakıyorlar biz bu
+[52:20] ne [öksürme] de ama sizin elinizde illa gidip de böyle bunlar yüksek sayıda insanla çalışıyor da gerek yok. Az bir
+[52:28] genetik popülasyon genetiği çalışıyorsunuz. bir alel frekansını çalışıyorsunuz böyle bir şeyden. Bunları bulmuş olduğunuz tripllerin bir genomik
+[52:35] seleksiyon yapabilirsiniz. Bununla ilgili olarak da ki bunu da dediler diyorlar. Yani bana da bir genotip datam var burada bir civas yapı verelim filan
+[52:44] böyle 5 hastada 5 markörne civas yapılacak. Böyle yapılır. Bu şekilde hani veriyi küçümsemiyorum ama kendiniz
+[52:52] öğrenip yapabilirsiniz. En azından P değerin ötesindekiler istatistikte. Bunu ayırdım esas. Çünkü ne ya veri izlemciler ne P değerler. Şu anda çok
+[53:01] değerli bir arkadaşım var bu şeyi bilendi. Hem istatistik hem veri analizi konusunda ama biyoformatikçiler
+[53:09] istatistik bilmez. İstatistikçiler de biyoformatik bilmez. Buradaki esas şu yöntemler var. Çünkü mesela GWASçılar,
+[53:17] association analizciler. Association analizi biz bulmadık. Genomikçiler bulmadı. Eskiden beri vardı.
+[53:24] istatisçilerin yaptığı veri madenciliği konu. Bunu alıyoruz. Popülasyon genetiği fonksiyonu olur mu? Olur diyoruz.
+[53:32] Uyguluyoruz. Ama sonra da bayağı bir çoğalladığımız alan var. Yani o konuda bir yöntem işte. E
+[53:40] false discovery rate'leri bulduk. Böyle düşük çıktı. O yöntem diyor ki sonra da bu şekilde de patladığımız yerde de
+[53:47] böyle. Ama bu e bu analiz onun akraba ilişkilerini çözmez ki. Nasıl çözer?
+[53:54] Bunu bir şey yaptım. Hani biz yine istatist genomik özellikle demedim.
+[53:58] Çünkü istatistik bilmediğim için
+[54:00] [öksürme]
+[54:01] o onu bilmez ki. Yani şu var mevcut bizim eee istatistikler teorilerimizi
+[54:08] pratikte uygulama noktasında yöntemler paradigmada değerlendirilmesi gerekiyor.
+[54:13] Çünkü çok büyük eksizlikler var burada geliştirilmiş konularda.
+[54:19] Nerede kaldık? [iç çeker] ekoloji, gen gıda mühendisleri, gıda tahşiş konularında böyle çok uzattım
+[54:27] lafı yine de böyle olabilir. Gıda konularında çalışan gıda mühendisleri ki çok yakın arkadaşlarım ki benden iyi genetikciler, genomiksçiler, gıda mühendisidir böyle.
+[54:39] Oradan işinizi de uygulayabilirsin. Tahşis sizin konunuz ya da türleri tanımlamada
+[54:46] bilmem bir şeyin içinde bir şey karıştırıyor. Bunu genetik düzeyinde nasıl yapabilirsiniz? Onu diyorlardı mesela. Burada arkadaşları mesela hocanın grubu da yaptılar. Mesela
+[54:54] zeytinde mövyet ayrımınla ilgili barkod geliştirdiler. O da vardır da. Peki daha ileriye gidebiliriz. Daha da ileriye
+[55:01] gidelim buradan. Peki çeşit düzeyinde çeşit düzeyinde siz bunu ayırabilir misiniz? O da şey dedi ya toplanma
+[55:09] toplanmada toplanma süresi ne zaman toplanmış? Bunu moleküler düzeyde dedim.
+[55:13] Neyi bilem yani bu kadarında ama sorun bitmez böyle. Yaşam ağacı bekleri botanikçiler, zoologlar.
+[55:20] Botanikçiler nedir? Ben tanımıyordum hayatımda. Sonra orada da geldi birkaç kişi buldu beni. Bir analiz popülasyon genetiğile ilgili şeyler anlattım.
+[55:28] Zoologlar onlar esas evrim üzerine, fog genetik ançlar üzerine çalıştı. Bunlar farklı bir paradigma. Popülasyon genetinde de farklı bir yöntem kullanıyorlar.
+[55:36] Buradan bunları öğrenebilirsiniz.
+[55:38] Birbirimizden öğreneceğimiz de çok şeyler var ama esasa da bu var. Yani ziraat mühendisleri agronomi çalışır.
+[55:44] Vatanikçilerde yabani çeşitleri çalıştırıyor. Bu konuda da Türkiye çok çok değerli
+[55:51] veri kaynağı, ığ kaynağı içeriyor. Bu noktada ikisinin kesiştiği noktasında da botanikçilerin önemi çok büyük. Bunları da öğrenirseniz, bunları
+[56:00] çalışmalarınızda koyarsınız ve derginizin yayınlanacakin impact faktörünü çok çok arttırırsınız. Çünkü
+[56:07] bu konuda patron sizsiniz. Çünkü bu çeşitler meşitler kimsede yok ya. Bizde sadece bizdeyse de bunu düzgün bir
+[56:14] moleküler biyoloji paketiyle çok güzel pazarlayabilirsiniz. Böyle metajenomikler bunları çok bilmem de çevreden bir şeyler alıyorlarmış böyle
+[56:22] genetik barkodlarını kimliklendirme, mikrobiyoloji üzerine böyle şeyler yap.
+[56:26] Gelin siz de bir iki veri analizi kısmı olsa da markör de genelde dizileme kullanıyorlar ama siz de bunu kullanabilir misiniz? Kullanamaz mısınız? Bu teknolojilere bakalım böyle.
+[56:36] Eccılar, [homurdanır] şifa simyacıları, havanı bırakıp da pipeteline alanlar ki artık çalışılıyor
+[56:44] bunlarda. Bu ilaç hedeflerinin geliştirilmesi konusunda ya da mesela farmakogenetik yani kişiye özgü ilaçların belirlenmesi.
+[56:54] Bu da çok güzel bir alan ve burada da özellikle gelemik seleksiyon ve modellerin kullanılması güzel bir şey. Çünkü tüm profili böyle çıkartacaksınız.
+[57:03] Buradan bir ilacın ondan alerji yapıp yapmayacağı ya da etki düzeyi acaba genomla da alakalı mı? Ve bunun içinde
+[57:10] bir genomik seleksiyon küterden bir şey çıkmaz da eee bir genomik seleksiyon modeli geliştirip bunu tahmin edebilir misiniz ki çalışmalar vardır bilmiyorum
+[57:18] ama bu konuda da olabilir. Aynı zamanda bu işin bir kısmı da vardı. Bir kişiyle karşılaşmıştım. Eczacıydı.
+[57:25] Bir aromatik bitki toplamış ilaç yapmak için. Kimiacı herhalde ne işin var dedim ya buradan da dedi ki genetik
+[57:32] karakterize edecekmiş içimde kalmasın diye onu da yapayım dedi. İşte vizyon bu içimde kalmasın diyenciler yentikçiler siz de gelin böyle arkeobotanikçiler bu
+[57:41] tarihle ilgili özellikle denizde yaşayınca bu tarihe de ilgi duymamak imkansız çünkü çok güzel burada tarihi
+[57:48] kentlerimiz var. Buradan çıkan şeylerimizi genetik materyalin karakterizasyonu.
+[57:57] Mesela insan iskeletle ilgili bunu dinlediğiniz zaman Jurassic Park'ta dinozorları canlandırıyordu ya.
+[58:02] Canlandırmadan bile mesela buradaki genlerden bir seleksiyon çıkartıp da bir üç boyutlu canlının yapısını filan böyle
+[58:11] bilebilir miyiz? Bence bilebiliriz. Şu an şey olsa da veri sıkıntısı olsa da biraz böyle olay yeri bunda da gerçek hayattaki SScılar bunlar önemli.
+[58:23] Kriminalcılar size hayranım zaten. Yani bir tane kıldan nasıl DNA çıkartıp da oradan genotipleme yapabiliyorsunuz?
+[58:31] Yaprak yaprak DNA'dan ben özellikle beceriksizliğinden bir DNA çıkartıp da zorlanıyorum falan ama bunda da
+[58:38] genotipleme de iyi zaten. Hani klasik olarak da burada DNA karşılaştırmaları yapılıyor, babalık testleri yapılıyor. Ha mesela epigenetik
+[58:47] varyasyonları siz mesela şeyde nasıl kullanabilirsiniz burada da? Ya da en önemlisi mesela bu çok önemli.
+[58:54] Olay yerinde buradaki akademik seviyem belgesel düzeyinde bir şeyinde görmüştüm. Mesela bir olay yerinde
+[59:01] bırakılan bir örnekten bitkinin işte bitkin insanın üç boyutlu yapısını yani yüz şeklini çıkartabilir miyiz?
+[59:09] Çıkartılıyor. Ne çıkartılıyor? İşte bu genok seleksiyonla bir model geliştireceksiniz ki mesela Türkiye'nin şeylerini alın. İnşallah bu Türkiye'deki
+[59:17] şeyde bir kamera koyun. Ne var şimdi? Y özellikle bu yapay zeka ve veri analizdeki gelişmelerle görüntü işleme çok gelişti. Yüz tanıma kameraları var.
+[59:26] Yüz tanıma kamerasını, çekim fotoğraflarını, DNA'larını da alın.
+[59:31] Oradan bir model oluşturun. Sonra bilmediğiniz bir şeydeki modelden göz şekli nasıl, kafa yapısı nasıl filan
+[59:38] böyle robot resme kararak kalmadan DNA'nın robot resmini ki çalışmalar varmış böyle çıkartabilir misiniz buran da? Bence güzel alan ya.
+[59:50] Veri tüccarları bu. Evet bir ağrı olmuş veri tüccarlı ama veri tüccarları bu.
+[59:55] NGS ve VM firmaları bunlar önemli. Çünkü bize malzeme tanıtımı ve satmak için insanlar geliyor. Çocuklar geliyor.
+[1:00:02] Burada da bunların da bu konulara veri bilgi sahibi olmazlar. Çünkü Türkiye'deki çalışan NGS iliman falan var mı? Bilmiyorum. Birkaç yerde var ama
+[1:00:10] genelde biz yurt dışından Türk firmaları yurt dışına gönderiyor. Buradan yapıyor. Bunları yapmanız lazım. Kişiler geliyor.
+[1:00:16] [öksürme] GPS yapacağınız yapıyorsunuz mu diyor mu? GPS ne diyor? GPS ne değil.
+[1:00:21] Yani burada multiplaksik bir dizileme yapacak mısınız ya da sanger dizilesi nedir? Bunlar ortak bir dili konuşmanız lazım. Siz herkesle şey yapıyorsunuz
+[1:00:29] burada. Bunun da ilgili de mesela diyor ki böyle şek tane bitkiyi yüksek şeyde dizil edeceğim. Amacınız ne? Bir civas
+[1:00:39] gerek yok ki deyin. Daha düşük çözünürlük daha çok bitkiyle analiz edin. 30.000 Hep de sizin işinizi görür deyin. Öyle bir çözüm örneği sürün ki
+[1:00:46] buradaki araştırmacıların da işini kolaylaştırın ve ortak bir di oluşturun.
+[1:00:52] Yani verinin müşteriye makaleye ya da bize kullanım amaçlarında bunu bilmeniz lazım ki bu da ayrı bir
+[1:01:00] kariyer. Güzel alan. Fen ve biyoloji öğretmenleri. Buradan da biyoloji öğretmenleriyle de böyle konuşuyoruz.
+[1:01:07] BSEM'den birkaç gelmişlerdi böyle.
+[1:01:10] Burada bilimin altyapısı sizde ve çok değerli hocalarımız var. Yönetimsel açıdan bir sürü sıkıntı olsa da ama sizin işiniz de bayağı bir zor yani.
+[1:01:19] Burada bilimsel eee bir eleştiri ve bilimsel eleştiri burada bilimsel eleştiri yer göz olaylara
+[1:01:28] bakmak çok önemli ama öğretmenleri eleştirmiyoruz. Çünkü öyle öğretmenler eleştirilmez.
+[1:01:35] Çünkü bu sizin işiniz zor. Biz en azından öğrenmek isteyene bir şeyler öğretiyoruz da siz hem öğrenmek istemeyene bir şeyler öğretmek için
+[1:01:43] yarınızı yoğunuzu harcıyorsunuz. Ama işte bir birim ekosistemi oluşturmak da bu şeyler gerekli. Bunlar da baktığın zaman artık okullarda da böyle bir şey
+[1:01:52] yok. Ama bilse mi ne olması o bile güzel bir şey. Çünkü verilerde şöyle bir yarış oluyor. Çocuğum bir semdi bir seme girdi filan dedim. bilim ne kadar değerli
+[1:02:00] oluyor. Böyle bir şeylerde de çok güzel iyi projeler yapan hocalarımız var.
+[1:02:05] Onlar da gelip öğrensinler böyle. Çünkü
+[1:02:08] [öksürme]
+[1:02:09] ii bir sürü de yarışmalar var. TÜBİTAK TÜBİTAK proje yarışmaları var. Yarışma mı diyorlar ona? Teknofestin proje
+[1:02:16] yarışmaları var. Böyle birkaç bunlara yardım ettim ben. Böyle bir şey. Ama en önemlisi de bu. Hepimiz ev sahibi filan
+[1:02:24] değil de sizi dış paydaş değil iç paydaşsınız. Hatta canımın içi paylaştınız. Çünkü eşimde bir fen bilgisi öğretmenim. Evet. [homurdanır]
+[1:02:32] Modern zaman aristaları. Biz bir bilim dalının alt bilim dalının bir konusu hakkında bu kadar şeyi bilememezken da eşim de her şeyi biliyor.
+[1:02:45] Sona geldik. Beklenmedik misafirler. Beklenmedik. Misafir değildi aslında.
+[1:02:50] Çok spesifik örnek veremeyeceğim ama ne bileyim avukatsınızdır.
+[1:02:55] Bir DNA raporu gelmiştir elinize. Bilir kişi atarsanız filan ama bu işi bilmeniz lazım. Ya da bu konuda bir yatırım yapalım. Bence güzel olsun diyenler. Siz de buradan bu konuları yapabilirsiniz.
+[1:03:06] Ya da hayatın dinamikler içerisinde ne kendinizi bitki silah içisinde bulanlar nereden başlayalım diyenler. O da oluyor
+[1:03:13] bana. Nereden başlayalım diyenler. Ha buradan başlayabilirsiniz böyle.
+[1:03:20] [öksürme][boğazını temizler] Şimdi buradan hedef kitleyi algıladık. En son diş hekimlerini unuttum. Diş hekimleri de böyle onunla da ilgili ne bileyim bitiş ettiği kanserindle ilgili markör
+[1:03:28] geliştirme filan onlar da gelsinler. Bak onlara ayıp oldu. Diş hekimlerimiz de önemli.
+[1:03:34] Araştırmacı. Şimdi araştırmacıları sınıflandırdık. Böyle burada gördüğüm profillere [boğazını temizler] göre canlılıkla ilgili olan herkese kapımız açık. Bu konuda herkesin kapısı açık.
+[1:03:44] Yani burada şeyden tüm moreler biyoloji departmanlarının bütçe perspektifinden baktığımız zaman 12 şeyler de var. Bunlar zenginler ve
+[1:03:52] fakirler. Yine Behçet hoca gibi oldu da zengin fakir diye ayrılmasında da bütçe perspektiften büyük bütçeli araştırmacılar.
+[1:04:00] 1004 kere maşallah 1007 kere maşallık proje yürüten büyük gruplar. Bizde de burada bu büyük
+[1:04:08] gruplar artık NGS çalışıyorlar çünkü para var böyle büyük yeni tüpleme şeyleri çalışıyorlar. Ama bunlarınla ilgili olarak da sizde bunları
+[1:04:16] sürdürülebilir ve veri tabanlarına artık dönüştürülmesi gerekiyor bu şeylerin ve
+[1:04:23] şey yapması gerekiyor. Hani bitki ıslahında pratik uygulamalara aktarılması gerekiyor. Bütçesi küçük, gönlü büyük ama bütçesi küçük.
+[1:04:33] Araştırmacılar bunlar da genelde BAP bütçeleriyle takılan, küçük bir tak projeleri olan kişilerdir ki bu kısma geliyoruz. Böyle zengin fakir de
+[1:04:42] demiyoruz ki Anadolu irfanında öyle bir şey Anadolu'da durumu yok derler. Yani durumu yok ama ileride olabilir anlamında. Bunlar da şey veri setlerini
+[1:04:49] sayarken söylemiştim. Düşük çözünürlüklü sayılı markörler, yüksek çözünürlüklü markörler. Siz de buradan bu
+[1:04:57] verilerinizi öğrenerek ne nasıl yapılır buradan öğreneceksiniz. Fazla abartıya kaçmadan analiz açısından en iyi şekilde
+[1:05:05] düşük çözünürlüklü datanızı nasıl pazarlayabilirsiniz? yayına çevirebilirsiniz ya da aslaha çevirebilirsiniz. Bunları burada
+[1:05:13] yapacağız. Böyle geçen dün bir makale reddettim. Reddetmedim yani. Hakeme de dedim ki yani araştırmacıya kabul ettim.
+[1:05:21] Sonra da iyi bir dergiydi. Sevdiğim bir dergi. Yurt dışı dergisi. Editöre de dedim ki bunları sen bana niye gönderiyorsun? Editörlere de söylüyorum
+[1:05:28] bunu. Markör verisi 20 tane çeşitte 30 40 tane dandik dandik dandik normal
+[1:05:37] bir work sistemi kullanmış. Bununla ilgili bir analiz yapmış. Bir analiz yapmış. Analizle ilgili işte ağaçlar
+[1:05:44] var. İki algoritma kullanmış bunu yapmış. Neyin peşindesin sen bu kadar şeyden? En basitten de olsam bu.
+[1:05:52] Yani şeye benziyor Fiat Ega'yı Ega'yı açık böyle cilalayaraktan Formula 1 yarışına
+[1:06:00] sokuyor. On bir şey olur mu? Olmaz dedim de yani bilimsel olarak tamam sıkıntı yok da
+[1:06:08] düzelttirdik de yani ki hayra da geçtik onları ki Türk değildi zaten editör zaten normalde Türk olsa da şey editöre de yazmazdım de kabul ettim derdim.
+[1:06:17] dedi de şu dedim ki ya desk rejection yapın yani şöyle şeyleri bir standardınız olsun yani size bir faydası
+[1:06:24] olmaz dedim 5 dakika sonra red cevabı rejection cevabı geldi ama ben kabul etmiştim ya ben derginin kalitesini
+[1:06:32] düşündüm sadece bu işte bunlarda ama işin şakası bu
+[1:06:39] zengin fakir şimdi böyle şeyler konuşuyoruz biz de dışarıdaki yani bu akademi dışında insanlar da bunu
+[1:06:47] diyorlar. Mesela projem geçti [öksürme] 3 milyon 5 milyon diyorlar ki paranın 1 2 milyonunu biz kazanıyoruz diye. Hiç
+[1:06:54] öyle bir şey yok. Biz yine maaşımına idare ediyoruz ki [boğazını temizler] zengin araştırmacı da görmedim ben yani.
+[1:07:03] Yap yap fakirleri geliyor ev olarak da.
+[1:07:07] Çünkü yengin araştırmac olsaydı ücret konusunda bu kadar ver etmezlerdi. Böyle benim bir sözüm bu da.
+[1:07:15] Siz moleküler genetikle ilgilenmeyebilirsiniz ama moleküler genetik sizinle ilgilenecek. Bu canlılıkla ilgili araştırmacılara
+[1:07:22] diyorum. Yaparsınız böyle bir şeyde tam gidersiniz öğrencisiniz iyi bir ıslah grubunda yüksek lisansa başlattınız. Aa
+[1:07:29] çalıştığınız projenin sonunda moleküller varmış.
+[1:07:32] ileri moleküller ya da moleküller tamamlayıcı bir iş için kullanılır. Bir arge için değil de çalışıyorsunuz her
+[1:07:38] şeyde tam doku kültürü yapıyorsunuz projesinde doku kültürü öğrenmek için gittiniz. Aa doku kültüründe
+[1:07:48] verifikasyon için moleküler markör varmış. Bunu yapmanız gerekiyor.
+[1:07:51] Tezinizde yazmanız gerekiyor. Bu vardır ilgilenme konusunda ya da şu normal bir araştırma moleküler karakterasyon
+[1:07:59] makalesi yazdınız. Hakem ki çok bilmiş hakemlerimiz var. Biri de ben. Niye structure analizi yapmadın? Hayda bilmedim yapmadım. İlgilendirsin.
+[1:08:09] [boğazını temizler] O demek istediğim o.
+[1:08:11] En kötüsü de şu artı niye civas yapmadım var ya? Niye asş yapmadıkça? Yaptım işte morfoloji var, genetik var işte. Niye bu kadar zorluyorsun?
+[1:08:20] Yani [boğazını temizler] bak ilişkilendirmede sizle ilgilenmeye başlar. Oradan baktığınızda bu. Şimdi şuraya bakalım bir de.
+[1:08:29] çok vakit geçtiğini falan böyle pratik çıktıları nelerdir bunlar? Pratik çıktılarda da bu temel bilimler açısından bunu nasıl yapacağız biz?
+[1:08:37] Bunun ne faydası olacak size de? Niye slayt açmadım?
+[1:08:43] Açmayım ya da pratik çıktıları ve stratejik kurgular bakalım. Akademik mutfak. Proje nasıl
+[1:08:51] kurgulanır? Makale nasıl yazılır ve eleştirilir? Bunları öğreneceksiniz.
+[1:08:55] Proje nasıl yazılır? Buradan şey yapacağım. Çünkü ben bilginin paylaşıldıkça büyüyeceğine inanam birisiyim. Bir
+[1:09:03] projede de şu var. İkincisi bunları da ben bulmadım zaten yani. Ama bir bitkiniz var. Bitkinin özelinde çok çalışılan bir bitki midir?
+[1:09:11] Projeile ilgili hangi yöntemi kullanabilirsiniz?
+[1:09:15] Eee, civas mı yapacaksınız? Kaç tane bitki olması gerekir? Bu da vardır. Hep istatistikçi böyle çok fazla olanlar diyor ya istatistik danışmanımızı
+[1:09:23] yaparız ama proje bittikten sonra gelmesin yani bu iş. Tüm analizlerde bana öyle geliyor. Özellikle ilgili olarak da tam bitmiş yapılmış her şey.
+[1:09:34] Analizi yapamadık. Çok güzel. Yapamazsın tabii. Niye? Çünkü yanlış
+[1:09:42] bir şekilde onu yapıyor. İşten geçtikten sonra buna yap. Önceden tasarımınızı düzgün yapmanız lazım. Böyle sonra
+[1:09:50] bu panelistleri falan ikna edecek gerçek ıslahçı dostu ve uygulanabilir yöntemler nasıl yapılabilir? Çünkü şeyi geliştiriyorsunuz.
+[1:09:59] Snip'i bulmuşsunuz koymuşsunuz oraya.
+[1:10:01] Bunu yapacaksınız. Islah dergisi yayınlamaz ki bunu. ıslah dergisi der ki bu çalışıyor mu? Verifikasyonunu yaptın mı? Ona bakacaksınız.
+[1:10:08] Makale yazma sanatı projeden sonra [boğazını temizler] elinizdeki ham verileri nasıl eee yayınlarsınız?
+[1:10:17] Bununla ilgili olarak da profesyonel bir şekilde çünkü bir sürü datanız oluşacak.
+[1:10:21] Analiz edeceksiniz. Bunun hangisini nereye koyacaksınız? Amatör görünmemek için. Distance matrix'i uzaklık matriksini makaleye koyanlar
+[1:10:29] var. Ya da bir structure harvesterdaki bir standart sapma olayını oraya koyanlar var. Koyacaksan saplaman yok.
+[1:10:36] sizi bu amatör gösteriyor zaten. Bununla şeyle alakası yok ki. Hangileri kol, hangileri önemlidir? Böyle giriş, tartışma ya da hangi veri setlerini
+[1:10:44] burada kullanabilirsiniz. Bunlar eee anlatılacak buradan.
+[1:10:50] Ve değerlendirici gözlüğünde bir çalışmayı nasıl yaparsınız? Bir hakem olarak filan nasıl bakarsınız?
+[1:10:59] Hakem olarak filan diye baktığınız zaman hakem olarak da okuyucu olsanız da bunu eleştireceksiniz. bakacaksınız böyle mantık hataları nasıl olmuş? Nasıl
+[1:11:08] değerlendirilmiş bu noktada? Niye bunu yapmış? Böyle bir şey vardı.
+[1:11:14] Geçen değerlendirdiğim makalede distance matriks'i başka bir programda oluşturmuş.
+[1:11:21] Ağacın algoritmasını başka bir programda ikisi o yapıyor zaten. O niye kullanmadın da o indekste sen takılı kaldın öyle bir şeyden?
+[1:11:30] düşüneceğiz neden böyle yapmış ya da başkaları de şey var. Şimdi yazarken de siz yapıyorsunuz hakem diyor ki bunu da yap onu da yapacağım sonuçlaya koyduğu
+[1:11:39] zaman da olmuyor. Değerlci göz önüne de bunlar nasıl olacak
+[1:11:42] [boğazını temizler][öksürme]
+[1:11:43] ve kritik analiz markör güvenliği nasıl anlaşılır? Şimdi biz markörü veriyoruz.
+[1:11:51] Şimdi dediğim gibi Ziraat mühendisi bunu düşünmek istemez. İstemesi de o değil.
+[1:11:55] Sen buna para veriyorsan, para veriyorsan dedim. Yani senin alansa bu departmanın alanıysa alıp kullanılmak ister. Böyle bilmiyorsanız da mas
+[1:12:03] kullanacaksanız
+[1:12:05] [öksürme][boğazını temizler]
+[1:12:06] bir markör biraz sonra göstereceğim bunu. Çeşit markör hikayesi nasıl olur?
+[1:12:10] Niye bu markör güvenli değil? Çünkü şöyle bir kural var burada da. Bunu bir sürü analiz, filtreleme yöntemleri filan
+[1:12:18] var. Etik olarak bu işin olması için şunu yapmamız lazım. Yapabileceğimiz analizi yazıyoruz. Yazamadığımız analizde yapmıyoruz. Böyle bir noktada
+[1:12:27] arkadaş ben filtrasyonu %20 yapmışım, 30 yapmışım, ona göre yapmışım. Yazmışsam ya da marron verifikasyonunu yapmışım.
+[1:12:34] %30 tutmuş. Normalde yukarıdaki şey discussion'da bunu yazmışım yayınlanmış.
+[1:12:39] Yazdın mı? Tamam. Yani bir etik ihlal yok. Okusaydın buna baksaydın bir ya da seleksiyonunda yazmışım 3 cm organik
+[1:12:48] bölge diye. Sen bunu kullanacaksın filan demişim. Ben yazmışım. Baksaydın bunu bu şekilde. Çünkü benim işim makale
+[1:12:56] yayınlayıp ve geliştirdiği zaman da bitiyor böyle bir şey de işte bunlara bakacaksınız. Bir şey olacak nasıl
+[1:13:03] olacak böyle? Ya da bir makale bir promax analiz haritalama çalışması nasıl yapılır böyle bir şeyde?
+[1:13:11] Çok yıl analizi yapılmış mı? Çakışık kriterler bulunmuş mu? Bundan bir de makale yazılırken böyle az önce unuttum
+[1:13:19] mesela QTL buluyorsunuz. Hangisi makbuldür? Tamamen yeni kültürler bulmak mı makbuldür? İyidir. Yoksa tamamen
+[1:13:27] eskileri bulmak mı? İkisi de değil. Yani ikisinin ortası da böyle bir şeyler olması lazım. Disionlar yasılır.
+[1:13:33] Metodoloji baktığınız zaman da bu yani bu serek şeyi kullanacaklar ya da bir markörü seçeceksiniz. Genetik çalışma yapacaksınız. Neye göre seçersiniz?
+[1:13:42] Hangisini seçersiniz? Mesela mesela bir pik değeri bulunmuş. Big değeri yüksek ama 10 tane bitkide analiz
+[1:13:52] edilmiş. Düşük ya da 300 bitkide analiz edilmiş. Hangisini seçersiniz?
+[1:13:56] Gerçi ben de bilmiyorum ama bakacağız işte bunlara.
+[1:14:00] Jüri ve kürsü simülasyonları bunlar da olacak genelde bunları anlayacaksınız.
+[1:14:04] Savunma stratejileri ve bitkilere burada jüri sınavlarına gidiyoruz. Yüksek lisans doktora ya da şeylerine ne
+[1:14:12] diyorlar buna? Tiklere gidiyoruz. Teziz izleme komitelerini.
+[1:14:16] Ona göre bir çalışma yapıyorsanız öğrenciler size söylüyorum. Bunun hakkında tüm moleküler bilgi ortaya çıkaracaksınız.
+[1:14:24] Birçok üniversitede de böyle literatür özeti diye saçma sapan bir test kasalımları var. Literatür özeti de şöyle yazılıyor, koyulmuş. Burada bu
+[1:14:31] genetik harita yapılmış. Burada bu genetik. Ya sen onu baş sunumu yaparken de bir yorum yap. Yani şundan soracağınız şu. Ödev veriyorum bu konuda
+[1:14:39] soruyor mu diyor. Toplam kaç harita yapılmış? Bu toplam kaç marka geliştirilmiş? Hovadaki bir şeyden kaç külteler bulunmuş bununla ilgili?
+[1:14:52] Cibas yapılmış mı? Çoklu lokasyonda deneme yapılmış mı?
+[1:14:57] Bununla ilgili orada bir rötini çekip buraya koyup burada yapmanız lazım ki bitkiyi de siz tanıyorsunuz böyle. Ve jürden gelecek sorulara da hazırlıklı
+[1:15:06] olmanız için bunlar gerekli. Çünkü burada da şunu söyleyeceğim. Burada herkes için bilgi var. Soru soracak olan ada savunulacak olacak kitleyici sorular dediğimde bu.
+[1:15:15] Bir panelde sordum. Kitleyici ya da gıcıklık olsun diye değil de ki onu da yaparım.
+[1:15:22] En de şunu sorun tamam mı? Civasçıya as bu paneli nasıl seçtiğinizi sorun ona da sordum. Uluslararası bir sempozyumdu ve yabancı bir hocaydı.
+[1:15:34] Dedi ki verilebilecek en kötü cevabı verdi. Dedi ki arkadaşım seçti. Ben seçmedim ki dedi. İyi oldu da işte bak
+[1:15:40] bunun sorumunu bilemez. ya da π p değeri trash olduğunu neye göre belirlediniz? Bunu sorun. O da fazla şeyler bilemez.
+[1:15:49] Diyor ki permutasyon testi yaptınız mı diyeyim burada bir şeyden ama deyin ki böyle bilmem ne FDR'sine göre bunun düzeltmesi şu olması gerekir. False
+[1:15:58] pozitifleri nasıl izole ettiniz buradan kaç model kullandınız gibi şeyleri de böyle alabilirsiniz. Bilimdeki her şeyde
+[1:16:05] hiçbelde bu şeyde [homurdanır] sunumlarda ya da proje değerlendirmelerinde öyle. Bu roller değişir. Bugün sen jürisindir ki ben hiç
+[1:16:14] şeylik yapmadım. Yani panelistlik yapmadım. Panelistindir. Yarın senin projen gider. Burada da savunmalarda
+[1:16:22] klasik şeyler vardır. Sorulan şeyler vardır. Ama bunları sorarsanız deneyimli kişilerde nasıl yapacağınız da budur. Ya
+[1:16:30] da şöyle bir şey ya bir panelde dinleyin. Deneyimli bir hocanın soracağı soruya odaklanın. O soruyu soruyorsa bilmiyordur. O da büyük ihtimal
+[1:16:39] bilmiyordur. Bu noktada ortalık karıştırır. Bu sorular nelerdir? Onları soracaksınız böyle. Çünkü yöntemsel açısından yöntemsel açıdan da bir şu
+[1:16:48] anda dönüşüm içindeyiz. Şimdi mesela F1'de Psototest Cross ağatçıların kullanmış olduğu haritalama yöntemi var.
+[1:16:55] Zor bir analizir bu da. Ben yaptım.
+[1:16:58] Şimdi yayınlandı. O da iki çalışmada yayınlandı ama zor bir çalışma. Yani bunları faz transitionlarını hesaplaman gerekiyor.
+[1:17:07] Ortak harita oluşturman gerekiyor filan böyle. Nereden baksan tutarsınız ya.
+[1:17:11] Bunu tutarsın. Geçen makale okudum. Adam hiçbiriyle uğraşmamış. Bir parantez F1'de ilişkilendirme analizi yapmış geçmiş. Süper bir şey. Al sen bunu yaz
+[1:17:20] bakalım. Ya da sun bir yerde. Rapor nasıl reddediliyor? Reddedilir. Çünkü bu programın amacının birisi de bu. Niye
+[1:17:28] reddedilir? Çünkü orada yıllardır F1'deki haritalama içinde oturmuş bir yöntem var. İşe yarıyor mu? Yok. Kendine
+[1:17:37] hayrı da yok yöntemin de ki başkasına ne hayır olacak? Açın bakın yani.
+[1:17:42] Ama bunu sizin test etmeniz lazım. Ve burada da bu hani proje fikirleri, makale fikirlerini böyle söylüyorum ya.
+[1:17:48] Test edeceksiniz bunu verilerde. O yöntemle analiz yapacaksınız. Sonra onu yapacaksınız. Aradaki farklılıklar nelerdir? Aynı şeyleri bulmuşsunuz.
+[1:17:58] farklı şeyler de bulabilirsiniz. Belki diğeri daha iyidir bu analizden ya da geliştirdiğiniz modellerden. Bunları da burada yapmamız gerekiyor.
+[1:18:08] İşte bu ilişkileri, makaledeki buradaki şeyler az önceki dediğim gibi nasıl eee
+[1:18:15] lafı dolaştırmadan düzgün bir şekilde artık şunda yapay zekayla birlikte o kadar laf kalabalığınla makale yazılıyor ki oradan çevir burada yalan da değil
+[1:18:23] dolan da değil ama sonuçta yapamadık demiyor da öyle öyle öyle şeyler diyor.
+[1:18:32] Bu dengeyi de optimize etmek lazım.
+[1:18:34] Çünkü artık insanlar anlamıyorlar böyle bir şeyleri. Ve en önemlisi de bu. Bir bitkiyi makale fabrikasına nasıl
+[1:18:42] dönüştürürsünüz? Model ya da orp türler bunlar. Bunlar nasıl olur? Burada da şunlar var. Bir referans ölüm grubu olan bitkiler vardır. Domates, buğday, üzüm.
+[1:18:54] Bunlar denk geliyor bana neredeyse.
+[1:18:56] Çünkü çoğu şey yapılmış zaten buradan da. yapılmış şeye sen gidip de bunu da yaparsan böyle bir şeyde o da o da
+[1:19:04] vardır ki bir paneliste çok deneyimli hocamız olmuştu. Mesela kuraklık testiile ilgili bir proje yazılmıştı girecekti. Birisi çok uzak yerlerden
+[1:19:11] birisi. Sonra biz projeden çıkarıldık dedi ki ya bu abiyotik stresle ilgili zaten bu bitkide dedi bir sürü çalışma yapılmış dedi. Biz bunu dedi ne diye
+[1:19:20] üzgün sunacağız dedi. Özgün olur tabii ki. Özgün olma noktasında da şu bizim amacımız burada bir bitkinin genomunu
+[1:19:28] bulmak değil. geninde bulmak değil. O genin maksimum fayda sağlayacak etkiye sahip alelini bulmak, alternatif formunu
+[1:19:37] bulmak. Bunun için de resequencing ya da marker teknolojisi kullanılıyor. Bundan şey olacak. Peki bunun için ne gerekli?
+[1:19:45] Model tasarımında, proje tasarımında bunları anlatacağım. Buna sahip bir gen kaynağı gerekli. Yani kuraklık stresi.
+[1:19:51] Kuraklık stresinde bu şeyler var.
+[1:19:55] Çalışılmış bir sürü. Onu da derlemede var. Hatta domateste hocalar falan yazdığımız bir sürü yapılmış zaten. Hala yapılıyor
+[1:20:03] ama bir sürü yapılmış ama sizin modunuzda şu olacak. Bir çeşidim var acayip toleranslı ve bunun alellerini bulmak istiyorum deyip yüklenirsiniz.
+[1:20:13] Önemli olan orada kuraklık mekanizmasında genler biliniyor zaten.
+[1:20:17] Seninkini ne üstün performansa geçirmiş hangi alel olduğunu bulmanız gerekiyor burada.
+[1:20:23] Bakın şu vardır. Literatürdeki boşluklar. Literatörteki boşluklar önemlidir. Ha ben bunu söylemek istedim.
+[1:20:29] Literatik boşluklarda şu kıyıda köşede kalmış böyle bir şeyleri bulup da boşluğu doldurmak da güzel bir şeydir ama literatürü ileri götürmekle ilgili
+[1:20:37] bir şey. Yani şu var mesela size bir şey söyleyeyim. Domateste Esaser markörü yıllardır var. Yıllardır çalıştırılıyor.
+[1:20:45] Bir sürü tam genomları bile adam 300 tane şeyi koymuş zaten. Tam genomek.
+[1:20:49] Peki ben SSR markörü dizayn etsem yayınlatabilir miyim? Ben yayınlatırım.
+[1:20:54] Bir Q1 olmaz da en azından Q23'yu zorlar. Yani o deterjüdür. Nasıl ileri seviyeye taşıyabilirsiniz? Çünkü burada şudur. Markör geliştirmek sorun değil.
+[1:21:03] En polimorfini geliştirmek zorundur.
+[1:21:05] Bununla ilgili de bir şey bulduğunuz zaman mesela Sasar geliştiriyorsunuz ama elit esas geliştirin. Daha uzunlarına bakın mesela belki uzun belki bir noktada ki daha polimorfik olabilir.
+[1:21:16] Bunu markörde anlatacağım. Böyle hiç çalışılmamış ürünlere geldiğiniz zaman da bu olayda şu bir şey buldum. Mesela
+[1:21:23] Türkiye için çok stratejik bitkiler var burada. Aromatiklerde özellikle bunu buldunuz. Hiç çalışılmamış
+[1:21:32] ve moleküler eklemek istiyorsunuz çalışmanıza. Böyle bir şeyde bunu nasıl yapacaksınız?
+[1:21:38] İlk gidip de Sasa [öksürme][boğazını temizler] geliştirip genetik çeşitlerine bakarsanız onu ilk GBS yaparsanız da olmaz. Şu şekilde
+[1:21:45] nasıl bu seviye olarak da biraz sonra göstereceğim. Böyle önce bunu genel makro sistemini analiz edeceksiniz.
+[1:21:50] Karakterizasyon. Diyeceksiniz ki aa logo spesifik markörü yok. SSR geliştireceksiniz o da yetmeyecek.
+[1:21:56] İkinci çalışma genişar geliştireceksiniz. Bakacaksınız ya bu düşük polimorfizm çıktı. Ne yapacağız? Daha
+[1:22:04] polimorfi lazım. Genomikok daha polimorfiktir diyeceksiniz. Bunu yaptınız. 3 oldu mu? 3. Sonra e bunlar
+[1:22:11] da olmadı. Daha böyle bir değiştirelim, modifiye edelim. Uzun s hasarlara falan bakalım burada oldu mu? 4. Sonra da tamam oldu da bir genetik haritası
+[1:22:20] yoktu. Bunun popülasyonu vardı ezarı olmuş. Bunları yayınlar mıyım? Genetik haritayı çıkarttım mı? Çıkardım. O çalışılmamış. Referansı da yok. Bu sonra
+[1:22:30] aha GBS yapılmamış. GBS'te asociation yapılmamış. Tabii bunların faydalı şeyler de olması lazım işte markör
+[1:22:37] geliştirmemiş deyip EVAS da yapıp sonra aa genomu dizilenmemiş. Tam bir genom draft genom çıkar ki benim alanım değil
+[1:22:44] bu. Böyle en azından 67 tane şeye girken yani direkt noktadan GBS yapar böyle gönderseniz o da olmaz ki zaten
+[1:22:53] genetik olarak da bu pratik açıdan çok önemli değil yani böyle bir şey geçen bir bitkide süs bitkisi çalışan bir
+[1:23:00] hocam makale gönderdi bu murakilerine bak diye civas yapmış Danimarka'dan 50 tane şey var seniple genetik
+[1:23:09] çeşitlilik analizi yapmışlar niye yaptın bunu sen ya niye bir genetik çeşit analiz için bir tane s bakmak gerek Fonksiyonel bir şey yapacaksan öyle. Bu
+[1:23:17] normal bir sıra ya da bir şeyle de yap artık. Madalya mı verdin? Paran çoktu ya da yapacaktın. Yapt değildir. O da şudur. Onu zaten başka bir şey için
+[1:23:26] asation'da kullanacaklardır da ilk onu tanıtmak için böyle kullanmışlardır.
+[1:23:30] Burada da peki sen de öyle gidip de ilk 30.000 tanesini bir çıkartıp da sonra geri vitese takarsan olmaz. Tek makalede kalırsın kendi karakterize etmek için.
+[1:23:41] Neyse bunları da söyleyeyim. Ben hemşel gitsin.
+[1:23:45] Burada birlikte QTÜ ve çeşitlilik makaleleri bir makaleye baktığınız zaman işte az önceki söylediğim gibi nelere dikkat edersiniz?
+[1:23:54] Pik değerleri, markörleri nasıl seçersiniz? PV'lere göre neye dikkat edersiniz? Efektif popülasyon size nedir? Bunu hesaplamış mı mesela?
+[1:24:02] şeylerden olabilir. Yeni proje fikirleri de hep arkadaşlarım proje yazdığım zaman da diyor ki senin yöntemler hiç değişmiyor diye. Değişmiyor yöntem
+[1:24:10] değişmiyor. 60 yıldır kullanılıyor zaten bu yöntemler. Abi yeni haritama yöntemi bir geliştireyim yani size. Yok yöntem
+[1:24:17] algoritma basittir. Model organizma bir yeni bir hastalık çıktı mesela şu anda var. Bronzroz olayı var mesela markör bekleniyor. Orban barkör bekleniyor.
+[1:24:28] Burada nasıl olur? Makale kurguları nasıl olur? Buradan şey olacak.
+[1:24:33] Çünkü her şeyden önce şu var. Bizim buradaki manifestomuz şu. Bir laboratuvarın başları yayınladığı makaleler. Makaleleri yayınlıyoruz ki
+[1:24:41] yayınlanacak zaten. Mesela ben bir bir elektronik mühendisliğinden de ders almıştım. Hesaplamalı biyoloji çalışan
+[1:24:49] bir hocam vardı orada. Bilge Karıçalı hocam. Profesör Doktor. O demişti mesela gözlemleyebildiğiniz
+[1:24:58] her şeyi yayınlarsınız. elektronik mühendis tam biyofatik çalışıyor ama insanın ömrü ancak bir iki tane makale yapmaya düzgün makale yapmaya
+[1:25:06] yayınlayabilir demişti ve dedi ki son yani makale baskısı olduğu sürece de bu devam edecek çünkü müthiş bir makale baskısı var makale makale makale. Q
+[1:25:14] baskısı var artık böyle q baskı Q1 Qarda bahsediliyor böyle paylaşılıyor. makale olacak. Tabii ki herkesin makale
+[1:25:22] ihtiyacı var ama esasa bu angre boyutunda sürdürülebilir bir şekilde bunun kendini bitki silahı da aktarması
+[1:25:30] lazım ya da hayvan islahı ya da neyse de çünkü burada bilim yapmak, arge yapmak bir mali boyutu var. Bunun da parayı
+[1:25:40] sürekli ARGEye gömerseniz bu şirketlerde de böyledir.
+[1:25:45] Faydalı bir şey. Satabileceğiniz ürümü geliştiremezseniz illa satma parayla da ilgili değil. üretim yani kendini toplum
+[1:25:53] için faydalı bir şeye dönüştüremezseniz burada yaparsınız. Burada batarsınız. Böyle bir şeyde ki klasik örnek verilir.
+[1:26:00] Burada da Dünya Savaşı sonrası yaşanan soğuk savaş ABD ile
+[1:26:07] Sovyet Rusya arasında yani soğuk savaş zamanı. İşte bunu anlatacağım. Ortak yaş şey çocuktum ben.
+[1:26:17] O yıkıldığı zamanda bile ama burada soğuk savaş belgesellerden falan yazıyor. Bu soğuk savaş denilen savaşın şeyi de falan değil. Şu anda da var böyle bir savaş. Soğuk ne var şimdi?
+[1:26:27] Çin'le [boğazını temizler] bir ABD'nin arasında ARGI savaşı var. ARGI ve pazar savaşı var. Burada da şu nitelikli ürün
+[1:26:36] geliştirmek için ARGE olması lazım ki modern ekonomide de bunu, ekonomik modellerde de bunu olur. Ürünü hammaddeyi bulursunuz. Bunun üzerine ne
+[1:26:44] kadar bilgi koyup bunu satacaksınız? Ha bir de şu var. O zaman da biz böyle uzay araştırmalarına gereksiz gibi görülen bilime para yatır yatır.
+[1:26:55] [boğazını temizler] Bu burada kamu parası kullanıyorsunuz. Herkesin parasını kullanıyorsunuz. Bunun bir faydalı olması lazım şeye karşı. İşte
+[1:27:03] soğuk savaşta da böyle yaşanmış ve bu soğuk savaşı da Rusya terk etti. Bir sürü fazla nedeni olabilir de sosyal bilimci değilim ama ARGE savaşını
+[1:27:10] kaybetmez sebebi de şu mesela teflon teflon üretimi ABD bunu geliştiriyor. O
+[1:27:18] da şu çıkış noktası da uzay argesinden çıkan bir kaplama. Bu roketler aşağıya atmosfere girdiğinde yanmaması için bir
+[1:27:27] kaplama türü geliştirirken böyle bir şey çıkıyor. Sonra tencere tabak satıp tencere tabak satıp bunu satıyorlar ve bundan para kazanıyorlar. Sovyet Birliği
+[1:27:35] de ki bilimsel ve arkadan o kadar ne kadar elendiysem bunu pratiğe ve topluma faydalı ve ekonomiye dönüştüremediği
+[1:27:43] için de buradan geriye doğru gitmiş oluyor. O açıdan da bu da söyleyeyim.
+[1:27:50] Hani genel olarak konsept budur. Genel olarak da budur. Çünkü artık moleküler biyolojide şöyle hissediyoruz. Ben hissediyorum yani
+[1:27:59] projelere moleküler biyoloji projeleri yazılıyor bunları. Bu projeler hayata geçiriliyor ve burada multidisipliner
+[1:28:07] bir proje. Yani ben bir proje yazdığım zaman da şöyle ben genetikçi genklemesini yaparım. Islakçı popülasyonu geliştirir. Fenotipçi de
+[1:28:14] duruma göre değişir. Hastalsa patolog, normal stresçse de agronomist filan bunlar da bu işi yapar. O esas işi onlar
+[1:28:22] yapıyor aslında ama biz de sonra çıkarttığımız zaman ortada sah en azından bir çeşit geliştiriyor. Bu yıprüt mprit yapıyor böyle bir şeyden.
+[1:28:31] Biz de ailenin şımarık çok para harcayan hiçbir işe yaramayan şımarık çocuğu zengin çocuğu gibi
+[1:28:38] kalıyoruz yani böyle bu ortada. Çünkü dediğim gibi QTL'deki çoğalamayla birlikte bu oluyor. Çünkü e siz mesela
+[1:28:46] bir şeyde mas laboratuvarı sorumlususunuz.
+[1:28:51] Sonra müdürünüz bakıyor ki böyle bize ne katkın var? Buradaki sılaha ne katkın var demeye başlıyor. Kendinizi
+[1:29:00] gereksiz gibi hissettiğiniz zaman bunu da öğreneceksiniz. Gereksizlik noktaları burada oluyor. Şöyle bir şey çıkıyor.
+[1:29:06] Arkadaşlar gönderiyorlar bunu böyle. Oo şöyle bir gem bulunmuş böyle bir şeyden.
+[1:29:11] Bakıyorum ik dakika sonra diyorum ki bundan bir şey çıkmaz. O da yani hayal kırıklığına uğratmak istemem sizi ama bundan bir şey çıkmaz diyorum ki
+[1:29:19] çıkmayacağı da belli artık baktığınız zaman siz de bana göndermeye bile gerek kalmadan bu kötü elden bir şey olmaz yani size faydası dokunmaz
+[1:29:27] akademik olarak da bu ama dediğim gibi faydası olmaz da bundan bir şey olmaz dediğim olayı değil yapmışsanız da bunu en iyi şekilde yayınlayacaksınız. Bu noktada da gelelim.
+[1:29:38] Çok konuştum. Genelde böyle çok konuştuğum içinde de insanlar dinlemiyor ama böyle muhabbet e ve samimi sohbet tarzında buradan ilerleyeceğiz.
+[1:29:49] Bir şey daha anlatacaktım mesela şu eğitim araçları, eğitim modelleri. Moleküler marker sistemlerine bakalım.
+[1:29:56] Şuradan da ilk şey açısından da böyle yaptım. Genelde konuyu ilk bir şeyden anlatabilmek için Markörünün hayat döngüsü.
+[1:30:05] Döngüye bakalım.
+[1:30:09] Fenotip keşif. Bunları hep anlatacağım size. Yani burada morfoloji olması gerekiyor. Bunun reverse pardon forward genetics deniyor. Yani bir şey için
+[1:30:17] morfoloji de farklı bir şey. Aiyotik stres mi çalışıyorsunuz? Aiyotik strese müthiş dayanıklı bir çeşidiniz olması gerekiyor buradan da. Sonra genomik
+[1:30:25] haritalama yöntemleri. Civas mı yapacaksınız? Bunu mu yapacaksınız? Bu yapılmış oluyor buradan. Yani sizin masa buralarında kullandığınız her bir markör zamanında bir QTR'dır.
+[1:30:35] Sonra bu haritalamadan sonra markör geliştiriyorsunuz. Snap'i bir şeyle çeviriyorsunuz.
+[1:30:41] Markör gelişti mi? Tek gendi ya da bir gen bununla ilgili olarak da kaç etkisine göre böyle de sonra buradan ne
+[1:30:48] izogenicik hat oluşturunuz dedim. Bunu buraya koydum ama bu gerekli olacağını şunu bilin yani burada genelde yabani tür yabani tür abiyotik stresine
+[1:30:57] dayanıklıdır. İnterspesifik bir popülasyon geliştirdiniz. Markörü de geliştirdiniz. Aha al bunu buradan şey değil. Yabani tür nasıl başlarsanız o
+[1:31:05] gene oradan yapamaz yani. Niye sadece o gene sahip ama normal gene backgroundu kültür formunda olan çeşitler demek.
+[1:31:14] Bunu da paket halinde koyduğunuz zaman artık ıslaha bir hizmet etmiş olursunuz. Farklı popülasyon türleri de vardı.
+[1:31:20] Onları da alacağım bu arada. Ha şu gelişimi anlatmak için dedim. Çünkü bu gelişimin bir yerinde. Biz şu anda mesela bunu ARGE laboratuvarları yapacak. Markörü geliştirecek. Bunu
+[1:31:29] ıslahçı üretecek. Sonra da mesela verecek. Akademik validasyon başlayacak buradan. On da bu akademik validasyonları mesela ısla biyotik
+[1:31:38] stresler bitki korumacılar çok iyi yapıyorlar. Bitki korumacılar bunu yapıyor ki makalelerde vardır. Markör
+[1:31:45] artık görücüye çıkar. Markör geliştirme dedik ya da genomig aracınız. Burada normal markör de olabilir. Görücüye çıkar bunu. Patologlar çok güzel yapıyorlar. Çok güzel makaleleri var.
+[1:31:57] Düşük Q faktörü. Q1 olmasa da bunu deniyorlar ve esas faydalı çalışmalar da bunlar. Test yapıyorlar kendileri
+[1:32:06] markörüne bakıyorlar. Sonra bakıyorlar tutuyor mu tutmuyor mu? Tutmadığı zaman ne yapacaksınız? Böyle bir görücüye çıkar. Burada görücü de artık bu şeyde
+[1:32:14] bakteri şey hastalıkla marka örü bir korelasyon sağlı bu makalenin içindeki verifikasyondan bahsetmiyorum geliştirip
+[1:32:21] ortaya koyduğunuz zaman da var mesela Sami hocanın projesinden geliştirmiş olduğumuz engeles 037 var anlatırım böyle bir şeyden onunla birlikte
+[1:32:29] verifikasyon popülasyonunda yapıldık sonra akademik verifikasyonun yapıldı makale var mı yok koyuyorsunuz olmasa bile siz bunun arg laboratuvarları
+[1:32:38] alıyorlar deniyorlar denemeden bilemezsiniz yapamazsınız Tutmayanlar çok oluyor tabii ki.
+[1:32:44] Tutmadığı [boğazını temizler] zaman da bir sürü şeyden tutmayabilir. Orada da varsiz var. Körden. Burada da bitki var.
+[1:32:50] Burada da dör tane sistemde olan bir şey. Bitki kaynağı var. Çünkü gen kaynağı gene göre değişir. Mesela nemoto
+[1:32:58] dayanıklılık diyorsunuz da bir sürü gen var bununla ilgili de. O gen yaptınız nevotot testi yaptınız.
+[1:33:06] Dayanıklı çıktı. Markör du doyarlı gösteriyor. E ne yapacağını o zaman markörne doyarlı açısından iki şey var.
+[1:33:11] Patologlar molekülercilere laf atacaklar. Yani suçu ona atacaklar.
+[1:33:17] Molekülerciler patologlara bu testi yapamadın mı acaba deyin. Hepsi de olabilir. Daha ekosistemde yer alan iki tane şey var. Bitki. Bitkide demek ki
+[1:33:26] gen yokmuştur. Gen kaynağı farklıdır. O olabilir. Çünkü bunun da olması lazım.
+[1:33:31] Ya da suşte bu suş böyledir. Bu da bir keresini de bir şey de göndermişlerdi [homurdanır] yani ırk, bakteri ırkı
+[1:33:40] senin genin bilmem ne ırkına dayanıklıdır ama o başka bir ırk kullanmıştır. Böyle bir şeyde böyle
+[1:33:48] yapar. Burada yapıldıktan sonra da artık bu ısıt kapalı kapılar ardından mas seleksiyonlarına burada başlarlar. Bunu
+[1:33:55] da ıslahta artık göyün merind işi vardır. Kullanılıyorsa kullanılır ki zaten kullanıldığı zaman 30 40 50 yıldır
+[1:34:03] markörleri böyle kullanıyoruz. Bunlarda kullanılmıyorsa da kullanılmayacaktır.
+[1:34:08] Buradan görünmeyen eli bunu size söyler. ki buradaki hani pratik noktaya sahaya taşımış dediğim şu mas
+[1:34:16] laboratuvarlarında bitki sahçıların bunu kullanması olmuş olacaktır böyle bakalım
+[1:34:24] işte yani kendimi düzgün bir şekilde anlatmışımdır umarım buradan da teknik olarak da dediğim gibi okulumuzun koridorları bu şekilde. Okulumuz bu
+[1:34:32] burada bir logomuz da var. Teknik açısından sadece ben varım ama burada kullandığımız şeylerde teknoloji değerlerine de çalışıyoruz. En baştan e domainim bilgi işleme üniversiteme ait.
+[1:34:45] OneDrive'ın yani Microsoft'un forumunu kullanıyorum. Bu şekilde bazı şeylerde de veri setlerinde de o veri setlerindeki bunun serverını
+[1:34:54] kullanacağım. Tabii buradaki şey de yapay zeka konusunda da bu kodlamaları falan yapay zekaya yaptıracağım. Çünkü kodlama bilmem. Ya da slaytların HTML kodlarının yazılması filan.
+[1:35:05] OR da Cemini yani Google'ın altyapısını kullanmış oluyorum. Beni dinlediğiniz için teşekkür ederim. Burada markers
+[1:35:12] teknolojisine ilgili olarak da yeni videolarla karşınıza geleceğim. Teşekkürler. Yeah.

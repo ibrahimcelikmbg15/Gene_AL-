@@ -1,0 +1,88 @@
+Başlık: Biyoinformatikte Zengin Kız - Fakir Oğlan Aşkı: dbSNP ve CAPS (dbSNP2CAPS Programı)
+Link: https://www.youtube.com/watch?v=x9O5F6qtm2I
+Süre: 11:33
+Transkript: YouTube otomatik altyazı (Türkçe)
+
+[0:03] Arkadaşlar ve yorucu bir haftayı geride bıraktık.
+[0:08] Hafta sonu oldu şimdeden. O yüzden bu hafta içi yoğunluktan bir derse yetiştiremedim. Şimdi de vakit bulmuşken
+[0:16] akşam bir kısa bir ders yapacağım. Şimdi geçen hafta ne anlatmıştım size?
+[0:25] eee S&P spesifik Caps markörü tasarımını anlatmıştım. Şimdi farklı bir program geliştirdim. SSR videosu yetişmedi. O
+[0:33] biraz daha uzun sürecek. Onu da vakit bulursam hafta sonu ya da pazartesi, salı günü ne kadar hazırlamış olacağım.
+[0:43] Ondan önce SNIP'le ilgili de bu S&P Caps'in farklı bir versiyonunu geliştirdim. Ona bakacağız. Geçen sefer
+[0:52] anlattığım şey NCB'ın veri tabanını göstermiştim. Şimdi buradan SP'nin DB
+[1:02] eee SNP mark veri tabanına beraber bakacağız. Hemen bakalım.
+[1:09] Oradan NCB'e gidiyoruz. Burada direkt doğrudan yazabilirsiniz.
+[1:17] Ya da şuradan bizim yapmamız gereken burada snipleri bulacağımız SP.
+[1:24] Buraya da bir gen ismi yazmamız lazım. Hı hı.
+[1:39] Bakalım çıkacak mı?
+[1:42] ICF yazdım. Çünkü burada geçen hafta da bakmıştım ben. Geçen hafta bitkiyle ilgili hiçbir şey yok. Çünkü bu medikal
+[1:50] araştırmalar için kurgulanmış bir yapılmış bir veri tabanı. Buradan bakınca bizim veri tabanımız burada.
+[1:57] Şuradan sniplere bakalım. Hem snip olayında biraz daha iyi anlamış olursunuz burada. Mesrardan önce
+[2:06] inşallah açılırsa da bu DB var gitti. Since
+[2:20] Evet. Sen burada çıkmadı. Gen isminden kaynaklı bir şey. Başka şeye bakalım.
+[2:31] H bak burada çıkıyormuş zaten. F'i bulacağım illaki bulacağım. EF bak Homo Sopiens F1 yazmamız gerekiyormuş. Bu
+[2:39] konulara yabancı olduğum için insan genlerini baktık buradan. Evet, DBSNP'de 34.350
+[2:47] tane bununla ilgili bir snip varmış burada. Bakalım sor ekranına.
+[2:56] Snip'le ilgili bilgiler var burada.
+[2:59] Burada varyante. Bu nedir? Buna single nukleot variation deniliyor. Bu
+[3:05] dediğimiz de şu. Bu tek bir geçen hafta da anlattım galiba tek bir nükleotit değişimi olduğunu bunu söylüyor. Yani modern isminde de bunu söylüyorlar.
+[3:17] Çünkü bir şeyin asinip olması için eee bu değiş yani bu farklı varyosyanlarını
+[3:25] gösteriyor ama bu popülasyonda bir frekansının olması gerekiyor ve popülasyonda serregasyon yapması gerekir. O yüzden buna böyle diyorlar
+[3:34] galiba. Şurada alel. Alel burada G AC aleli bulunmuş. Bunlar farklı çalışmalardan olduğunu bunda gösteriyor.
+[3:42] Yani guanin nükleotiti adenin ve sitozinle alternatifi oluyormuş. Şurada kromozom.
+[3:53] Burada kromozom 12. kromozomda ve buradaki şeyine de baktığımız zaman galiba bu böyle şu bölgede diyor.
+[4:02] Yani 12 kromozomun bu bu bu bu bu bölgesindeki nükleotit referans genom da
+[4:09] bunun yeri adresi demek. Aynı şekilde de bu da SPDI dytiği şey de bu da
+[4:17] kromozomun ismi. Çünkü kromozom 1 2 3 4 B yazdığı bu kromozomda bir ID numarası veriliyor. Bunu gösteriyor. Bu bölgede
+[4:24] olduğunu gösteriyor. Bölgesini nükotit değişimini
+[4:31] gösteriyor. Bu da yani bu sinipin adresi olmuş oluyor. Gen zaten F yazmıştık.
+[4:37] hangi gende olduğunu da buradan göstermiş olur. Functional consequences
+[4:43] burada prime UTR'da 3 prime UTR'da olan bir snipmiş. Bu da clinical significance
+[4:53] dediğimizde şu. Bunlar farklı büyük dev eee insan eee genomu yani resequencing
+[5:03] projelerinden böyle çıkmış şeylerde klinik araştırmalarında burada bilmem kanserle ilişki bu goanin olunca hasta
+[5:12] oluyorsun adenin olunca hasta olmuyorsun gibi böyle bir şey ama kesin bir şey olduğunu da buradan burada göstermiyorum.
+[5:22] Bakalım şuraya geldiğimiz zaman burada da burada da bunun farklı popülasyonlarda
+[5:28] dizileme yani eee insan genomu dizileme çalışmalarında ki karşılıkları mesela farklı şeylerden
+[5:36] oluşmuş farklı projelerde bu da bunun görülme frekansı oluyor.
+[5:44] Alelin frekansı. Adelin de burada kaçmış? 0,00 çok küçük bir frekans var. Buradan da bunu gösteriyor.
+[5:52] Burada da bunun alternatif isimleri.
+[5:56] Bunu yaptığımız zaman burada ne anlıyorsunuz? Şu kromozomda 12.
+[6:00] kromozomda olduğunu, yerini ve nükleotit değişimini buradan anlayabiliyorsunuz.
+[6:06] Buradan da şimdi buradaki buradan caps dizayn edilir mi?
+[6:12] Edilebilir. Dizi bilgisini nereden bulacağız? Buradan [iç çeker] şu show flanksa tıkladığımız zaman
+[6:19] buradan çıkıyor. Bak geçenki gösterdiğim gibi buradan kopyalayıp bunu programa atabilirsiniz.
+[6:26] Ama bununla eee uğraşmamanız için de yeni bir program geliştirdim, tasarladım. Programın ismi de şu
+[6:36] DBSP2 caps.
+[6:40] Bu buradaki verileri yani SNIP verilerini veri tabanındaki NCB'da otomatik olarak çekip bizim geçen hafta
+[6:48] yazmış olduğumuz programa, Caps programına entegre eden bir sistem oldu.
+[6:56] Yani şöyle büyük dev, tekto biyenformatik devi olan NCBI'daki
+[7:03] veriyi bizim halk ekmek olarak nitelendirdiğim Caps designerımıza,
+[7:09] programımıza yönlendiren onun gelişmiş bir versiyonu.
+[7:15] O yüzden de ben buna şey diyorum. Zengin kız fakir olan birlikteliği aşkını bu programda yan yana getirmiş olduk.
+[7:27] Dev bütçeli LCB'la düşük bütçeli bizim programımız. Sistem nasıl çalışıyor burada? Gayet kolay kısa
+[7:35] olacak bu da. Bununla uğraşmamanız için mesela buraya Gen ismin arama yapabilirsiniz. Ars numaralarını yapabilirsiniz. RSR numarası nedir?
+[7:45] Burada her snipin şu burada ncbaki veri tabanındaki ismi.
+[7:55] İkisini de düşündük burada ama normal arama da yapabiliyoruz. Şöle bakalım.
+[8:02] Az önceki şeyi bulalım. Buradaki şeyden şunu
+[8:09] copy istediğinizi yazabilirsiniz. Böyle genişleri. Bunlar mama yapıyoruz. Bunaf diyoruz.
+[8:16] Giderse buradan.
+[8:19] H diziyi çek ve kutuyu aktar. Bastığınız zaman hop sizin programınızdaki en
+[8:28] bydaki veri az önceki görmüş olduğunuz şey buraya giriyor.
+[8:51] Geldikten sonra da buradan ne yapacağız?
+[8:54] Algoritmayı saçtır ve enzimi tara dediğimiz zaman da tarıyor ve bulamıyor. Her zaman bulmayacak diye bir şey yok.
+[9:01] Çoğu zaman da bu capste çıkmaz. Ama bu dizi bilgisini alıp o zaman başka şeylerde kullanacaksınız.
+[9:09] Gen adı olarak da bunu aradığımızda yine buraya yazıyorsunuz. Yazınca SNP'leri bul dediğimizde burada tüm programın
+[9:18] oradaki şuradaki liste burada böyle gösteriyor ya 35.000 tane küsur vardı burada. Buradan da size şu programı kapatayım. Bunlar çıkıyor.
+[9:30] Buradan artık istediğinizi seçebilirsiniz. Şuna bakalım. Böyle baktığımız zaman bunu seçtik. Burada da aynı zamanda onun bilgilerini veriyor
+[9:39] size. [boğazını temizler] Varyantı, klinik önem, fonksiyel etkisi falan yokmuş zaten bunlarda. Hepsi de bize göndermemiş böyle. Kromozom orada
+[9:47] biliniyordu ama burada demek ki iyi çekemiyoruz. Bu da bilinmiyormuş. Bu ilginç demek geliştirmem lazım. Onu da bu önemli değil ama dizi bilgisini
+[9:56] buradan SP diziyi kutuya aktar. Aktaracak mı?
+[10:03] Evet burada bunu aktardı. Şimdi de A4 Mayıs taştırma enzim ter ettiğimiz zamanda da yine bulamayacak bunu. Tekrar bir şey daha deneyelim.
+[10:15] Reaktar A4 çalıştır enzim. Yine de bulunmadı ama bulduğumuz zamanda da bu aynı diğer
+[10:23] programın aynısı olan kesim yerlerini, kesim enzimini ve C görüntüsünü size verecek. Tamamen iki programı veri
+[10:32] tabanında buradan birleştirdiğimiz ve zengin kızla bizim Halk Ekmek Fakirğ'ın birlikte çalışabildiği bir program oldukta.
+[10:43] Bu genelde klinikçilerin böyle işine yarayıp kullanabilir ama bu da eee
+[10:51] ilk defa dünyada bir LCBI'dan veri çekip Caps markörü dizayn eden bir program.
+[10:59] Linkinin sayfası hazır değil. Teknik bir sebepten dolayı güncellemeden web sitesine erişemiyorum şu anda. Eriştiğim zaman da bunu buradan hazırlayacağım.
+[11:09] web yani genem okulunda da yerine alacak. Bu linki buradan YouTube kanalı altına da koyarım. Oradan da bakabilirsiniz.
+[11:18] Buradan hepinize hayırlı olsun.

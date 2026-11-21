@@ -1,0 +1,408 @@
+Başlık: Moleküler Markör Sistemlerine Giriş
+Link: https://www.youtube.com/watch?v=KvWAJNMqq0o
+Süre: 51:37
+Transkript: YouTube otomatik altyazı (Türkçe)
+
+[0:01] Merhaba arkadaşlar. Umarım iyisinizdir ve ilk videomu izlemişsinizdir. Biraz uzun bu video oldu ama artık blog ders
+[0:08] gibi düşünüp dinlene dinlene izlerseniz de faydalı olacaktır. Şimdi size moleküler markörürler hakkında daha detaylı bilgi vereceğim.
+[0:18] Onu da ondan önce genomik multiemus yaklaşımlar nedir? Onlardan bahsetmem gerekiyor. DNA'da e moleküler
+[0:26] biyolojinin doğmasına neden olan büyük keşif tabii ki şüphesiz DNA'nın kalıtım
+[0:34] yani daha doğrusu kalıtımın moleküler esaslarının belirlenmiş olması ve bunu da hepimizin bildiği Nobel ödülde alan
+[0:41] 1954 yılında Baston ve Cre'in DNA'nın ikili sarmal yapısını bulup DNA'da
+[0:49] hayatımızı şifreleyen bir canlılığı genlerini kodlayan d tane nükleot bulduğu
+[0:57] çalışma. Bundan sonra iş tamamen değişti. Çünkü 1954 yılından önce çalışmalar tabii ki vardı bununla ilgili ama şu tartışılıyordu buradan da. Tamam.
+[1:11] Kalıtımın esasları belli. Mendel'in çalışmaları anlaşıldı. Bugüne kadar hükümsüz paradigma olan Blender hipotezi
+[1:20] Mendel'in çalışmasıyla ve ondan sonra üç bilim insanın da bu konuyu kanıtlamasıyla birlikte kesinlik
+[1:28] kazandı. O zaman şu soru olarak akıllara çıktı.
+[1:31] Kalıtım hangi molekülne kalı kalıtılıyor? Kalıtımı hangi moleküller molekül makroolekül kontrol ediyor?
+[1:40] Protein diyenler vardı. başka şeyler diyenler vardı ama DNA o zaman da biliniyordu ve DNA'nın yapısındaki
+[1:49] buradaki eee nükleotitler bu zaman ortaya çıktı ve Watson ve Kik de DNA'nın ikili sarmal yapısını ortaya
+[1:59] attı ve bu hipotezdi ve kısa bir makalesiyle moleküler biyolojideki enformatik bilgi akış sürecini başlatmış oldu.
+[2:10] 1954'ten önce de çalışmalar vardı ama şöyleydi. Bir canlılığı kitabı olarak düşünürsek de bir kitaptır. Çünkü
+[2:17] moleküler biyolojiyi önce de söylemiştim. Moleküler biyoloji bilgi akış sürecinin hücredeki
+[2:26] bilgi networkünün dinamik [boğazını temizler] ve statik analizlerini yapar. Bunu söylemiştik.
+[2:30] Peki bu bilgi nerede depolanıyor? Neyde depolanıyor? İşte bu ortaya konulundaki DNA'da bu bilgiler depolalanıyor ve
+[2:38] 1954'te bu ortaya çıktı. Dör tane harfle birlikte nükleotitle tüm proteinleri ve
+[2:45] yaşamın şifrelerini çözebileceğimizi anladık. Bundan önceki çalışmaları şöyle bir kitap olarak düşünürsek kitap
+[2:53] şöyleydi. [homurdanır] 1954'ten önceki çalışmalar kitabın kapağı nerek yaprakları hangi maddede
+[3:01] yapılmış? yapısal çalışmalardı. Ama 1954'te biz kitabın alfabesini çözdük. Yani
+[3:09] canlılığı kontrol eden, bilgiyi depolayan sistemin alfabesini kurduk.
+[3:14] Alfabede Türkçede 29 harf var ama canlılarda da 4 nükleotitli
+[3:20] bir alfabe vardı. Bu yaşamın şifresi olarak karşımıza çıktı.
+[3:28] Tabii ki bu kadar e basit bir şey değil.
+[3:31] Farklı hayattaki bir yaşam, bir moleküler biyolojide bir hayat nedir?
+[3:37] Canlıların üremesi, canlılık nedir sorusuna böyle cevap verirsek üreme, nefes alma gibi şeyler söylenebilir. Ama
+[3:45] moleküler biyolojide ki bu tanım önemlidir. Böyle şu demektir.
+[3:50] Bir bilgi merkezinden kontrol edilen kontrollü reaksiyonlara hayat denir. O da sistematik bir şekilde
+[3:58] kendini kopyalayıp eee devam ettiği zaman da bir en geniş anlamda buna yaşam yani
+[4:07] hayat diyoruz. [boğazını temizler] Burada baktığımız zaman bu harfler bulundu ama bu hayatı yani yaşamın
+[4:14] şifreleri tek katmanlı bir şey değil. Bu bizim bildiğimiz bir katantı. İlk burada
+[4:22] watch ve bu şekilde bulunması. Sonra protein kodlarının, kodonların bulunmasıyla birlikte artık bu konu
+[4:29] hakkında bilgi sahip olduk. Ama bu kadar mükemmel canlının canlıları açıklamak için, bu muhteşem hayatı
+[4:37] açıklamak için sadece bu dört nükleotit yetiyor muydu? Yetmiyordu. Çünkü canlılığın düzenlenmesi farklı katmanlar
+[4:44] tarafından gerçekleştirilir. İlk katman belki de bu nükleotit dizisi.
+[4:51] Sonra ne çıktı mesela? DNA düzeyindeki epigenetik çıktı. Epigenetikte 5 nükleotit var. 5. nükleotiti biliyor musuz metozi mesela 5. nükleotit derler.
+[5:00] Epigenetik buradan da yani sitozinin metillenmesi genin kadirini belirliyor.
+[5:07] Sonra histon kodu çıktı. Yani DNA'nın etrafında DNA'ya bağlanan proteinlerde
+[5:14] de bir kot olduğu ortaya çıktı. Sonra da hemen hemen 23 seneye bir farklı translasyonla ilgili bir mekanizma
+[5:24] ortaya çıkıyor. Mikro RNA'ların görevleri çıktı. Şimdi long lodik RNA'lar var. İşte bu gibi çalışmalar da
+[5:32] böyle devam ediyor. Ama biz buradaki çalışmalarımızda moleküler ıslahta yine de en temel olan nükleotit dizisini
+[5:41] kullanacağız. Yani yaşamın harfi de bu. Alfabeyi bulduktan sonra yeni bir alfabe bulundu. Bu dili çözmek
+[5:48] için de bu nükleotit sıralarının birbirle olan ilişkilerini yani
+[5:55] motifleri bulmamız gerekiyordu. İşte bu da ilk kelimelerimiz. Bu canlılarda da
+[6:03] doğrusu bir cümle yaşam alfabesinde alfabine yazılmış cümlelere de biz gen diyoruz. Yani ürünü protein ya da
+[6:12] protein olması da şart değil. anlatım yapan, transkripte edilen DNA parçalarına gen diyoruz. Böyle dip
+[6:19] noktada temel genetik ya da moleküler genetik dersi değil bu gen yani bir karakteri kontrol eden
+[6:28] transkripte olan DNA parçalar. Burada bir tane gendir mesela bir özelliği bir tane gen kontrol eder.
+[6:38] Buna da mesela biz buradaki mesela dayanıklılık genleri diyoruz. Böyle da
+[6:44] dayanıklılık r genleri r genleri re genes dayanıklılık nematota dayanıklılığınla ilgili N geni var bu
+[6:53] gendir burada omik teknolojilere geldiğimiz zamanda da şu bir tane gense buna gen denir tabii doğal olarak tüm canlının
+[7:02] sahip olduğu gene de genom diyoruz bunlarına çalışanlara da genomik diyoruz burada da yani tüm bu çalışmalar
+[7:12] budur
+[7:13] [boğazını temizler]
+[7:13] Diğer genomik çalışmalara baktığımız zaman da şimdi şuna geleceğim ama transkript nedir? Messenger RN bir tane geninde.
+[7:24] Transkriptom tüm Messenger RNAlar ve transkriptomix de bununla çalışan bilim dalı. Başka ne var? Santral dogmaya
+[7:33] baktığımız zaman bunu ben sevmiyorum çünkü bizim dogmalarla işimiz yoktur da.
+[7:39] Gen, DNA, RNA, protein. Proteinde de aynı şekilde protein, proteon, protexiks.
+[7:47] Daha neleri var bunların da? Metabolomiks var en çok kullanılan.
+[7:51] Şimdi metabolit bir metabolit. Bir de hücrenin sahip olduğu tüm metabolitler buna da metabolit denir. Genomiye böyle
+[8:00] baktığımız zaman da şu terminolojileri öğrenmenizi istiyorum. O yüzden bunları söylüyorum. Böyle forward genetics ve reverse genetics. Bunları ben derslerde
+[8:09] söyleyeceğim. Söylediğim zaman da siz bunu anlamanız gerekli. Forward ileri genetik demektir. Buradan da yani şu var. Fenotipten genotipe gitmeniz
+[8:17] gerekli. Bir geni bulabilmeniz için öncelikle onun bir fenotipi olması gerekiyor. Yoksa siz yapacaksınız buna
+[8:23] da. Yani doğada giderken bir şey mesela [boğazını temizler]
+[8:30] bir dayanıklılık geni bulmanız gerekiyor. Orada dayanıklı bitki gen kaynağını bulacaksınız. O dayanıklı gen kaynağını buldunuz. Yani bir bitkiniz
+[8:39] dayanıklı. Buradan onu kontrol eden geni bulursanız bu forward geneticir. Reverse genetics geni bulduktan sonra onun manipülasyonlarıyla,
+[8:47] modifikasyonlarıyla knockout yaparsınız, knockdown yaparsınız, over exppirasyon yaparsınız, fenotipe bakarsınız. Bu da olmuş şey oldu.
+[8:57] Bu da reverse genetics deniliyor.
+[9:02] Burada genomik kavramı genelde karıştırılıyor böyle bir şeyde ama yani terminoloji herkes karıştırıyor. Bunda.
+[9:09] Genomik dediğimiz zaman şu var. Bir tane genle uğraşırsanız bu genomik olmaz.
+[9:14] Tüm genlerle uğraşmanız lazım. Bir sürü gene bakmanız lazım. Ya da tam genom düzeyinden analizler yapmanız lazım. Ama
+[9:22] tabii ki şöyle mesela tek bir PCR yapıyoruz. Bu genomik bir yöntem midir?
+[9:26] Öyle diyorlar ama bence değil. Ama tabii sınavda filan hocalarımız sorarsa da böyle genomik yöntem yazın pis kabul
+[9:33] edebilirler ama tüm genlere olabildiğince fazla gen üzerinden analizler yapılırsa bu genomik
+[9:43] çalışmalardır ki bunun da en büyük şeyinde mesela genomik seleksiyon gerçek kullanılmış bir şeydir yani kullanılan
+[9:50] bir şey bu terminoloji de karıştırılıyor.
+[9:53] Genomik seleksiyon dediğim zaman şu da var. Mass seleksiyonu genomik seleksiyon değildir adı üzerinde. Ama bunu da karıştırıyorlar. Bunu da karıştırmaması
+[10:01] lazım. Yapısal ve fonksiyonel genomik var. Yapısal genomikte de gen DNA dizileri elde ettiğiniz zaman bunların genlerinin bulunması.
+[10:10] Bizim markörlere de bunlar yapılır.
+[10:12] Fonksiyonel gönikte de şu var. genin fonksiyonunun belirlenmesi. Marker teknolojiyle bizim harç eee çalışmalarda
+[10:19] aslında ikisini de kapsıyor. Buradan genomik öf mesela insanda 3.2 milyar
+[10:27] nükleotit var böyle. Bunlarda da şunu anlatacağım ben size de. Genom projeleri. Genom projeleri eskiden
+[10:35] mesela genomlar yoktu. Çünkü tarihsel dizilemeye de baktığımız zaman da şöyle bir şey düşünün. 146'te yeni DNA'nın iki
+[10:43] sarmalar yapısı bulundu. Sonra Sanger dizilemeyi buldu. Artık hem proteinde hem DNA'da Sanger dizilemeyine dizileri
+[10:52] elde etmeye başladık. Bunları anlamlandırmamız gerekiyordu. Böyle sonra mesela 2000'li yıllarda insan
+[10:58] genom projesi bitti. O da önemli bir şeydi. Böyle ki ben çok iyi hatırlıyorum bunu. O artık hiçbir şey eskisi gibi
+[11:06] olmayacak. Yani referans genomlar tabii ki önemli bir şeydir ve bize yüksek çözünürlüklü haritalar sağlar. Nereye
+[11:13] gideceğimize bakar bulabiliriz bunlardan ama alel bulmamıza da bir işe yaramıyorlar. İşlevsel genlerde ve
+[11:23] mutasyonlarda da ya da polimorfizmi bulmak için. Onun için ne yapmamız gerekiyor? Böyle sadece genomu bulmak değil. Buradaki genomdaki alelleri
+[11:31] bulmak için, fonksiyonel bir şeyler bulabilmek için resquencing tekrar dizileyeceğiz ya da tekrar polimorfizme
+[11:40] bakacağız. İşte moleküler markörler de bize bu noktada kullanılıyor.
+[11:46] Perspektifte genelinde bakarsak böyle molto omix teknolojilerde
+[11:53] genomix haritalama dizileme işleri esas bizim yaptığımız şeylerden transcriptomics şu gen QTL haritalama
+[12:01] falan bunlara genomik yaklaşımlar diyebiliriz. Burada da transkriptomik yaklaşımlar. Bu eğitimin kapsamı değil ama isterseniz bununla ilgili analizler
+[12:10] de yapabiliriz. Ben yapmadım. Mikro şey analizi yani transkriptom analizi.
+[12:16] Ah transkriptomonda şu var. Bitkis bitkilerin dinamik olarak sentezlemiş
+[12:23] olduğu DNA'lardan, transkripten, transkriptörün analiz edirdiği yöntemler. Bununla ilgili de birçok yöntem mevcut. Anlatayım. Hepsini de
+[12:32] mikroarler vardı. İşte 90'larda, 2000 yıllarında daha model organizma olmayan bitkiler için. Bak bunları biliyor
+[12:40] musunuz mu burada? Differential display, suplexive hybridization, serial analysis gen expression, cdna
+[12:49] transkriptomik yöntemler mikroorayde de çipler üzerinde yapılıyordu. Bitkinin dinamik transkriptom analizini çıkartıyordu. Transkriptomu biz
+[12:56] seleksiyonda kullanamıyoruz. Dinamik bir şey oldukça ama gen bulmada bunlar aktif miydi? Aktifti. Ama artık günümüzde bunları kullanmaya gerek yok. Niye?
+[13:05] Çünkü transkripton dizileme bunların hepsini tarihe göndü. Haritalama yani bu
+[13:13] NGS'in eee dizilemenin ucuzlaması ve yaygın bir şekilde kullanılması
+[13:20] markör teknolojisini ve biraz sonra da anlatacağım genel markör sistemlerinin değerini azaltmadı. Ama şu
+[13:29] transkriptom dizileme bunların artık hiçbirini kullanmanıza gerek yok. Çünkü çok daha ucuza tüm genomdaki tüm genlere bakabiliyorsunuz. Böyle bir şeyde da bunlar önemli.
+[13:42] Kısa bir girişten sonra bu gen genom nedir diye bunlar hakkında bilgiyi isterseniz çok daha fazla veririz ama
+[13:49] esas biz kendi işimize gelelim bu noktada da. Gen QCL haritalama nedir ve markörler nedir? Buradan size bunları
+[13:57] göstereceğim ama önce bu işte veri analizlerine girmeden önce burada moleküler markörler nedir? Avantajları,
+[14:06] dezavantajları nedir? Buradan literatürdeki bilgi karmaşası ve bilgi kirliliği nedir? Bunlar hakkında kendi
+[14:15] verilerimize göre, bütçemize göre size burada anlatacağım. Bunları tamamen teknik olarak da anlatacağım. Bunların
+[14:24] hepsinin analizlerini yapacağız ve geliştireceğiz. Bununla ilgili olarak da şu. Mor markörler deyince üç çeşit
+[14:31] markör mevcut. Bir biyokimyasal markörler. Diğeri de ondan önce morfolojik markörler. İlk çıkan şey de şu. Yani bir de gördüğünüz upov
+[14:39] kriterlerinde olan şeyler de morfolojik markerlardır. Bu da biyokimyasal markerlar varmış. Burada
+[14:48] izoenzimler kullanılıyormuş. Ben bunu bilmiyorum.
+[14:52] Yani bunlar da artık kullanılmıyor bir şeyde. Çünkü sayısı az. Bunun 3 be tane mi tam bilmiyorum da 8 tane mi ne işte bu izoenzimle yani protein markörüyle
+[15:01] bitkilerle arasındaki çeşitlilere filan bakılıyormuş. Morfolojik markörler hala kullanılıyor. Çünkü burada morfolojik analizler de yapacağız.
+[15:11] Eee continuous datalar analiz edeceğiz ya da skorları analiz edeceğiz böyle.
+[15:16] Buradan da zaten bunları da bitkileri de bunların karakterizasyonunu yapıyorsunuz. Bunlarda bunlar da markör
+[15:23] olarak kabul edilebilir. Yani kabul edilebilir ya da kabul edilir. Moleküler markörler. Esas bizim işimiz de bu.
+[15:32] Burada yani DNA'daki polimorfizm, dizi farklılığıla ilgili olanlara da DNA
+[15:38] tabanlı marköre de moleküler markörler denir. Avantajları da bunların yüksek sayıda olması. sayı önemli. Çünkü
+[15:47] morfolojik markerlarda mesela bir evrim çalışmada ya da bir kıyaslamada morfolojik markör kıyaslayacağınız zaman burada opov kriterlerine bakıyorsunuz ama kaç tane şey bulacaksınız orada?
+[15:59] 20 30 tane bir şey ama bir dizilme yönteminde böyle en azından bir evrimsel çarpmada 1000 nükleotit bir şey yaptığınız zaman bile 1000 nükleotik
+[16:08] size ki hepsi polimorfik olmasa bile yüksek sayıda bilgi sağlayacaktır.
+[16:14] Çevreden etkilenmez dediğimizde en önemli şey bu çevre etkiler. Morfolojik markörler çevreden etkilenir ki mesela
+[16:22] bir eee bitkide morfolojik markör bakıyorsunuz farklı koşullarda onu görmeyebilirsiniz ama DNA'lar stabildir.
+[16:30] Ne olacaksa da burada çıkar. Yani inşallah böyle diyorum. Çevreden etkilenmezler ama bizden etkileniyorlar.
+[16:37] Onu da anlatacağım şimdi markör çeşitlerine bakarken tekrar edilebilir olması da burada önemlidir. Şu iki kavram önemli. Çevreden etkilenmezler
+[16:46] doğrudur ama bizden etkilenmeleri burada önemli. Bir de tekrar edilebilirlik burada önemli. Çünkü bu kanalın amacı da
+[16:53] neydi? Sürdürülebilir moleküler biyoloji desteklemek.
+[16:59] Markör çeşitlerine geldik. Burada markör çeşitleri şöyle düşünün. 54'ten sonra Sanger dizilemeyi buldu ama PCR
+[17:09] bulunmadı da. PCR'dan öncesi de iki çeşitte ayrılıyor moleküler markörler. Hibrizasyon tabanlı ve PCR tabanlı.
+[17:17] Hibrizasyon tabanlı şu PCRan öncesinde de şu an vardır. Markör de moleküler markör nedir biliyor musun? Moleküler
+[17:24] markör. Şu dizisini bildiğimiz ve bunu gözlemleyebildiğimiz DNA parçasına moleküler markör denir.
+[17:33] Gen olmasına filan hiç gerek yok. Böyle bunlardan da PCR'dan önce ki PCR'ı bilirsiniz böyle bir şeyden sudan
+[17:41] broting'le bu işler yapılıyordu. DNA var. DNA kesiliyor restriksiyon enzimleriyle ki bunu anlatacağım şimdi.
+[17:48] Bunları geliştirmesini falan biz uygulamalı olarak yapacağız bunlardan.
+[17:52] [öksürme]
+[17:53] Burada bunlar ne yapıyordu? Sadın blondla yani jeli alıyorsunuz oraya koyuyorsunuz. Sanki yapmış gibi anlatıyorum da yok.
+[18:02] Bunu ancak deneyimli 90'larda falan yapılan şeyler artık bunlarda yapılmaz.
+[18:07] Ha karanlık odaya gidip radyoaktif prob kullandım ama immunoblotingde bunu yaptık ama herhalde bunun gibi bir
+[18:15] şeydi. Bu da radyoaktif probu var. Bu prob dizisini biliyoruz. Bunun buna göre kesiyorsunuz. Buradan emdiriyorsunuz
+[18:22] bunu. Sonra da radyoaktifte de bantlarını görüyorsunuz böyle. Bunun için de çok fazla filan DNA var. artık kullanılmıyor. Ama bunu yapan deneyimli
+[18:30] hocaların da bu işin nasıl yapıldığıla ilgili konuk alabiliriz anlatmak isteyenleri. Çünkü tarihimizi bilmemiz lazım. Burada şunu da söylemiştim.
+[18:39] Burada geçmişimizi de bileceğiz. Bu geçmiş nerelerden çıktı? Eskiden ne yapılıyordu? Şimdi neler yapıldı konusunda buradan bu eski bir yöntem.
+[18:49] Şimdi kullanmıyoruz buradan. Sonra PCR'ın bulunmasıyla birlikte yani invitroda DNA replikasyonunu
+[18:58] taklit ediyoruz ve DNA'yı çoğaltabiliyoruz ve jelde görebiliyoruz. Çok az bir DNA ile bu işi yapabiliyoruz.
+[19:04] Buradan markörler çıktı. Şöyle bir şey düşünün. DNA'yı çoğaltabiliyorsunuz, ayırabiliyorsunuz. Tek bir sorun var.
+[19:13] Dizi bilgisi yok. O zaman ne yapacaksınız? Uyduracaksınız. Uyduruk primer. Çünkü bir sarı da bilirsiniz.
+[19:20] Biz zarın çalışması için polimeras çünkü ikinci iptin sentezini kendi kendine başlatamaz. Buradan
+[19:28] primer gerekli yani DNA'ya bağlanan bu daha çok yeni olanlar için söylüyorum ama DNA'ya bağlanan primer parçaları
+[19:37] gerekiyor. Normalde bloku çoğaltmak için göstereceğim ve bunu da dizayn edeceğiz beraber.
+[19:43] Primerlere ihtiyacınız var. Onun için de dizi bilgisine ihtiyacınız var. Rapid'te rapid markörleri çıkartılmış. Bunun
+[19:50] açılımı neydi? Random lamplif DNA galiba. Böyle de kısa 10 nükleotitlik primerle rastgele pisar yapıyorsun.
+[19:58] Zamanında çıkan ilk şeyler. Bu da DNA'ya gidiyor. Rastgele rastgele bağlanıyor.
+[20:04] Şimdi iki sınıfa da ayıracağız böyle bir şeylerde hibridizasyon pisar tabanlı dedik de biz ama bir de şu var. Bunlarda
+[20:15] bir de genel ve bitki spesifik markörler. Onları da anlatacağım böyle bunlardan. Buradan rapid markörleri, kısa DNA markörleri
+[20:24] rastgele bağlanıyor, rastgele çoğaltılıyor. Burada da bu. Sonra ikinci nesil bu arada ben uydurdum bunu. 1ci,
+[20:32] 2ci, 3. nesil hani benim görüşüme göre şey yapmayın. Sonra bundan sonra da artık dizi bilgileri ortaya çıkıyor falan böyle. İkinci nesil ortaya
+[20:40] çıkıyor. Daha popüler markörlerin starları ortaya çıkıyor. SSR markörleri,
+[20:46] EFP markörleri, Caps. Bunun PCR versiyonu olan bir markör sistemi.
+[20:52] Bunları da anlatacağım. Ve en sona da SNIP markörleri burada kullanılıyor. Ama şimdi birden daha buna da bakacağız ama
+[21:00] avantajları bunların dezavantajları noktasında ve seçiminde en iyi markörler şu anda rapid kullanamazsınız ama genel
+[21:08] markörler ve bitki spesifik markörlerden
+[21:16] bahsedeceğim. Çünkü onların verilerini analiz edeceğiz. O yüzden de bir projeye başlayacağınız zaman markör seçimini iyi
+[21:22] yapmanız lazım. Şu anda mesela FP markörü ile ilgili bir haritalama yazarsanız olmaz çıkmaz bunlardan da.
+[21:31] Yani artık bu tarihin karanlık raflarına gömüldü diye düşünüyordum ki hala gömülmemiş. Onunla da ilgili size
+[21:39] bütçenize göre hangi markör sistemini kullanırsınız bunu tavsiyesini vereceğim. Yani şurada society rezerve olmaya gerek yok.
+[21:49] Rapid'le ilgili bir şey yaparsanız bununla ilgili hem zordur onu yapmak.
+[21:53] rezir olursunuz ama başka bir strap markörü kullanırsanız herkes alkışlar.
+[22:00] Bakalım ne olursa olsun burası önemli.
+[22:07] İki tane genomda hatta daha fazla şeyleri vardı. Polymorfizm var bizle ilgili. Inder polymorfizmi bir de
+[22:14] sinipler var. Sinker nükleotit polimorfizmi denen markörler. Burada başkaları da var. Mesela major chromo
+[22:23] rearrangementlar var. Yani büyük inversionlar, inversiyon türkçesi galiba böyle bir şeydi. Büyük deresyonlar, kromozomun bir büyük parçası gidiyor.
+[22:33] Duplikasyonlar, kromozomun büyük bir parçası buradan katlanıyor evrim sürecinde. Bunlar olabilir. Bunlara
+[22:41] bakmıyoruz. Çünkü stoketikçi de değiliz burada. Burada moleküler markörlerin bulabileceği iki tane mar şey var.
+[22:48] Polorfizm var. Bunlardan ind markör.
+[22:52] Diğerleri burada bir sürü markör sistemi var. Çoğunu ben de bilmiyorum. Araçlar sadece. Yani şu DNA'daki bu farklılığı
+[23:02] bize aktaran arayüzler. Burada iki tane şey var. Şöyle düşünün. Bir dağ düşünün.
+[23:10] Dağın zirvesi var. Bu zirveye ulaşmak için farklı yollar var. farklı yollardan çıkabilirsiniz ama dağın zirvesinden
+[23:19] manzaraya baktığınız zaman iki tane şey görürsünüz. Inder markerlar bunlar.
+[23:25] Insertionsiyon yani Türkçe terimlerini kusura bakmayın
+[23:32] relation mutasyonları deniliyor. Burada nasıl oluyor bunlar da? Bunlar uzunluk polimorfisler. Şurada
+[23:40] yabı tür alel var. Burada bu 3 nükleotitlik bir e dersiyon olmuş.
+[23:47] Burada da 4 nükleotitlik bir insertion olmuş. Buradan bunlara böyle bir şey gördünüz ya. Yani şununla şu arasında
+[23:54] buradan 3 nükleotit çıkmış. Burada buna ind mutasyonu diyoruz. İnd polimorfizmi daha doğrusu ya. Mutasyon şu var. Hani
+[24:03] proteinde kendini gösteriyorsa böyle nükleot amnesi değiştiriyorsa buna mutasyon denir. Ama polimorfizm böyle bir şeye de gerek yok. Yani bu nükleotit
+[24:11] değişimi diyelim buna da bu niye ınsertion dertion diyorlar? Insersiyon girmesi, delesyon çıkması. Çünkü
+[24:18] kıyasladığın zaman buna baktığımda acaba şurada iki diziyi karşılaştırdım. W typena delesyonu bunda. Peki şöyle bir
+[24:27] şey olmuş. Bu delesyon da buradan şurada bu bundan mı evrimleşmiş bundan mı evrimleşmiş? Bunu bilemediğimiz için buna indasyon diyoruz.
+[24:39] Instalasyon deras sinip de tamamen farklı nükleotit değişimleridir.
+[24:46] Burada varyasyon 1 zaten çıkış yoru yok.
+[24:49] 4 tane aleli vardır. Alel konusona da gelince şimdi polisine gen ve anel farklı şeylerdir. Buradan da gen nükleotit dizisi midir?
+[25:02] Ya da illa gen olmasına da gerek yok.
+[25:05] anlatım yapmayan bir bölgesindeki şeyde de ama alelde onun alternatif formudur.
+[25:14] Bunun gibi formlardır ki bizim amacımız da bunları bu polfizmi ortaya koymak.
+[25:21] Burada dört tanesi dibinde aleli vardır ama genelde dialeliktir. Gerçekten öyle midir? Buna da bakacağız buradan da
+[25:28] bunların ayrı ayrı ayaken de uygulamalı olarak dizimlerine bakacaksınız.
+[25:33] Burada baktığımız zaman bu şeylerde de genel markör sistemleri var. Bitki spesifik markör sistemleri var.
+[25:41] Genel markör sistemleri şu önemli. Her şeyde [boğazını temizler] çalışır.
+[25:49] Rastgele ya da farklı şekillerde bunlar olacak kullanılabilir. Genel marker sistemlerinde farklı yöntemler var.
+[25:59] yöntemsel açıdan bilmeniz gereken şeyleri böyle anlatırım ama fazla bilmeniz gereken şeylere de gerek yok.
+[26:05] Çünkü mesela ilk başta dedik on nükleotitlik rastgele bir şey. Rapit artık kullanılmaz yani böyle bir şeyden
+[26:13] bir amacı yok yani böyle bir şekilde. H SSR e başka bu genel markör sistemi AFLP amplified fragment lengymorphism.
+[26:26] Bunları daha detaylı anlatırım. Bu da genel bir markör sistemi. Bunlar genel markör sistemleri. Logo spesifik
+[26:34] değildir. Onları da anlatacağım. Her yerde çalışır. Ama bunun daha alternatif markör sistemleri var. Daha da burada kullanabileceğimiz.
+[26:44] Bunlar neler? Rapid EFP.
+[26:48] Başka srap markörleri var. Srap markörleri hayat kurtaran markör sisteminin Serdar Ortacı Pop yıldızı
+[26:55] olan hem modern bir markör sistemi gibi hem de daha kolay bir dominant markör sistemi olarak karşımıza çıkıyor. Onu
+[27:02] kullanabilirsiniz. Interspesifik esas genel markör sistemi kullanabilirsiniz.
+[27:07] Bu bizim bitki spesifik doku spesifik esaslardan farklı bir yöntem. Onu kullanabilirsiniz.
+[27:14] Bir de transpozon tabanlılar var. Ben buradan sıracağım. Sırapla ilgili şeyler yaptım. E laboratuvarda da onlardan var.
+[27:22] Efde zamanında çok yaptım ama artık yapmayın yani bunu bu şeyde bunlarda bir teknik olarak kullanacağınızdan
+[27:31] nelere dikkat etmemiz gerekiyor ve laboratuvarınızın teknolojisi hangi seviyededir? Buna göre de olacaktır.
+[27:37] Tamam. [öksürme] Buradan SSR dizayn edeceğiz beraber bizki spesifik olarak hala ya şu anda da
+[27:44] bile çok popülerdir. Doğrudan çok güzel yayınlar yapabilirsiniz bu arada bununla ilgili olarak da. Ama amacınız genetik
+[27:51] çeşitlilikse, genetik çeşitlilikle ilgili bir genel markör sistemi kullanmak istiyorsanız bununla ilgili de EFRP
+[27:59] ve Rapid'ten çok daha iyi swap markörleri var. Mesela buradan daha spesifik olarak anlatabilirim. Sizden gelen istekleri doğrultusunda da böyle.
+[28:08] Sip'te de snip tektir zaten. Sip'i bulabilmek için snip'ten e mesela ben snip genotip demek zorunda kalırsam
+[28:16] snip'i caps'e çeviriyorum. Yani RFLP'ye çeviriyorum. Az önce anlattığım sading
+[28:23] vardı ya radyoaktiflarna. Bunun PCR versiyonu. Ox'u alıyoruz primer dizayn ediyoruz. Çoğaltıyoruz. Tüpte kesiyoruz.
+[28:32] Kesin müüzne göre de bunlara bakıyoruz. Gayet düzgün bunlara gireceğiz.
+[28:39] Peki hangi markör sistemi? Hangi markör sistemine bakacağız? Bir sürü literatürde çalışmalar var. Eskiden buna
+[28:45] baktığım zaman da böyleydi. Markörler o markör mü iyi, bu markör mü iyi? Şunlara da böyle bakacaksınız.
+[28:54] Şimdi de bakarız literatüre canlı olarak da neler olduğunu. Hangi markör sistemi?
+[28:58] Her markörün avantajı, dezavantajı vardır. Dezavantaj noktasında da bu şu şey var. Böyle bir fonksiyonel
+[29:05] haritalama çalışması yapacaksanız GVAS QT map tekken haritalama yıl olmuş 2026 dominant marker kullanmıyorsunuz.
+[29:16] Dominant markörle bununla ilgili onu da anlatacağım size. Dominant markörle her şey kullanılır. Ha bu arada Civas'ı ayırdım. Civas kullanılabilir. Sıkıntı
+[29:25] yok. Her türlü bir ilişki bulabiliriz bir şeyden.
+[29:28] Ama [boğazını temizler] lokus spesifik olması önemli. Şu lokus spesifik şu. Rastgele markörlerde rastgele yerleri dizileyip şöyle bir bant görüyorsunuz.
+[29:39] Bak bak buradan. Bu bir afp ne bu? Ney? Bu şekilde benp çok yaptım
+[29:47] da bu bir proaklamity silver stainingle boyanmış. Gümüş boyamayla. Bunu 2006 yılında Kicin'e gitmiştik. Ben 3. sınıfı
+[29:56] orada okudum. Orada mesela Kinin geliştirdiği yani Hollandalıların geliştirdiği bir sistem. Böyle çarşaf çarşaf jerlerde böyle yapıyorlardı.
+[30:05] Orada bakıyorlardı. [boğazını temizler] Ha biz de yaptım doktora da kullandım ama seanser kullandık. Bu jeli ben
+[30:11] yapamam yani buna da faydası maliyeti var tabii ki. Domin bu rastgele noktasında da şu
+[30:20] 9 spesifik mi değil mi? Burada logus spesifik yok. Peki logus spesifikle ilgili bir şeyi haritaladınız ya da buldunuz bir yöntemler var. Onunla
+[30:28] ilgili de ne yapacaksınız? Ne yapacaksınız orada? Onu scara çevireceksiniz. Onu da uygulamalı olarak anlatacağım. Şimdi biraz havada kaldı.
+[30:37] Çok fazla markörden bahsettik ama bunlar işin bilin ve yapmayın diye ya da neden yapılmadığını söylediğimiz zaman da
+[30:45] düzgün bir şekilde açıklamanız için bunlardan da var. Çünkü literatürde şöyle bir şey var. Hala şu EFP pazarlanıyor.
+[30:53] Hala EFP yapanlar var. Bunu kullananlar var. Ha yapınca bu şekilde hani küçümsemek ya da yapmayın diye değil.
+[31:01] Dotanız varsa her türlü analiz ederiz. Ona sıkıntı yok da proje yazacaksınız.
+[31:05] EFLP mi yazılır? Hayatta yaz verdiğiniz paraya yazık yani. Ekonominize yazık yani. Bunun ayırmı da zor burada. Bunun
+[31:13] çözümü de böyle bir şey yok. Bu dominant markördür. Bir de dominant kodominant markör deyince de karşımıza ne çıkıyor
+[31:20] burada? Dominant markör şu alel var ya da yok der. Ve bununla ilgili de çok güzel bir program yazdım size.
+[31:27] Hazırladım. Bununla ilgili skorlamaları falan göreceksiniz düzgün bir şekilde. Dominant var ya da yok bununla ilgili.
+[31:35] Ama şu banda bakarsın vardır yoktur skorlamayı anlatacağız ama işte keygin göre bu kodominantmış. Aynı zamanda
+[31:44] kodominal rapid data markörleri de varmış. Yani şuradaki kodominal bir segasyon görürseniz bunu seleksiyonda
+[31:51] kullanamazsınız. Bunu keseceksiniz buradan dizileyeceksiniz. Bu diziyi bulacaksınız. Buradan işinize gideceksiniz. yapacaksanız
+[31:59] yani şu anda kullanılmaz tarihsel açıdan böyle görün. Efp gıcık oldum ya bu şekorfik
+[32:06] çünkü yapay zeka analizleri de bu sizi yönlendirecek yanlış yönlendirecek çünkü literatür bu konuda bu markörlerde de
+[32:13] şöyle tekrar edilebilirlik önemli. Tekrar edilebilirlik önemli
+[32:19] çünkü bu kanalın amacımız da yani dijital eğitim platformu kurulmasının amacı da bu. Bir
+[32:27] şey tekrar edilebilir değilse sürdürülebilir değildir. Bununla ilgili ha Snapchat çakarsın böyle bir şeyi.
+[32:37] Bulursun tek anlık olaraktan işini yaparsın. Ayrı bir konu ama sonradan haritalamada bir faydası olmayacaktır.
+[32:43] Buradan da lokus spesifisi dedik. Sasar lokus spesifiktir. RFLP probları lokus spesifiktir. Nereyi çoğalttığını
+[32:52] bilirsiniz. Böyle snipler snip spesifiktir ve dizi bilgisi gerek tekrar edilebilirlik açısından esaser sinip
+[33:02] tekrar edilebilirliği yüksektir. Şu da esas aleli varsa her zaman burada olacaktır. Bak bu bizim eee Sami hocanın
+[33:09] projesinde geliştirmiş olduğumuz Sasa Rotas Neine çok yakın bir seleksiyon markörü. Gayet süper. Bak alt bant üst
+[33:18] bant. Buradaki Lerden bu her yerde yapsa böyle çıkar. Yani bu bir SSR markörü.
+[33:24] Biz dizayn ettik bunu. Bir de şu var şurada. Bunu yaptın burada. Ama şu geni buldun böyle bir şeyden. Bunu yaptın sen bir t bir t bunu yapınca bulamazsın ki.
+[33:33] Çünkü çok şey fazla şeyde etkileniyor.
+[33:36] Bir de bu kadar şey kim yapacak? O da ayrı. Amaç haritalama mı çeşitlilik mi?
+[33:40] Buradan haritalamaysa dediğim gibi local specific şeylere gideceksiniz. Buradan local spesifik olacak. kodominant olacak. Yani Sasar ve Snip olacak.
+[33:50] Çeşitlilikse dominant kullanabilirsiniz.
+[33:52] Hiç sıkıntısı yok. Diğerlerini de kullanabilirsiniz buradan. Bunun için de daha düzgün markör sistemleri. Bu üç
+[34:00] süper üçlü diyorum ben bunu. En popülerinden kullanılacaktan transpozon markörürleri, Sasar'lar, sıra. Buradan
+[34:07] bunu kullanabilirsiniz. Maliyet de önemli tabii ki. Ef dediğim bunun kitleri varsa kan sırtı ayıracaksın filan. Böyle bir sürü şey yapacaksın.
+[34:15] Sonunda da bilgi seviyesi o literatüre göre çok yüksek de pahalı ve gereksiz. Ve sonunda da attığın taş ürkütğin kuşağmiyor.
+[34:27] Dominant kodominant. Haritalamada kesinlikle kodominant. Dominant alelin olduğunu ve olmadığını gösterir size.
+[34:36] Buna dominant markörler derim. 1 0 gibisinden kodominantta heterozigotu görebiliyorsan. Bu kodominant markördür.
+[34:45] Şu alttaki bant mesela genetikte büyük A büyük A üstteki küçük A küçük A iki tane olduğu zaman da büyük A küçük A demek.
+[34:53] Heterozikot kodomat. Diğeri dominant markör olsaydı şuradaki şöyle skorlanıyor. Bu da EFP'ye geldik. Küçük
+[35:02] oldum. Efp buradan bak şurada şu şu bant var. Var yok var yok. 1 10 1.0 yani aler var mı yok mu?
+[35:13] Bunu size gösteriyor.
+[35:16] Kullanım alanları. İlk ilk derste burada tekrar etmeyin. Bayağı bir kullanım alanı saydım size de. Böyle fonksiyonel gonomikte, haritalamada, tekken,
+[35:25] kültürel haritalamada bunun analizlerini göreceğiz. Genetik çeşitlilik analizi, popülasyon yapısı, barkodlama, masa uygulamalarında ve anlattığım gibi her
+[35:34] şeyde kullanabilirsiniz daha önceki şeylerde.
+[35:41] Şimdi bu noktaya baktığımızda haritalamalar burada popülasyonlar bunlardan da bahsedeceğiz böyle bu
+[35:49] şekilde daha markör konusunu dağıtmadan buradan da popülasyonları da anlatacağım burada ama bunları daha [boğazını temizler] sonralarından
+[35:57] markör geliştirme konusunda önce esas geliştireceğiz. Ondan sonra da siniplere bakacağız. Geliştirme noktasında nasıl
+[36:05] burada geliştiriliyor diye. Onları da daha detaylı size anlatacağım. Böyle burada bu bu proje tasarımını gösteriyor. Size geçen de anlatmıştım.
+[36:15] Bunu da böyle buradan haritalama noktasında genetik haritalamalar. Burada markör sistemleri bu dersin konusu. Buradan da
+[36:23] daha ileriye gideceğiz. Böyle genetik haritalama nasıl yapılır uygulamalı olarak göstereceğim. Bu kısa bir eğitimin slaytları olduğu için de bunlar
+[36:30] da böyle gitti. Bu QTL her taraf QG bak bunu da öğreneceğiz buradan. QGin de QTL
+[36:37] haritalamaları ve farklı modeller nasıl yapılıyor? Buradan civas nedir?
+[36:42] Avantajları, dezavantajları hangi popülasyonda kullanılır? Bunlarla ilgili şeyler anlatılacaktır. Genomik
+[36:49] seleksiyon filan. Geçen derste bunları zaten size anlatmıştım buradan.
+[36:56] [boğazını temizler]
+[36:57] Şimdi
+[37:08] bu modda
+[37:16] burada da yine de burada da işte markör sistemlerinde
+[37:26] dizileme, sanger dizleme hala kullanıyoruz. Bunları da böyle hala sanger dizleme kullanmıyor. NGS sistemleri var. Farklı NG sistemleri var
+[37:35] burada da. Mesela biz ben doktora tezimde şey kulland pyosancing kullanmıştık. R
+[37:42] sonra buradan çekildi. Şimdi Illumina var. Yaygın olarak da minion çıktı. Daha İngilizlerin böyle bulmuş olduğu bir
+[37:50] dizileme platformu. Böyle bir şeyler burada da. Şimdi daha anlatacağım şeyler mesela biyoinformatik dedim.
+[37:56] biyonformatik değil bu dersin amacı ama ufak biyoformatik şeyler de böyle anlatabiliriz ama gen marker sistemleri
+[38:05] nasıl oluyor ona bakacağız ve önümüzdeki haftadan itibaren de şu esas fonksiyonaltasyonlar falan bunlarla
+[38:12] ilgili değil SSR markörlerine teknik olarak da gireceğiz böyle bu işin teoriği de işte ayrı da bitki spesifik
+[38:20] SSR markörleri geliştireceğiz bugün genel markör sistemlerinde size böyle bunu anlatayım ama Buradan e bitki spesifik SSR markörleri
+[38:30] nasıl geliştirilir? SSR markörleri nedir? Onunla da ilgili de ayrıta başlayacağız. Çünkü onunla da ilgili de bir sürü şeyler yapacağız. Kendi
+[38:37] markörlerinizi kendiniz burada tasarlamış olacaksınız.
+[38:44] Bakacağız. SSR markörü. Ama markörde giriş konusunda da bu. Dediğim gibi diğer bütün markör sistemlerini unutun
+[38:52] dediğimde bir süper üçlü genel markör sistemi işinizi görür şey açısından.
+[38:58] Sonra da SSR markörleri spesifik açısından çünkü çok daha dizi bilgisi var. Bunlar işinizi görür, işinize yarar. Modern bir markör
+[39:07] sistemidir. Bir de SNIP markör sistemleri. Üçünden böyle ilerleyeceğiz.
+[39:13] Detaylı olarak da şu anda kullanacağımız markerlerde bunlar olacak. Çünkü bir projeye karar vermediğiniz zaman,
+[39:19] tasarlayacaksınız zaman bunu öğrenmeniz lazım. Çünkü ana akım bir moleküler biyoloji anlayışı var. Bununla ilgili olarak da siz farklı bir markör sistemi
+[39:28] yazıp bunu yapacağım dediğiniz zaman eskiden bunlar oluyordu ama şimdi aynı etkiyi yaratılmaya
+[39:35] [öksürme] bilir. [boğazını temizler]
+[39:36] Eskiden dominant bir markörle bir harita yaptığımız zaman işe yarıyordu ama şimdi yıl olmuş 2026
+[39:45] da o kadar dizileme ve e genotipleme sistemleri varsa varken bunları kullanmak doğru olmaz. SSR markörler tasarlamak için de programlar var.
+[39:57] Bunları öğreneceğiz. Bunun kaynaklarına bakacağız. Ama burada şu var. Sip. Ha,
+[40:05] SIP tasarlama. Sip'te de iki yaklaşım var tasarlama noktasında da SIP markörlerinde.
+[40:12] Bak şurada varmış. Buradan da bak şunlar sinip markörleri. Benim
+[40:20] GBS multiplex bak. Sinipler burada bitkiler burada da şeylerden buradan gözüküyor. Nükleotitler
+[40:28] gayet güzel. Buradan eee dizilenerek şöyle iki tane yöntem var buradan da nedir? 3 be tane çeşidi alırsınız.
+[40:40] 3 be çeşidi alırsınız. Aldıktan sonra bunları dizilersiniz. Dizilendikten sonra da hizalarsınız ve sinipleri bulursunuz.
+[40:51] Ondan sonra bunları görebilmek için proplara çevirirsiniz. Az önce dedim snip genotiplemede teknoloji yarışı
+[41:00] teknolojiklerde vardı da biz daha eee fakirler için olan jel üzerindeki jelde
+[41:07] caps yani restriksiyon enziminde kesim yöntemlerini kullanıyoruz.
+[41:12] Herkes kullanılabilir yani. Fakirlik ayıp değil sonuçta. Ama bir de şu var ama başka problar da var. Takman probu
+[41:19] var mesela. Kasp var. Kasplarda aler spesifik amfrifikasyonu sağlayan burada sistemler var. Bunlarda hani mas
+[41:28] laboratuvarınızda varsa kullanabiliyorsanız ya da bir şeyde de sadece sini bulduk mu diğerine çevirip buradan yürümek sizin bileceğiniz işler.
+[41:40] Burada da yöntem de bu. Ayrıntılı olarak da bunları yapacağız.
+[41:47] Veri tabanlarına bakalım.
+[41:55] Faveri tabanlardan da bahsedeceğim.
+[41:57] Çünkü biz uygulamalı bu işi yapacağımız için zaten uygulama noktasında dizi bilgisine ulaşmamız lazım. Artık müthiş bir dizi bilgisi var. Dizi bilginiz
+[42:05] yoksa projenizle ilgili olarak da artık bu dizi bilgilerini kendiniz çıkartacaksınız. O da kolay.
+[42:12] Ha böyle şeylerden de [öksürme] burada popüler programlarda UG'le ilgili de esas uygulama analizlerinde de burada
+[42:22] karşımıza çıkacak. Oradan şu var. Esas ve silp noktası da ileriye doğru gidecek ki biraz ilerlememiz lazım. Çünkü
+[42:30] ilerleyip içinize çıkan gerçek sonuç odaklı çalışacağız. Buradan ben size anlatacağım. kendi bitkilerinizde izole
+[42:38] yapacaksınız bu işleri ki önce markör sistemi şu var. Sasen markörü geliştirmeyi ben önceki eğitimlerimde en sona koyuyordum. Çünkü sonradan eklenen
+[42:47] bir şeydi bu. Ama ilk başta moleküler markörü anlatacağız. Sonra da veri analizine buradan gireceğiz. O da farklı
+[42:54] bir sistem oluyor. Bununla ilgili olarak da artık şey yapalım. Bu genel markör sistemlerine böyle bakalım dedim. Asrap
+[43:01] markers. markers da bu genel markör sistemleri tasarlatmak isterdim ama yok bunlar
+[43:09] hazır tasarlanmış kullanılmamış böyle bir şeylerde bunlar bölgelerinden dizayn edilmiş markörler ne olduğunla ilgili
+[43:17] böyle korunmuş [boğazını temizler] bölgelerden detaylı bilgiye de gerek yok yazacağınız
+[43:26] zaman bu makaleden bakabilirsiniz burada forward niyetine bir markör bununla da farklı kombinasyon larından burada bunu çoğaltıyorsunuz.
+[43:36] Jel de size bunun görüntüsünü veriyor.
+[43:41] Az önceki bandına baktınızda. EFP bandı nasıl çok fazla bant çıkarıyordu burada.
+[43:46] Buradan da bant çıkar ama normal %3'lük bir agar ziyade de bunu görebilirsiniz. Bortak şeylerden sadece yapacağınız şu.
+[43:54] Buradan 5 tane me 6 tane şey buradan bunları farklı kombine ederek de
+[44:03] elinizde forward reverseen bir sürü marker kombinasyonu olacaktır.
+[44:07] Kombinasyonlardır. Bunlardan en azından viverse 203 tane bant verir. Bu bantlarla ilgili de skorlama yaparak işlerinizi yapabilirsiniz. Dur.
+[44:23] Makayı görseller. O bak sıra mak gördüğünüz gibi burada sıra çıkmıyormuş bir de.
+[44:30] Evet evet sıra bak gördüğünüz gibi yerde çıkıyor böyle bir şey. Bir de bakın ep markörüne
+[44:39] bir de bunu insan scorlayacak. Ha sequencer da kullanabilirsiniz. Yani sequencer da kullanabilirsiniz. Bu ayrım yöntemlerini de böyle anlatacağım ama
+[44:47] hazır yeri gelmişken anlatayım. Maliyet açısından. Mali de şu PCR'ın maliyeti şu anda düşük.
+[45:00] Buradan görselden hop bir jelimage göster
+[45:09] image. Evet vardır herhalde. Bak işte bak yine buradan benim kıldığım şey çıktı herhalde.
+[45:17] Bak şu var. Burada sıra var. Burada sekanser ya da yüksek çözünürlüklü bir
+[45:24] ayırım metodu kullanmanız lazım. Burada daha düzgün bir mark kullanmanız lazım. Onu yapmak için sekanser gerekiyor.
+[45:32] Kapiler elektrofesi gerekiyor ki kapiler elektrofler kurtarmasın. Çünkü markör seçimindeki en
+[45:40] büyük şey de maliyettir ve PCR'daki oluşturulan bandın ayrımı da bir maliyet
+[45:47] ortaya atar size. Bunun için çünkü böyle bir ayrım gücü, düşük ayrım gücünden
+[45:55] yüksek ayrım gücüne doğru da bir teknoloji var. Buradaki sıra budur. Sıra noktasında da şu
+[46:03] yüksek ayrım ayrım gücü olan agaroz jel. Agaroz jelde kaç nükleotit? Bana yüksek lisansla onu
+[46:12] da sormuşlardı da 10 nüktootit falan demiştim. Yuh o kadar 10 20 falan demiştim böyle. Yuh! O kadar da değil dediler
+[46:19] ya. En azından benim yaptığım jellerde düzgün bir şekilde farklılık az önceki e SSR bandı gibi bu şey önce Agaroz jele
+[46:28] yüklüyorsunuz. Biliyorsunuz agar jelin ne olduğunu. Ondan sonra orada çıkıyorsa polimorfikse tamam onu
+[46:36] kullanabilirsiniz. Ayrı bir konu ama polimorfizik çıkmıyorsa yani şu var.
+[46:40] aleller arasındaki uzunluk polimorfizmi ve buradaki hassasiyet [kahkaha] düşükse o da kurtarmaz sizi.
+[46:50] Agarozerde göremezsiniz. Çünkü ne kadar da düşsen burada en yetenekli şey de 5 10 nükleotit yine sallayayım düş
+[46:59] yapamazsın inemezsin. Yani şu şu demektir. Bu da 100 ile 105 nükleotit farklı bandı jele yüklediğiniz zaman
+[47:07] agar jeli nasıl çalıştığını biliyorsunuz. Bunda da burada bir kromatografik yöntem benan 100 ile
+[47:14] [boğazını temizler]
+[47:15] 105 nükleotit aynı gözükür. Hele benim hazırladığım yerde çok ayrı gözükür.
+[47:19] Böyle aynı gözükür. Ama bunu daha yüksek çözünürlükle ayrım gücüne sahip bir akramit cere koyarsanız farklı
+[47:28] gözükecektir. Çünkü bunun çözünürlüğü çok daha düşük. kadar akliteller burada düştürüyor bunu.
+[47:36] Ya da kapillary elektrofarest. Onunla ilgili de ayrı bir şekilde isterseniz hangi kapiler elektrofezi kullanalım diye onun da nükleotit iki nükleotite
+[47:44] kadar düşebilir kapiteriler ama seküanser bazlı yani
+[47:51] [iç çeker]
+[47:52] M13ün floresan tek eklenmiş floresan ışık yayan pisda oluşturulmuş bir mesela
+[48:00] SSR ki bu FP bantlarında onu kullanırsan bir nükleotite kadar bunun çözünürlüğü düşebilmektedir. Yani 101 ile 100'ü
+[48:10] ayırt edebilirsiniz. Bu da iki farklı alel demektir. Jelde ve kapilerde bunu ayırt edemezsiniz zaten. Böyle burada da bu da uzunluk polimorfisi. Analiz
+[48:18] yöntemlerinizde aklınızda olsun. O yüzden fayda maliyet açısından şunu düşüneceksiniz. Düzgün agrozda çıkıyor mu? En azından kapileriniz varsa ki
+[48:26] bende yok. Başkalarında da ama kapiler olan arkadaşlarınıza bakın. Çünkü esas da lazım olacak burada.
+[48:34] Burada ne yapacaksınız o zaman da?
+[48:37] ileriye doğru gideceksiniz. Ama EFP bu jele yüklerseniz tamamen şöyle bulutslu bir şey görürsünüz. Sir dediğimiz hiçbir şey göremezsiniz diye düşünüyorum.
+[48:45] Yüklemedim ama öyle çünkü buradan yüksek çözünüm gerekiyor. Bunlara da oradan bunlar önemli. O zaman bunu hani
+[48:54] maliyeti arttırmaya ve bu işe de gerek yok. Çünkü o sekenserın da maliyeti fazla, kapilerin de fazla. Buradan
+[49:03] onları da söyleyeyim size. Şimdi moleküler markör kısımları burada söyleyeceğim başka bir şey var mı?
+[49:10] Dediğim gibi özet özeti şu var. Bilmeniz gereken de. Ha dur şey sıramı gösterdim.
+[49:17] İkincisi markör. Genel markör sistemleri piyasada çok fazla kullanılan kötü olmayan Agorozda da çıkan diğer markör sistemler var. Bunun da ilk makalesinde
+[49:26] var. Bu işte bak Hollandalıların bulduğu 95'te çıkmış. Diğeri sıra 2094'te
+[49:34] daha eski mars bir de interpek SSRlar var. Bunlar da tam metin bulamadım ama ben bakarsınız.
+[49:56] Orada şey de Evet. Robot değilim.
+[50:04] Hadi burada da bu şeymiş. Iasarlar da bu tekrar böyle iki tane primer oluyormuş.
+[50:10] Bir tanesi tekrarlı tekrarlı tekrarlı böyle şekilde. Bir tanesi de burada çapa primerı olan şeyler oluyormuş. Bunlar da
+[50:17] normal sıra markörleri gibi tekrarları hedefleyen polorfik olduğu böyle düşünülen genel markör sistemler. Ama bizim bu spesifik esasını karıştırmayın.
+[50:26] Bunlar da kullanılıyor. Dominant marker şeylerinde kullanılabilir. Tamamen deneyimde ve laboratuvarınızda olacak bir şey. Ama laboratuvarınızda bir kere böyle superstar bir markörünüz olacak.
+[50:38] Yani daha doğrusu şöyle bir şey.
+[50:40] Superstar demeyelim de bunlar şey yapan çok fazla hızlı data üreten ve faydalı da aynı zamanda böyle üzün
+[50:49] Serdar Ortaç falan de ben severim Serdar Ortaç. Öyle bir şey çok şarkı şu anda yapmıyor da çok şarkı yapıyor filan.
+[50:54] Öyle de bunu da hakaret olarak daha kaliteli sanatçılar filan hep bunu aşağılarlar böyle bu konuda. Ama işimizi
+[51:04] görür. Piyasası olan ama da bir de süperstar değil tabii ki. Buradan da markörler burada kullanılıyor.
+[51:11] Transpozonlarda da ilgiler. Iraplar falan var. Onları da kullanmadım ama onlar da kullanılıyor. Bunlardan üçün birini seçip oturttuğunuz zaman da
+[51:19] genetik çeşitlilik işlerinde filan her şeyinizi göilirsiniz.
+[51:25] Şimdilik bu kadar. Sonra SSR markörleri ilgili geliştirme noktasında analizlerden devam edeceğiz.
+[51:35] Ev
