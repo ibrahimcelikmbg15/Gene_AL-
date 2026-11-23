@@ -22,7 +22,7 @@ st.set_page_config(
 EMBED_MODEL = "gemini-embedding-001"
 # Sırayla denenir; Google bir modeli kapatınca (404) bir sonrakine geçilir.
 # "gemini-flash-latest" her zaman güncel Flash modeline yönlendirilen takma addır.
-CHAT_MODELS = ["gemini-flash-latest", "gemini-3.5-flash", "gemini-flash-lite-latest"]
+CHAT_MODELS = ["gemini-3.5-flash", "gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite"]
 CHUNK_SIZE = 1500          # karakter (büyük parça = daha az embedding isteği)
 CHUNK_OVERLAP = 200
 # Ücretsiz katman: dakikada 100 istek VE dakikada sınırlı token. Toplu istekte HER METİN
@@ -460,7 +460,7 @@ def generate_answer(client, contents):
                 print(f"[Gene-AL] {model} sunucu hatası {getattr(e, 'code', '')} (deneme {attempt + 1})", flush=True)
                 last_err = e
                 if attempt == 0:
-                    time.sleep(2)
+                    time.sleep(1)
                     continue
                 break
             except errors.ClientError as e:
@@ -468,6 +468,13 @@ def generate_answer(client, contents):
                 if code in (404, 429):
                     # 404: model kapandı; 429: bu modelin kotası doldu -> sıradaki model
                     print(f"[Gene-AL] {model} kullanılamıyor ({code}), sonraki modele geçiliyor", flush=True)
+                    last_err = e
+                    break
+                raise
+            except Exception as e:
+                # Zaman aşımı / bağlantı kopması -> sıradaki model
+                if "timeout" in type(e).__name__.lower() or "timed out" in str(e).lower() or "connect" in type(e).__name__.lower():
+                    print(f"[Gene-AL] {model} zaman aşımı/bağlantı: {type(e).__name__}", flush=True)
                     last_err = e
                     break
                 raise
@@ -515,7 +522,19 @@ if matrix is None:
     st.warning("Ders kütüphanesi boş görünüyor.")
     st.stop()
 
-client = genai.Client(api_key=api_key)
+def make_client(key):
+    """Takılıp kalmasın: her istek en fazla 30 sn beklesin, kütüphanenin uzun iç yeniden denemeleri kapalı."""
+    try:
+        return genai.Client(api_key=key, http_options=types.HttpOptions(
+            timeout=30000, retry_options=types.HttpRetryOptions(attempts=1)))
+    except Exception:
+        try:
+            return genai.Client(api_key=key, http_options=types.HttpOptions(timeout=30000))
+        except Exception:
+            return genai.Client(api_key=key)
+
+
+client = make_client(api_key)
 
 # Yönetici: hazır vektörleri indir (adresin sonuna ?admin=1 ekleyince görünür)
 if st.query_params.get("admin") == "1":
@@ -580,6 +599,9 @@ if prompt := st.chat_input("Sorunu yaz... (ör. GMATA'da mononükleotitleri nede
                 answer = "🧬 Şu an Google'ın yapay zekâ sunucuları çok yoğun, birkaç saniye sonra tekrar sorar mısın?"
             else:
                 answer = f"⚠️ Yapay zekâ servisine ulaşırken bir sorun oluştu ({getattr(e, 'code', '')}). Lütfen tekrar dene."
+        except Exception as e:
+            print(f"[Gene-AL] beklenmeyen hata: {type(e).__name__}: {e}", flush=True)
+            answer = "🧬 Şu an Google'ın yapay zekâ sunucuları çok yoğun, birkaç saniye sonra tekrar sorar mısın?"
         st.markdown(answer)
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
