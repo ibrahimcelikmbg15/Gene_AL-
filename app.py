@@ -22,7 +22,7 @@ st.set_page_config(
 EMBED_MODEL = "gemini-embedding-001"
 # Sırayla denenir; Google bir modeli kapatınca (404) bir sonrakine geçilir.
 # "gemini-flash-latest" her zaman güncel Flash modeline yönlendirilen takma addır.
-CHAT_MODELS = ["gemini-flash-latest", "gemini-3.5-flash", "gemini-2.5-flash"]
+CHAT_MODELS = ["gemini-flash-latest", "gemini-3.5-flash", "gemini-flash-lite-latest"]
 CHUNK_SIZE = 1500          # karakter (büyük parça = daha az embedding isteği)
 CHUNK_OVERLAP = 200
 # Ücretsiz katman: dakikada 100 istek VE dakikada sınırlı token. Toplu istekte HER METİN
@@ -296,6 +296,12 @@ def embed_with_retry(client, contents, task_type, max_tries=6, status=None):
                 config=types.EmbedContentConfig(task_type=task_type),
             )
             return [e.values for e in res.embeddings]
+        except errors.ServerError as e:
+            # 500/503: Google tarafı geçici olarak yoğun; kısa bekleyip tekrar dene
+            print(f"[Gene-AL] embedding sunucu hatası {getattr(e, 'code', '')} (deneme {attempt + 1}/{max_tries})", flush=True)
+            if attempt == max_tries - 1:
+                raise
+            time.sleep(2 + attempt * 2)
         except errors.ClientError as e:
             if getattr(e, "code", None) != 429:
                 raise
@@ -440,20 +446,31 @@ def generate_answer(client, contents):
         models = [st.session_state["chat_model"]] + [m for m in CHAT_MODELS if m != st.session_state["chat_model"]]
     last_err = None
     for model in models:
-        try:
-            response = client.models.generate_content(
-                model=model,
-                contents=contents,
-                config=types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT),
-            )
-            st.session_state["chat_model"] = model
-            return response.text
-        except errors.ClientError as e:
-            if getattr(e, "code", None) == 404:
-                print(f"[Gene-AL] model bulunamadı (404): {model}", flush=True)
+        for attempt in range(2):
+            try:
+                response = client.models.generate_content(
+                    model=model,
+                    contents=contents,
+                    config=types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT),
+                )
+                st.session_state["chat_model"] = model
+                return response.text
+            except errors.ServerError as e:
+                # 500/503 = Google sunucusu yoğun: bir kez daha dene, olmazsa sonraki modele geç
+                print(f"[Gene-AL] {model} sunucu hatası {getattr(e, 'code', '')} (deneme {attempt + 1})", flush=True)
                 last_err = e
-                continue
-            raise
+                if attempt == 0:
+                    time.sleep(2)
+                    continue
+                break
+            except errors.ClientError as e:
+                code = getattr(e, "code", None)
+                if code in (404, 429):
+                    # 404: model kapandı; 429: bu modelin kotası doldu -> sıradaki model
+                    print(f"[Gene-AL] {model} kullanılamıyor ({code}), sonraki modele geçiliyor", flush=True)
+                    last_err = e
+                    break
+                raise
     raise last_err
 
 
@@ -559,6 +576,8 @@ if prompt := st.chat_input("Sorunu yaz... (ör. GMATA'da mononükleotitleri nede
         except errors.APIError as e:
             if getattr(e, "code", None) == 429:
                 answer = "⏳ Şu an çok yoğunum (ücretsiz kota doldu). Lütfen bir dakika sonra tekrar sor."
+            elif getattr(e, "code", None) in (500, 502, 503, 504):
+                answer = "🧬 Şu an Google'ın yapay zekâ sunucuları çok yoğun, birkaç saniye sonra tekrar sorar mısın?"
             else:
                 answer = f"⚠️ Yapay zekâ servisine ulaşırken bir sorun oluştu ({getattr(e, 'code', '')}). Lütfen tekrar dene."
         st.markdown(answer)
