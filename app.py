@@ -22,7 +22,8 @@ st.set_page_config(
 EMBED_MODEL = "gemini-embedding-001"
 # Sırayla denenir; Google bir modeli kapatınca (404) bir sonrakine geçilir.
 # "gemini-flash-latest" her zaman güncel Flash modeline yönlendirilen takma addır.
-CHAT_MODELS = ["gemini-3.5-flash", "gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite"]
+CHAT_MODELS = ["gemini-3.5-flash", "gemini-3.1-flash-lite", "gemini-3.7-flash", "gemini-3.5-flash-lite", "gemini-3.6-flash"]
+ANSWER_TIME_BUDGET = 50  # sn: bu süre dolunca yeni model denenmez, öğrenciye "yoğunuz" denir
 CHUNK_SIZE = 1500          # karakter (büyük parça = daha az embedding isteği)
 CHUNK_OVERLAP = 200
 # Ücretsiz katman: dakikada 100 istek VE dakikada sınırlı token. Toplu istekte HER METİN
@@ -445,8 +446,12 @@ def generate_answer(client, contents):
     if st.session_state.get("chat_model"):
         models = [st.session_state["chat_model"]] + [m for m in CHAT_MODELS if m != st.session_state["chat_model"]]
     last_err = None
+    started = time.time()
     for model in models:
-        for attempt in range(2):
+        if last_err is not None and time.time() - started > ANSWER_TIME_BUDGET:
+            print("[Gene-AL] süre doldu, yeni model denenmiyor", flush=True)
+            break
+        for attempt in range(1):  # başarısız denemeler de kotadan yer; her model bir kez
             try:
                 response = client.models.generate_content(
                     model=model,
@@ -456,12 +461,9 @@ def generate_answer(client, contents):
                 st.session_state["chat_model"] = model
                 return response.text
             except errors.ServerError as e:
-                # 500/503 = Google sunucusu yoğun: bir kez daha dene, olmazsa sonraki modele geç
-                print(f"[Gene-AL] {model} sunucu hatası {getattr(e, 'code', '')} (deneme {attempt + 1})", flush=True)
+                # 500/503/504 = Google sunucusu yoğun: sonraki modele geç
+                print(f"[Gene-AL] {model} sunucu hatası {getattr(e, 'code', '')}, sonraki modele geçiliyor", flush=True)
                 last_err = e
-                if attempt == 0:
-                    time.sleep(1)
-                    continue
                 break
             except errors.ClientError as e:
                 code = getattr(e, "code", None)
@@ -523,13 +525,13 @@ if matrix is None:
     st.stop()
 
 def make_client(key):
-    """Takılıp kalmasın: her istek en fazla 30 sn beklesin, kütüphanenin uzun iç yeniden denemeleri kapalı."""
+    """Takılıp kalmasın: her istek en fazla 25 sn beklesin, kütüphanenin uzun iç yeniden denemeleri kapalı."""
     try:
         return genai.Client(api_key=key, http_options=types.HttpOptions(
-            timeout=30000, retry_options=types.HttpRetryOptions(attempts=1)))
+            timeout=25000, retry_options=types.HttpRetryOptions(attempts=1)))
     except Exception:
         try:
-            return genai.Client(api_key=key, http_options=types.HttpOptions(timeout=30000))
+            return genai.Client(api_key=key, http_options=types.HttpOptions(timeout=25000))
         except Exception:
             return genai.Client(api_key=key)
 
